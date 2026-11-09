@@ -1,0 +1,3984 @@
+[
+  {
+    "id": "owner-note-026",
+    "titleAr": "لوحة تصور معماري لمقهى من صورة مرجعية",
+    "titleEn": "Architectural Café Concept Board from a Reference Image",
+    "categoryAr": "تصور معماري",
+    "categoryEn": "Architectural Visualization",
+    "audienceAr": "المعماريون والمصممون وأصحاب المقاهي الراغبون في تصور بصري أولي",
+    "audienceEn": "Architects, designers, and café owners seeking an initial visual concept",
+    "summaryAr": "لوحة معمارية ثابتة تقارن واجهة المقهى المرجعية بتصور ليلي مطوّر، مع رسم تخطيطي توضيحي غير تنفيذي.",
+    "summaryEn": "A static architectural board comparing the café frontage in the supplied reference with a developed nighttime concept, alongside a non-construction illustrative drawing.",
+    "visualDescriptionAr": "لوحة معمارية ثابتة تقارن واجهة المقهى المرجعية بتصور ليلي مطوّر، مع رسم تخطيطي توضيحي غير تنفيذي.",
+    "visualDescriptionEn": "A static architectural board comparing the café frontage in the supplied reference with a developed nighttime concept, alongside a non-construction illustrative drawing.",
+    "sourceEvidenceAr": "ملخص المالك حرفيًا: «صورة مرجعية لواجهة مقهى ثم لوحة معمارية تتضمن رندرًا وواجهة/مسقطًا وتسميات أو أبعادًا. النص المرئي يبين إرفاق المرجع وطلب تصور معماري، لكنه لا يثبت صحة المخططات أو الأبعاد.» المصدر الوحيد المستخدم هو نص الملاحظة؛ لم يُفتح الرابط ولم تُشاهد مادة الفيديو.",
+    "sourceEvidenceEn": "Owner summary, verbatim in Arabic: «صورة مرجعية لواجهة مقهى ثم لوحة معمارية تتضمن رندرًا وواجهة/مسقطًا وتسميات أو أبعادًا. النص المرئي يبين إرفاق المرجع وطلب تصور معماري، لكنه لا يثبت صحة المخططات أو الأبعاد.» The only source used is the note text; the link was not opened and the video was not viewed.",
+    "fixedElementsAr": [
+      "لوحة معمارية ثابتة مستندة إلى صورة مرجعية يرفقها المستخدم.",
+      "عرض الواجهة المفاهيمية وتمثيل تخطيطي توضيحي ضمن تكوين واحد واضح.",
+      "إظهار التسميات أو الأبعاد بصفتها توضيحية وغير متحققة، لا مخططات تنفيذية مؤكدة."
+    ],
+    "fixedElementsEn": [
+      "A static architectural board based on a reference image supplied by the user.",
+      "Present a conceptual façade and an illustrative plan representation in one clear composition.",
+      "Any labels or dimensions are illustrative and unverified, not confirmed construction documentation."
+    ],
+    "image": "/images/cards/webp/owner-note-026.webp",
+    "approved": false,
+    "imageStatus": "experimental",
+    "imageNoteAr": "صورة تجريبية مولدة لتوضيح الفكرة؛ ليست نتيجة ناتجة من هذا البرومبت ولا اعتمادًا بصريًا.",
+    "imageNoteEn": "AI-generated concept preview for illustration; it is not an output produced by this prompt or a visual approval.",
+    "sourceIds": [
+      26
+    ],
+    "promptAr": "استخدم صورة واجهة المقهى التي يرفقها المستخدم مرجعًا بصريًا، وأنشئ لوحة تصور معماري ثابتة بأسلوب {{board_style}}. نظّم اللوحة في مقارنة قبل/بعد واضحة: اعرض الواجهة المرجعية دون تعديل في جانب، وفي الجانب المقابل تصورًا ليليًا مطوّرًا لها. حافظ على اسم اللافتة وتوزيع الباب والنوافذ وملامح الواجهة الظاهرة كما في المرجع؛ لا تستنتج التفاصيل غير الواضحة، واتركها محايدة. اجعل التصور الليلي العنصر البصري الأبرز، بمنظور أمامي مائل قليلًا عند مستوى العين، وتكوين متوازن ونظيف. أظهر توهجًا داخليًا دافئًا عبر الزجاج، وإضاءة خارجية ليلية ناعمة، وظلالًا واقعية، وخامات مقنعة من الزجاج والمعدن والخشب والحجر ضمن لوحة ألوان ليلية متناسقة. نوع الرسم التخطيطي التوضيحي: {{plan_type}}. كثافة التسميات: {{label_level}}. استخدم شبكة تحريرية واضحة، ومساحات بيضاء كافية، وخطوطًا دقيقة، وجودة عرض احترافية. يجب أن تبقى جميع المخططات والتسميات والأبعاد توضيحية وغير متحققة، وألا تبدو وثائق تنفيذية أو قياسات هندسية معتمدة. تجنب النصوص غير المقروءة أو العشوائية، والأبعاد المختلقة، وتغيير اسم اللافتة أو مواضع الفتحات، والتشوهات المعمارية، والازدحام البصري، وإضافة شعارات أو زخارف غير موجودة في المرجع.",
+    "promptEn": "Use the user-provided café-frontage image as the visual reference for a static architectural concept board. Board style: {{board_style}}. Organize the board as a clear before-and-after comparison: show the reference frontage unchanged on one side and a developed nighttime concept of that frontage opposite it. Preserve the sign name, door and window placement, and visible façade features from the reference; do not infer unclear details, and keep them neutral. Make the nighttime concept the visual focal point, viewed from a slightly oblique, eye-level frontal angle in a clean, balanced composition. Show a warm interior glow through the glazing, soft exterior night lighting, realistic shadows, and convincing glass, metal, wood, and stone materials in a cohesive nighttime palette. Illustrative plan type: {{plan_type}}. Label density: {{label_level}}. Use a clear editorial grid, generous whitespace, precise linework, and professional presentation quality. Keep all plans, labels, and dimensions illustrative and unverified; they must not resemble construction documents or certified architectural measurements. Avoid garbled or unreadable text, fabricated dimensions, changes to the sign name or opening locations, architectural distortions, visual clutter, and logos or ornament not present in the reference.",
+    "variables": [
+      {
+        "key": "board_style",
+        "labelAr": "أسلوب لوحة العرض",
+        "labelEn": "Board style",
+        "defaultValue": "minimal_editorial",
+        "defaultValueAr": "تحريري بسيط",
+        "defaultValueEn": "Minimal editorial",
+        "descriptionAr": "يحدد المظهر العام للوحة المعمارية؛ القيمة الافتراضية مستخدمة في البرومبت.",
+        "descriptionEn": "Sets the overall look of the architectural board; the default is used in the prompt.",
+        "allowedValuesAr": "اختر إحدى القيم المحددة في الخيارات.",
+        "allowedValuesEn": "Choose one of the listed option values.",
+        "options": [
+          {
+            "value": "minimal_editorial",
+            "labelAr": "تحريري بسيط",
+            "labelEn": "Minimal editorial"
+          },
+          {
+            "value": "technical_clean",
+            "labelAr": "تقني نظيف",
+            "labelEn": "Clean technical"
+          },
+          {
+            "value": "warm_presentation",
+            "labelAr": "عرض دافئ",
+            "labelEn": "Warm presentation"
+          }
+        ]
+      },
+      {
+        "key": "plan_type",
+        "labelAr": "نوع التمثيل التخطيطي",
+        "labelEn": "Plan representation type",
+        "defaultValue": "schematic_plan",
+        "defaultValueAr": "مسقط تخطيطي",
+        "defaultValueEn": "Schematic plan",
+        "descriptionAr": "يحدد الرسم التوضيحي المرافق؛ لا يعني أن المسقط مستخرج أو متحقق من المرجع.",
+        "descriptionEn": "Sets the accompanying illustrative drawing; it does not mean the plan is extracted from or verified against the reference.",
+        "allowedValuesAr": "schematic_plan أو schematic_elevation",
+        "allowedValuesEn": "schematic_plan or schematic_elevation",
+        "options": [
+          {
+            "value": "schematic_plan",
+            "labelAr": "مسقط تخطيطي",
+            "labelEn": "Schematic plan"
+          },
+          {
+            "value": "schematic_elevation",
+            "labelAr": "واجهة تخطيطية",
+            "labelEn": "Schematic elevation"
+          }
+        ]
+      },
+      {
+        "key": "label_level",
+        "labelAr": "كثافة التسميات",
+        "labelEn": "Label density",
+        "defaultValue": "sparse",
+        "defaultValueAr": "قليلة",
+        "defaultValueEn": "Sparse",
+        "descriptionAr": "يحدد كمية التسميات المرئية، مع إبقائها توضيحية وغير متحققة.",
+        "descriptionEn": "Sets the amount of visible labeling while keeping it illustrative and unverified.",
+        "allowedValuesAr": "sparse أو moderate",
+        "allowedValuesEn": "sparse or moderate",
+        "options": [
+          {
+            "value": "sparse",
+            "labelAr": "قليلة",
+            "labelEn": "Sparse"
+          },
+          {
+            "value": "moderate",
+            "labelAr": "متوسطة",
+            "labelEn": "Moderate"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "أرفق صورة مرجعية واضحة لواجهة المقهى.",
+      "اختر أسلوب لوحة العرض ونوع التمثيل التخطيطي وكثافة التسميات.",
+      "ولّد لوحة تصور ثابتة، وراجع بنفسك أي تسميات أو رسومات قبل استخدامها."
+    ],
+    "stepsEn": [
+      "Attach a clear reference image of the café frontage.",
+      "Choose the board style, plan representation type, and label density.",
+      "Generate a static concept board and review any labels or drawings yourself before use."
+    ],
+    "limitationsAr": "هذه مسودة برومبت لصورة ثابتة وتتطلب صورة مرجعية مستقلة غير متاحة في هذه المهمة. لا يُضمن تطابق الناتج مع أبعاد أو مخططات صحيحة، ولا ينبغي استخدام الرسوم أو التسميات كوثائق تنفيذية. لم تُشاهد مادة الفيديو.",
+    "limitationsEn": "This is a draft prompt for a still image and requires a separate reference image, which is not available in this task. The output is not guaranteed to match accurate dimensions or plans, and drawings or labels should not be used as construction documentation. The video was not viewed.",
+    "status": "needs_image",
+    "version": 3,
+    "lastReviewedAt": "2026-10-31",
+    "qualityAr": {
+      "score": 98,
+      "criteria": [
+        15,
+        15,
+        15,
+        15,
+        14,
+        10,
+        9,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    },
+    "qualityEn": {
+      "score": 98,
+      "criteria": [
+        15,
+        15,
+        15,
+        15,
+        14,
+        10,
+        9,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    }
+  },
+  {
+    "id": "idea-033",
+    "titleAr": "إطار قصصي موحّد لصورة منتج",
+    "titleEn": "Unified Story Frame for a Product Photo",
+    "categoryAr": "محتوى الشبكات الاجتماعية؛ تصميم هوية المنتجات",
+    "categoryEn": "Social Media Content; Product Brand Design",
+    "audienceAr": "أصحاب العلامات الصغيرة ومسؤولو المحتوى الذين يريدون قالب قصة اجتماعية يعيدون استخدامه مع صور منتجاتهم.",
+    "audienceEn": "Small-brand owners and content managers who want a reusable social-story frame for their product photos.",
+    "summaryAr": "إطار عمودي أنيق قابل لإعادة الاستخدام يحيط بصورة المنتج كاملة، مع اسم العلامة وألوانها وزخارفها المحددة.",
+    "summaryEn": "A reusable vertical graphic frame keeps the complete product photo visible while incorporating the supplied brand name, colors, and decorative style.",
+    "visualDescriptionAr": "إطار عمودي أنيق قابل لإعادة الاستخدام يحيط بصورة المنتج كاملة، مع اسم العلامة وألوانها وزخارفها المحددة.",
+    "visualDescriptionEn": "A reusable vertical graphic frame keeps the complete product photo visible while incorporating the supplied brand name, colors, and decorative style.",
+    "sourceEvidenceAr": "يدعم سجل الفكرة طلب صورة المنتج واسم العلامة وألوانها، وإنشاء طبقة/إطار عمودي قابل لإعادة الاستخدام يحافظ على ظهور الصورة كاملة ويضيف زخارف وهوية ثابتة مناسبة للقصص الاجتماعية. ويصف ملخص النتيجة صورة منتج داخل قالب مزخرف جاهز للنشر كقصة. لا يثبت السجل قالبًا محددًا أو عناصر زخرفية بعينها للمرشح.",
+    "sourceEvidenceEn": "The idea record supports requesting a product photo, brand name, and brand colors, then creating a reusable vertical layer/frame that keeps the full photo visible and adds consistent identity and decoration suitable for social stories. Its result summary describes a product photo in a decorated story-ready template. The record does not establish a particular layout or specific decorative elements for this candidate.",
+    "fixedElementsAr": [
+      "صورة ثابتة واحدة بتكوين عمودي مناسب لقصة اجتماعية.",
+      "صورة المنتج المرجعية كاملة ومرئية داخل مساحة مخصصة؛ لا قص ولا حجب.",
+      "اسم العلامة وألوانها هما مدخلات المستخدم؛ لا تختلق علامة أو شعارًا بديلًا.",
+      "الإطار طبقة رسومية متماسكة قابلة لإعادة الاستخدام، منفصلة بصريًا عن صورة المنتج."
+    ],
+    "fixedElementsEn": [
+      "One still image in a vertical composition suitable for a social story.",
+      "The complete referenced product photo remains visible within a designated area; no cropping or obstruction.",
+      "The brand name and colors come from the user; do not invent a replacement brand or logo.",
+      "The frame is a cohesive, reusable graphic layer, visually separate from the product photo."
+    ],
+    "image": "/images/cards/svg/idea-033-single-product-frame.svg",
+    "approved": false,
+    "imageStatus": "illustrative_local",
+    "imageNoteAr": "أصل SVG محلي مُحسن يوضح وظيفة البطاقة؛ ليس مخرجًا مولدًا من البرومبت ولا اعتمادًا بصريًا نهائيًا.",
+    "imageNoteEn": "Improved local SVG asset explaining the card function; not a prompt-generated output or final visual approval.",
+    "sourceIds": [
+      33
+    ],
+    "promptAr": "أنشئ إطارًا رسوميًا واحدًا قابلًا لإعادة الاستخدام لصورة منتج واحدة مقدمة من المستخدم. نسبة الإطار: {{frameRatio}}. ضع الصورة كاملة داخل مستطيل مركزي واضح بحدود ثابتة، وحافظ على حدودها وتفاصيل المنتج وألوانه دون قص أو حجب أو إعادة تركيب. اسم العلامة: «{{brand_name}}». ألوان الإطار: {{brand_colors}}. طابع الزخرفة: {{decoration_style}}. اجعل الإطار الخارجي، ومساحة الاسم، والزخرفة منفصلة تمامًا عن مساحة الصورة، مع محاذاة دقيقة ومساحات آمنة. اعرض إطارًا واحدًا فقط لا لوحة صور متعددة ولا واجهة هاتف. لا تنشئ شعارًا أو نصًا نائبًا أو نصًا تسويقيًا، ولا تغير المنتج أو تستبدل الصورة المرجعية.",
+    "promptEn": "Create one reusable graphic frame for a single user-supplied product photo. Frame ratio: {{frameRatio}}. Place the full photo inside one clearly bounded central rectangle, preserving its boundaries, product details, and colors without cropping, obstruction, or recomposition. Brand name: “{{brand_name}}”. Frame colors: {{brand_colors}}. Decoration style: {{decoration_style}}. Keep the outer frame, name area, and decoration completely separate from the photo area, using precise alignment and safe margins. Show one frame only—not a multi-image board or phone interface. Do not create a logo, placeholder copy, or marketing claim, and do not alter or replace the reference photo.",
+    "variables": [
+      {
+        "key": "brand_name",
+        "labelAr": "اسم العلامة",
+        "labelEn": "Brand name",
+        "defaultValue": "اسم علامتك",
+        "descriptionAr": "اكتب اسم العلامة كما تريد ظهوره في طبقة الإطار؛ لا تكتب وصفًا بديلًا للشعار.",
+        "descriptionEn": "Enter the brand name exactly as it should appear in the frame layer; do not use a logo description as a substitute.",
+        "allowedValuesAr": "نص قصير واضح؛ يفضّل ألا يتجاوز 30 حرفًا.",
+        "allowedValuesEn": "Short, legible text; preferably no more than 30 characters.",
+        "defaultValueAr": "اسم علامتك",
+        "defaultValueEn": "Your brand name"
+      },
+      {
+        "key": "brand_colors",
+        "labelAr": "ألوان العلامة",
+        "labelEn": "Brand colors",
+        "defaultValue": "أبيض ورمادي وبرتقالي",
+        "descriptionAr": "أدخل أسماء الألوان أو قيمها، لاستخدامها في الإطار والزخارف دون تغيير صورة المنتج.",
+        "descriptionEn": "Enter color names or values for the frame and decoration, without changing the product photo.",
+        "allowedValuesAr": "قائمة قصيرة من أسماء الألوان أو رموز HEX.",
+        "allowedValuesEn": "A short list of color names or HEX codes.",
+        "defaultValueAr": "أبيض ورمادي وبرتقالي",
+        "defaultValueEn": "White, gray, and orange"
+      },
+      {
+        "key": "decoration_style",
+        "labelAr": "طابع الزخرفة",
+        "labelEn": "Decoration style",
+        "defaultValue": "زخارف هندسية بسيطة",
+        "descriptionAr": "حدد طابعًا عامًا مقتضبًا للزخارف التي تحيط بصورة المنتج.",
+        "descriptionEn": "Specify a concise overall style for decoration around the product photo.",
+        "allowedValuesAr": "وصف قصير؛ تجنب الزخرفة التي تدخل فوق المنتج.",
+        "allowedValuesEn": "A short description; avoid decoration that overlaps the product.",
+        "defaultValueAr": "زخارف هندسية بسيطة",
+        "defaultValueEn": "Simple geometric decoration"
+      },
+      {
+        "key": "frameRatio",
+        "labelAr": "نسبة الإطار",
+        "labelEn": "Frame ratio",
+        "defaultValue": "vertical_story",
+        "defaultValueAr": "قصة عمودية 9:16",
+        "defaultValueEn": "vertical story 9:16",
+        "descriptionAr": "نسبة الإطار؛ يؤثر مباشرة في المخرج.",
+        "descriptionEn": "Frame ratio; directly changes the output.",
+        "allowedValuesAr": "قيمة محددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A specific value within the card scope.",
+        "options": [
+          {
+            "value": "vertical_story",
+            "labelAr": "قصة عمودية 9:16",
+            "labelEn": "Vertical story 9:16"
+          },
+          {
+            "value": "square_post",
+            "labelAr": "منشور مربع 1:1",
+            "labelEn": "Square post 1:1"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "أرفق صورة المنتج التي تريد وضعها داخل القالب؛ يلزم المرجع للحفاظ على عرض الصورة كاملة.",
+      "أدخل اسم العلامة وألوانها، وحدد طابع الزخرفة.",
+      "أنشئ صورة واحدة عمودية بإطار قابل لإعادة الاستخدام، ثم تحقق من عدم قص صورة المنتج أو حجبها."
+    ],
+    "stepsEn": [
+      "Attach the product photo to place inside the template; the reference is required to preserve the complete image.",
+      "Enter the brand name and colors, and specify the decoration style.",
+      "Create one vertical image with a reusable frame, then check that the product photo is neither cropped nor obscured."
+    ],
+    "limitationsAr": "المرجع البصري مطلوب للحفاظ على صورة المنتج، لكن النتيجة المولدة قد لا تطابق الصورة الأصلية حرفيًا ما لم تدعم أداة التوليد ذلك. لا تضمن البطاقة دقة كتابة النص العربي أو ألوان العلامة؛ راجع النص والتصميم يدويًا. لا تُعد هذه البطاقة برومبتًا مستعادًا من المصدر.",
+    "limitationsEn": "A visual reference is required to preserve the product photo, but generated output may not reproduce the original photo exactly unless the generation tool supports that. The card does not guarantee accurate Arabic text rendering or exact brand colors; review the text and design manually. This is not a recovered source prompt.",
+    "status": "needs_review",
+    "version": 4,
+    "lastReviewedAt": "2026-11-02",
+    "qualityAr": {
+      "score": 98,
+      "criteria": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        10,
+        8,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    },
+    "qualityEn": {
+      "score": 98,
+      "criteria": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        10,
+        8,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    }
+  },
+  {
+    "id": "reference-041",
+    "titleAr": "مخطط إضاءة لتصوير منتج",
+    "titleEn": "Product Photography Lighting Blueprint",
+    "categoryAr": "تصوير المنتجات والإضاءة",
+    "categoryEn": "Product Photography & Lighting",
+    "audienceAr": "المصورون وفرق الإخراج الفني",
+    "audienceEn": "Photographers and art-direction teams",
+    "summaryAr": "لوحة تخطيط عملية تحدد مصدر الضوء الرئيسي والملء والخلفية وزاوية الكاميرا قبل تنفيذ صورة المنتج.",
+    "summaryEn": "A practical planning board that defines key light, fill, background, and camera angle before producing a product image.",
+    "visualDescriptionAr": "مخطط استوديو علوي وأمامي يربط مصادر الإضاءة بالمنتج والكاميرا مع مفتاح بصري واضح.",
+    "visualDescriptionEn": "A top and front studio diagram connecting lights, product, and camera with a clear visual key.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية؛ الأصول التوضيحية والبرومبت من تصميم المشروع وليست استعادة لمصدر خارجي.",
+    "sourceEvidenceEn": "Original local Promptna batch; the illustration and prompt are authored for this project, not reconstructed from an external source.",
+    "fixedElementsAr": [
+      "مخطط الإضاءة يوضح علاقة المصادر بالمنتج والكاميرا.",
+      "لا يضيف معدات أو نسبًا غير محددة من المستخدم.",
+      "يحافظ على مساحة قراءة واضحة لكل عنصر."
+    ],
+    "fixedElementsEn": [
+      "The lighting diagram must show relationships between sources, product, and camera.",
+      "Do not add equipment or ratios not specified by the user.",
+      "Keep every label legible and spatially clear."
+    ],
+    "image": "/images/cards/svg/reference-041-lighting-blueprint-v2.svg",
+    "approved": false,
+    "imageStatus": "illustrative_local",
+    "imageNoteAr": "أصل SVG محلي مُحسن يوضح وظيفة البطاقة؛ ليس مخرجًا مولدًا من البرومبت ولا اعتمادًا بصريًا نهائيًا.",
+    "imageNoteEn": "Improved local SVG asset explaining the card function; not a prompt-generated output or final visual approval.",
+    "sourceIds": [],
+    "promptAr": "أنشئ لوحة تخطيط إنتاجية لتصوير {{productType}} قبل التنفيذ. نمط الإضاءة: {{lightingPattern}}. نسبة الملء: {{fillRatio}}. زاوية الكاميرا: {{cameraAngle}}. اعرض مخططًا علويًا رئيسيًا يحدد المنتج والكاميرا ومصدر الضوء الرئيسي والملء أو العاكس، وأسفله مخططًا أماميًا يوضح اتجاه الضوء وسلوك الظلال. استخدم رموزًا ثابتة وأسهمًا غير متداخلة ومفتاحًا بصريًا واضحًا، وميّز بين الضوء والعاكس والكاميرا بالألوان والوسوم. اجعل اللوحة قابلة للقراءة لفريق تصوير حقيقي، لا صورة منتج نهائية. لا تخترع مواصفات معدات أو قيم تعريض أو قياسات، ولا تحولها إلى وثيقة هندسية معتمدة أو لوحة مزدحمة.",
+    "promptEn": "Create a production-ready planning board for photographing {{productType}}. Lighting pattern: {{lightingPattern}}. Fill ratio: {{fillRatio}}. Camera angle: {{cameraAngle}}. Show a main top-view layout locating the product, camera, key light, and fill or reflector, followed by a front elevation showing light direction and shadow behavior. Use consistent symbols, non-overlapping arrows, and a clear legend; distinguish light, reflector, and camera with color and labels. Make the board readable to a real photography team, not a final product image. Do not invent equipment specifications, exposure values, or measurements, and do not present it as a certified engineering document or cluttered diagram.",
+    "variables": [
+      {
+        "key": "productType",
+        "labelAr": "نوع المنتج",
+        "labelEn": "Product type",
+        "defaultValue": "bottle",
+        "defaultValueAr": "عبوة زجاجية",
+        "defaultValueEn": "a glass bottle",
+        "descriptionAr": "نوع المنتج؛ يؤثر مباشرة في بنية النتيجة.",
+        "descriptionEn": "Product type; it directly changes the output structure.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within the card scope."
+      },
+      {
+        "key": "lightingPattern",
+        "labelAr": "نمط الإضاءة",
+        "labelEn": "Lighting pattern",
+        "defaultValue": "softbox_key",
+        "defaultValueAr": "سوفت بوكس رئيسي",
+        "defaultValueEn": "softbox key light",
+        "descriptionAr": "نمط الإضاءة؛ يؤثر مباشرة في بنية النتيجة.",
+        "descriptionEn": "Lighting pattern; it directly changes the output structure.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within the card scope.",
+        "options": [
+          {
+            "value": "softbox_key",
+            "labelAr": "سوفت بوكس رئيسي",
+            "labelEn": "Softbox key"
+          },
+          {
+            "value": "strip_key",
+            "labelAr": "مصدر شريطي جانبي",
+            "labelEn": "Strip-light key"
+          },
+          {
+            "value": "top_key",
+            "labelAr": "مصدر علوي ناعم",
+            "labelEn": "Soft top light"
+          }
+        ]
+      },
+      {
+        "key": "fillRatio",
+        "labelAr": "نسبة الملء",
+        "labelEn": "Fill ratio",
+        "defaultValue": "2_to_1",
+        "defaultValueAr": "ملء 2 إلى 1",
+        "defaultValueEn": "2:1 fill",
+        "descriptionAr": "نسبة الملء؛ يؤثر مباشرة في بنية النتيجة.",
+        "descriptionEn": "Fill ratio; it directly changes the output structure.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within the card scope."
+      },
+      {
+        "key": "cameraAngle",
+        "labelAr": "زاوية الكاميرا",
+        "labelEn": "Camera angle",
+        "defaultValue": "front_three_quarter",
+        "defaultValueAr": "أمامي بزاوية ثلاثة أرباع",
+        "defaultValueEn": "front three-quarter",
+        "descriptionAr": "زاوية الكاميرا؛ يؤثر مباشرة في بنية النتيجة.",
+        "descriptionEn": "Camera angle; it directly changes the output structure.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within the card scope.",
+        "options": [
+          {
+            "value": "front",
+            "labelAr": "أمامي مباشر",
+            "labelEn": "Straight-on"
+          },
+          {
+            "value": "front_three_quarter",
+            "labelAr": "ثلاثة أرباع أمامية",
+            "labelEn": "Front three-quarter"
+          },
+          {
+            "value": "top_detail",
+            "labelAr": "علوية مع تفصيل السطح",
+            "labelEn": "Top view with surface detail"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد المنتج ونمط الضوء قبل التصوير.",
+      "راجع اتجاه الأسهم والظلال ثم جهز المعدات الفعلية.",
+      "استخدم اللوحة كخطة تنفيذ لا كبديل عن اختبار الإضاءة."
+    ],
+    "stepsEn": [
+      "Define the product and light pattern before shooting.",
+      "Review arrow directions and shadow behavior, then set up the physical equipment.",
+      "Use the board as a production plan, not as a substitute for a lighting test."
+    ],
+    "limitationsAr": "هذه البطاقة تخطط للإضاءة ولا تنتج صورة فوتوغرافية نهائية أو قيم تعريض مضمونة.",
+    "limitationsEn": "This card plans lighting; it does not produce a final photograph or guaranteed exposure values.",
+    "status": "needs_review",
+    "version": 2,
+    "lastReviewedAt": "2026-11-02",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "reference-043",
+    "titleAr": "لوحة قصة لحملة اجتماعية متسقة",
+    "titleEn": "Consistent Social Campaign Storyboard",
+    "categoryAr": "الحملات والمحتوى الاجتماعي",
+    "categoryEn": "Campaigns & Social Content",
+    "audienceAr": "فرق المحتوى والمصممون الإبداعيون",
+    "audienceEn": "Content teams and creative designers",
+    "summaryAr": "نظام يخطط سلسلة منشورات مترابطة بصريًا، مع وظيفة واضحة لكل إطار ومساحة آمنة للنص.",
+    "summaryEn": "A system for planning a visually coherent post sequence with a distinct purpose and safe text zones for every frame.",
+    "visualDescriptionAr": "لوحة Storyboard من إطارات مرقمة تربط الرسالة والصورة والدعوة للإجراء ضمن حملة واحدة.",
+    "visualDescriptionEn": "A numbered storyboard linking message, visual, and call to action across one campaign.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية؛ الأصول التوضيحية والبرومبت من تصميم المشروع وليست استعادة لمصدر خارجي.",
+    "sourceEvidenceEn": "Original local Promptna batch; the illustration and prompt are authored for this project, not reconstructed from an external source.",
+    "fixedElementsAr": [
+      "كل إطار يؤدي وظيفة مختلفة داخل الحملة.",
+      "تبقى العلامة والأسلوب والإيقاع البصري متسقة.",
+      "لا يتم توليد نصوص صغيرة غير قابلة للقراءة."
+    ],
+    "fixedElementsEn": [
+      "Each frame serves a different campaign role.",
+      "Brand, style, and visual rhythm stay consistent.",
+      "Do not generate unreadable small copy."
+    ],
+    "image": "/images/cards/svg/reference-043-social-storyboard-v2.svg",
+    "approved": false,
+    "imageStatus": "illustrative_local",
+    "imageNoteAr": "أصل SVG محلي مُحسن يوضح وظيفة البطاقة؛ ليس مخرجًا مولدًا من البرومبت ولا اعتمادًا بصريًا نهائيًا.",
+    "imageNoteEn": "Improved local SVG asset explaining the card function; not a prompt-generated output or final visual approval.",
+    "sourceIds": [],
+    "promptAr": "أنشئ لوحة Storyboard لحملة اجتماعية من {{frameCount}} إطارات حول {{campaignGoal}}. نبرة المحتوى: {{contentTone}}. الدعوة إلى الإجراء: {{cta}}. أدوار الإطارات: {{frameRoles}}. أعطِ كل إطار وظيفة مختلفة وتسلسلًا واضحًا، مع صورة أو رمز دال على وظيفته، ومساحة آمنة مستقلة للعناوين، ونظام لون وخط ثابت عبر الحملة. اعرض أرقام الإطارات وخط سير بصري يوضح الانتقال بينها، ولا تكرر الإطار نفسه بألوان مختلفة. لا تضف فقرات صغيرة غير مقروءة أو شعارات أو ادعاءات غير معطاة.",
+    "promptEn": "Create a social-campaign storyboard with {{frameCount}} frames around {{campaignGoal}}. Content tone: {{contentTone}}. Call to action: {{cta}}. Frame roles: {{frameRoles}}. Give every frame a distinct job and a clear sequence, with a visual cue for its role, an independent safe headline area, and one consistent color and type system across the campaign. Show frame numbers and a visual flow between them; do not repeat one frame with different colors. Add no unreadable paragraphs, logos, or unsupported claims.",
+    "variables": [
+      {
+        "key": "frameCount",
+        "labelAr": "عدد الإطارات",
+        "labelEn": "Frame count",
+        "defaultValue": "6",
+        "defaultValueAr": "6 إطارات",
+        "defaultValueEn": "6 frames",
+        "descriptionAr": "عدد الإطارات؛ يؤثر مباشرة في بنية النتيجة.",
+        "descriptionEn": "Frame count; it directly changes the output structure.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within the card scope.",
+        "options": [
+          {
+            "value": "4",
+            "labelAr": "4 إطارات",
+            "labelEn": "4 frames"
+          },
+          {
+            "value": "6",
+            "labelAr": "6 إطارات",
+            "labelEn": "6 frames"
+          },
+          {
+            "value": "8",
+            "labelAr": "8 إطارات",
+            "labelEn": "8 frames"
+          }
+        ]
+      },
+      {
+        "key": "campaignGoal",
+        "labelAr": "هدف الحملة",
+        "labelEn": "Campaign goal",
+        "defaultValue": "product_launch",
+        "defaultValueAr": "إطلاق منتج",
+        "defaultValueEn": "product launch",
+        "descriptionAr": "هدف الحملة؛ يؤثر مباشرة في بنية النتيجة.",
+        "descriptionEn": "Campaign goal; it directly changes the output structure.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within the card scope."
+      },
+      {
+        "key": "contentTone",
+        "labelAr": "نبرة المحتوى",
+        "labelEn": "Content tone",
+        "defaultValue": "clear_energetic",
+        "defaultValueAr": "واضحة وحيوية",
+        "defaultValueEn": "clear and energetic",
+        "descriptionAr": "نبرة المحتوى؛ يؤثر مباشرة في بنية النتيجة.",
+        "descriptionEn": "Content tone; it directly changes the output structure.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within the card scope.",
+        "options": [
+          {
+            "value": "clear_energetic",
+            "labelAr": "واضحة وحيوية",
+            "labelEn": "Clear and energetic"
+          },
+          {
+            "value": "quiet_premium",
+            "labelAr": "هادئة وفاخرة",
+            "labelEn": "Quiet and premium"
+          },
+          {
+            "value": "warm_educational",
+            "labelAr": "دافئة وتعليمية",
+            "labelEn": "Warm and educational"
+          }
+        ]
+      },
+      {
+        "key": "cta",
+        "labelAr": "الدعوة إلى الإجراء",
+        "labelEn": "Call to action",
+        "defaultValue": "learn_more",
+        "defaultValueAr": "اعرف المزيد",
+        "defaultValueEn": "learn more",
+        "descriptionAr": "الدعوة إلى الإجراء؛ يؤثر مباشرة في بنية النتيجة.",
+        "descriptionEn": "Call to action; it directly changes the output structure.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within the card scope."
+      },
+      {
+        "key": "frameRoles",
+        "labelAr": "أدوار الإطارات",
+        "labelEn": "Frame roles",
+        "defaultValue": "hook_benefit_proof_action",
+        "defaultValueAr": "جذب ثم فائدة ثم دليل ثم إجراء",
+        "defaultValueEn": "hook, benefit, proof, action",
+        "descriptionAr": "أدوار الإطارات؛ يؤثر مباشرة في المخرج.",
+        "descriptionEn": "Frame roles; directly changes the output.",
+        "allowedValuesAr": "قيمة محددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A specific value within the card scope.",
+        "options": [
+          {
+            "value": "hook_benefit_proof_action",
+            "labelAr": "جذب ثم فائدة ثم دليل ثم إجراء",
+            "labelEn": "Hook, benefit, proof, action"
+          },
+          {
+            "value": "problem_solution_proof_action",
+            "labelAr": "مشكلة ثم حل ثم دليل ثم إجراء",
+            "labelEn": "Problem, solution, proof, action"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد وظيفة الحملة قبل كتابة الإطارات.",
+      "راجع اختلاف وظيفة كل إطار والمساحات الآمنة.",
+      "اكتب النص النهائي يدويًا بعد اعتماد الهيكل."
+    ],
+    "stepsEn": [
+      "Define the campaign job before writing frames.",
+      "Check that each frame has a distinct role and safe zones.",
+      "Write final copy manually after approving the structure."
+    ],
+    "limitationsAr": "هذه لوحة تخطيط وليست منشورات نهائية أو ضمانًا لصحة النصوص التسويقية.",
+    "limitationsEn": "This is a planning board, not final posts or a guarantee of marketing copy accuracy.",
+    "status": "needs_review",
+    "version": 2,
+    "lastReviewedAt": "2026-11-02",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "reference-045",
+    "titleAr": "نظام غلاف كتاب تحريري",
+    "titleEn": "Editorial Book Cover System",
+    "categoryAr": "التصميم التحريري والكتب",
+    "categoryEn": "Editorial & Book Design",
+    "audienceAr": "المصممون والناشرون وفرق التحرير",
+    "audienceEn": "Designers, publishers, and editorial teams",
+    "summaryAr": "نظام ينسق الغلاف الأمامي والكعب والخلفية مع هرمية عنوان واضحة ونبرة بصرية مرتبطة بنوع الكتاب.",
+    "summaryEn": "A system that coordinates front cover, spine, and back cover with clear title hierarchy and genre-aware art direction.",
+    "visualDescriptionAr": "لوحة عرض أمامية وجانبية وخلفية للكتاب مع مناطق العنوان والمؤلف والنبذة موضحة.",
+    "visualDescriptionEn": "A front, spine, and back cover presentation with title, author, and blurb zones clearly marked.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية؛ الأصول التوضيحية والبرومبت من تصميم المشروع وليست استعادة لمصدر خارجي.",
+    "sourceEvidenceEn": "Original local Promptna batch; the illustration and prompt are authored for this project, not reconstructed from an external source.",
+    "fixedElementsAr": [
+      "تبقى هوية الكتاب متسقة عبر الأجزاء الثلاثة.",
+      "يُحترم التسلسل الطباعي ومساحة الكعب.",
+      "لا يتم اختراع اقتباسات أو بيانات نشر."
+    ],
+    "fixedElementsEn": [
+      "The book identity stays consistent across all three parts.",
+      "Typography and spine space remain coherent.",
+      "Do not invent quotations or publishing data."
+    ],
+    "image": "/images/cards/svg/reference-045-book-cover-system-v2.svg",
+    "approved": false,
+    "imageStatus": "illustrative_local",
+    "imageNoteAr": "أصل SVG محلي مُحسن يوضح وظيفة البطاقة؛ ليس مخرجًا مولدًا من البرومبت ولا اعتمادًا بصريًا نهائيًا.",
+    "imageNoteEn": "Improved local SVG asset explaining the card function; not a prompt-generated output or final visual approval.",
+    "sourceIds": [],
+    "promptAr": "صمم نظام غلاف تحريريًا متكاملًا لكتاب بعنوان {{bookTitle}} من نوع {{genre}}، باستخدام الاستعارة البصرية {{visualMetaphor}} ونظام العناوين {{typography}}. اسم المؤلف: {{authorName}}. النبذة الخلفية: {{blurb}}. اعرض الغلاف الأمامي والكعب والخلفية بمحاذاة واحدة، مع هرمية واضحة للعنوان واسم المؤلف ومساحة نبذة منفصلة. حافظ على امتداد الألوان والعناصر بين الأجزاء، واجعل الكعب مقروءًا. استخدم النصوص المقدمة كما هي قدر الإمكان، وإن تعذر النص الدقيق فأنشئ مناطق نظيفة للتركيب اللاحق بدل اختلاق أحرف. لا تضف اقتباسات أو رقم ISBN أو بيانات نشر غير مقدمة، ولا تحول التصميم إلى غلاف لكتاب موجود بعلامته التجارية.",
+    "promptEn": "Design a complete editorial cover system for a book titled {{bookTitle}} in the {{genre}} genre, using the visual metaphor {{visualMetaphor}} and {{typography}} title system. Author name: {{authorName}}. Back-cover blurb: {{blurb}}. Show front cover, spine, and back cover aligned in one presentation, with clear hierarchy for title and author and a separate blurb area. Carry colors and visual elements coherently across the three parts and keep the spine readable. Use supplied copy as faithfully as possible; if exact small text cannot be rendered, create clean typesetting zones rather than inventing characters. Do not add quotations, an ISBN, or publishing data not supplied, and do not turn the design into a branded cover for an existing book.",
+    "variables": [
+      {
+        "key": "bookTitle",
+        "labelAr": "عنوان الكتاب",
+        "labelEn": "Book title",
+        "defaultValue": "The Quiet Atlas",
+        "defaultValueAr": "الأطلس الهادئ",
+        "defaultValueEn": "The Quiet Atlas",
+        "descriptionAr": "عنوان الكتاب؛ يؤثر مباشرة في بنية النتيجة.",
+        "descriptionEn": "Book title; it directly changes the output structure.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within the card scope."
+      },
+      {
+        "key": "genre",
+        "labelAr": "نوع الكتاب",
+        "labelEn": "Book genre",
+        "defaultValue": "cultural_essay",
+        "defaultValueAr": "مقال ثقافي",
+        "defaultValueEn": "cultural essay",
+        "descriptionAr": "نوع الكتاب؛ يؤثر مباشرة في بنية النتيجة.",
+        "descriptionEn": "Book genre; it directly changes the output structure.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within the card scope.",
+        "options": [
+          {
+            "value": "cultural_essay",
+            "labelAr": "مقال ثقافي",
+            "labelEn": "Cultural essay"
+          },
+          {
+            "value": "literary_fiction",
+            "labelAr": "رواية أدبية",
+            "labelEn": "Literary fiction"
+          },
+          {
+            "value": "practical_guide",
+            "labelAr": "دليل عملي",
+            "labelEn": "Practical guide"
+          }
+        ]
+      },
+      {
+        "key": "visualMetaphor",
+        "labelAr": "الاستعارة البصرية",
+        "labelEn": "Visual metaphor",
+        "defaultValue": "layered_map",
+        "defaultValueAr": "خريطة متعددة الطبقات",
+        "defaultValueEn": "layered map",
+        "descriptionAr": "الاستعارة البصرية؛ يؤثر مباشرة في بنية النتيجة.",
+        "descriptionEn": "Visual metaphor; it directly changes the output structure.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within the card scope."
+      },
+      {
+        "key": "typography",
+        "labelAr": "نظام العناوين",
+        "labelEn": "Typography system",
+        "defaultValue": "serif_sans_pair",
+        "defaultValueAr": "مزاوجة سيريف وسانس",
+        "defaultValueEn": "serif and sans pairing",
+        "descriptionAr": "نظام العناوين؛ يؤثر مباشرة في بنية النتيجة.",
+        "descriptionEn": "Typography system; it directly changes the output structure.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within the card scope.",
+        "options": [
+          {
+            "value": "serif_sans_pair",
+            "labelAr": "مزاوجة سيريف وسانس",
+            "labelEn": "Serif and sans pairing"
+          },
+          {
+            "value": "modern_sans",
+            "labelAr": "سانس حديث",
+            "labelEn": "Modern sans"
+          },
+          {
+            "value": "expressive_display",
+            "labelAr": "عرض تعبيري مضبوط",
+            "labelEn": "Controlled expressive display"
+          }
+        ]
+      },
+      {
+        "key": "authorName",
+        "labelAr": "اسم المؤلف",
+        "labelEn": "Author name",
+        "defaultValue": "author_name",
+        "defaultValueAr": "اسم المؤلف",
+        "defaultValueEn": "author name",
+        "descriptionAr": "اسم المؤلف؛ يؤثر مباشرة في المخرج.",
+        "descriptionEn": "Author name; directly changes the output.",
+        "allowedValuesAr": "قيمة محددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A specific value within the card scope."
+      },
+      {
+        "key": "blurb",
+        "labelAr": "النبذة الخلفية",
+        "labelEn": "Back-cover blurb",
+        "defaultValue": "short editorial blurb",
+        "defaultValueAr": "نبذة تحريرية قصيرة",
+        "defaultValueEn": "short editorial blurb",
+        "descriptionAr": "النبذة الخلفية؛ يؤثر مباشرة في المخرج.",
+        "descriptionEn": "Back-cover blurb; directly changes the output.",
+        "allowedValuesAr": "قيمة محددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A specific value within the card scope."
+      }
+    ],
+    "stepsAr": [
+      "حدد النصوص الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع محاذاة الكعب والنبذة ومساحات القص.",
+      "افصل التصور عن ملف الطباعة النهائي ومواصفات الناشر."
+    ],
+    "stepsEn": [
+      "Provide real copy before producing the final version.",
+      "Check spine alignment, blurb placement, and trim areas.",
+      "Keep the concept separate from the final print file and publisher specifications."
+    ],
+    "limitationsAr": "هذه بطاقة تصور تصميمي وليست ملف طباعة نهائيًا أو غلافًا معتمدًا للنشر.",
+    "limitationsEn": "This is a design concept, not a final print file or an approved publishing cover.",
+    "status": "needs_review",
+    "version": 2,
+    "lastReviewedAt": "2026-11-02",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "phase2-046",
+    "titleAr": "بطاقة مواصفات منتج للمتجر",
+    "titleEn": "E-commerce Product Specification Card",
+    "categoryAr": "التجارة الإلكترونية",
+    "categoryEn": "E-commerce",
+    "audienceAr": "فرق المتاجر ومصممو صفحات المنتج",
+    "audienceEn": "Store teams and product-page designers",
+    "summaryAr": "بطاقة مواصفات مرئية تجمع المميزات والمقاس والخامة في تسلسل واضح دون تحويلها إلى إعلان.",
+    "summaryEn": "A visual specification card organizing features, size, and material without turning into an advertisement.",
+    "visualDescriptionAr": "لوحة توضيحية متخصصة تشرح وظيفة البطاقة وبنيتها البصرية، وليست مخرجًا مولدًا من البرومبت.",
+    "visualDescriptionEn": "A specialized visual board explaining the card function and visual structure; not an output generated by the prompt.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/svg/phase2-046.svg",
+    "approved": false,
+    "imageStatus": "illustrative_local",
+    "imageNoteAr": "رسم SVG محلي متخصص يشرح بنية المخرج؛ ليس اعتمادًا بصريًا نهائيًا ولا صورة مولدة.",
+    "imageNoteEn": "Specialized local SVG explaining the output structure; not final visual approval or a generated image.",
+    "sourceIds": [],
+    "promptAr": "صمم بطاقة مواصفات واضحة لمنتج {{productType}} لمتجر إلكتروني. اعرض {{featureCount}} مميزات فعلية، أبعادًا وفق نظام {{measurementSystem}}، وخانة خامة أو محتوى يملؤها المستخدم. اجعل كل معلومة في كتلة منفصلة مع أيقونة دالة، وميّز بين المعلومة المؤكدة ومكان البيانات الناقص. استخدم تسلسلًا بصريًا عمليًا لا لغة إعلانية، ولا تخترع أرقامًا أو شهادات أو فوائد.",
+    "promptEn": "Design a clear e-commerce specification card for {{productType}}. Show {{featureCount}} factual features, dimensions using the {{measurementSystem}} system, and a material or contents field supplied by the user. Put each fact in a distinct block with a meaningful icon, distinguishing confirmed information from empty data areas. Use a practical hierarchy rather than advertising language; invent no numbers, certifications, or benefits.",
+    "variables": [
+      {
+        "key": "productType",
+        "labelAr": "نوع المنتج",
+        "labelEn": "Product type",
+        "defaultValue": "desk_lamp",
+        "defaultValueAr": "مصباح مكتبي",
+        "defaultValueEn": "desk lamp",
+        "descriptionAr": "نوع المنتج؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Product type; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope."
+      },
+      {
+        "key": "featureCount",
+        "labelAr": "عدد المميزات",
+        "labelEn": "Feature count",
+        "defaultValue": "3",
+        "defaultValueAr": "3 مميزات",
+        "defaultValueEn": "3 features",
+        "descriptionAr": "عدد المميزات؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Feature count; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "3",
+            "labelAr": "3 مميزات",
+            "labelEn": "3 features"
+          },
+          {
+            "value": "5",
+            "labelAr": "5 مميزات",
+            "labelEn": "5 features"
+          }
+        ]
+      },
+      {
+        "key": "measurementSystem",
+        "labelAr": "نظام القياس",
+        "labelEn": "Measurement system",
+        "defaultValue": "metric",
+        "defaultValueAr": "متري",
+        "defaultValueEn": "metric",
+        "descriptionAr": "نظام القياس؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Measurement system; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "metric",
+            "labelAr": "متري",
+            "labelEn": "Metric"
+          },
+          {
+            "value": "imperial",
+            "labelAr": "إنش ورطل",
+            "labelEn": "Imperial"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 1,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "phase2-047",
+    "titleAr": "مخطط مقارنة نسخ المنتج",
+    "titleEn": "Product Variant Comparison Chart",
+    "categoryAr": "التجارة الإلكترونية",
+    "categoryEn": "E-commerce",
+    "audienceAr": "فرق التجارة الإلكترونية والمشترون",
+    "audienceEn": "E-commerce teams and shoppers",
+    "summaryAr": "مقارنة مباشرة بين نسخ المنتج تساعد المستخدم على الاختيار دون ادعاءات غير موثقة.",
+    "summaryEn": "A direct comparison of product variants that helps shoppers choose without unsupported claims.",
+    "visualDescriptionAr": "لوحة توضيحية متخصصة تشرح وظيفة البطاقة وبنيتها البصرية، وليست مخرجًا مولدًا من البرومبت.",
+    "visualDescriptionEn": "A specialized visual board explaining the card function and visual structure; not an output generated by the prompt.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/svg/phase2-047.svg",
+    "approved": false,
+    "imageStatus": "illustrative_local",
+    "imageNoteAr": "رسم SVG محلي متخصص يشرح بنية المخرج؛ ليس اعتمادًا بصريًا نهائيًا ولا صورة مولدة.",
+    "imageNoteEn": "Specialized local SVG explaining the output structure; not final visual approval or a generated image.",
+    "sourceIds": [],
+    "promptAr": "أنشئ مخطط مقارنة بين {{variantCount}} نسخ من منتج واحد، وفق محور {{comparisonAxis}} وبنبرة {{recommendationTone}}. اعرض الاسم والقيمة الفعلية لكل نسخة ومكانًا واضحًا لعبارة “مناسب لـ” دون ترتيب زائف أو ادعاء أن نسخة أفضل بلا دليل. وحّد الوحدات والمحاذاة، وأبرز الاختلافات الحقيقية فقط. لا تختلق أسعارًا أو تقييمات أو ضمانات.",
+    "promptEn": "Create a comparison chart for {{variantCount}} variants of one product using {{comparisonAxis}} as the comparison axis and a {{recommendationTone}} tone. Show each name and factual value with a clear “best for” area, without fake ranking or unsupported claims that one version is better. Keep units and alignment consistent and highlight only real differences. Invent no prices, ratings, or warranties.",
+    "variables": [
+      {
+        "key": "variantCount",
+        "labelAr": "عدد النسخ",
+        "labelEn": "Variant count",
+        "defaultValue": "3",
+        "defaultValueAr": "3 نسخ",
+        "defaultValueEn": "3 variants",
+        "descriptionAr": "عدد النسخ؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Variant count; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "2",
+            "labelAr": "نسختان",
+            "labelEn": "2 variants"
+          },
+          {
+            "value": "3",
+            "labelAr": "3 نسخ",
+            "labelEn": "3 variants"
+          },
+          {
+            "value": "4",
+            "labelAr": "4 نسخ",
+            "labelEn": "4 variants"
+          }
+        ]
+      },
+      {
+        "key": "comparisonAxis",
+        "labelAr": "محور المقارنة",
+        "labelEn": "Comparison axis",
+        "defaultValue": "capacity",
+        "defaultValueAr": "السعة",
+        "defaultValueEn": "capacity",
+        "descriptionAr": "محور المقارنة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Comparison axis; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "capacity",
+            "labelAr": "السعة",
+            "labelEn": "Capacity"
+          },
+          {
+            "value": "size",
+            "labelAr": "المقاس",
+            "labelEn": "Size"
+          },
+          {
+            "value": "use_case",
+            "labelAr": "حالة الاستخدام",
+            "labelEn": "Use case"
+          }
+        ]
+      },
+      {
+        "key": "recommendationTone",
+        "labelAr": "نبرة التوصية",
+        "labelEn": "Recommendation tone",
+        "defaultValue": "neutral",
+        "defaultValueAr": "محايدة",
+        "defaultValueEn": "neutral",
+        "descriptionAr": "نبرة التوصية؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Recommendation tone; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "neutral",
+            "labelAr": "محايدة",
+            "labelEn": "Neutral"
+          },
+          {
+            "value": "friendly",
+            "labelAr": "ودية",
+            "labelEn": "Friendly"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 1,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "phase2-049",
+    "titleAr": "دليل الإرجاع والاستبدال البصري",
+    "titleEn": "Returns and Exchanges Visual Guide",
+    "categoryAr": "التجارة الإلكترونية",
+    "categoryEn": "E-commerce",
+    "audienceAr": "فرق خدمة العملاء والمتاجر",
+    "audienceEn": "Customer-service and store teams",
+    "summaryAr": "دليل مرئي يشرح خطوات الإرجاع والاستبدال بوضوح مع مساحة للشروط الفعلية.",
+    "summaryEn": "A visual guide explaining return and exchange steps with space for real policy terms.",
+    "visualDescriptionAr": "لوحة توضيحية متخصصة تشرح وظيفة البطاقة وبنيتها البصرية، وليست مخرجًا مولدًا من البرومبت.",
+    "visualDescriptionEn": "A specialized visual board explaining the card function and visual structure; not an output generated by the prompt.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/svg/phase2-049.svg",
+    "approved": false,
+    "imageStatus": "illustrative_local",
+    "imageNoteAr": "رسم SVG محلي متخصص يشرح بنية المخرج؛ ليس اعتمادًا بصريًا نهائيًا ولا صورة مولدة.",
+    "imageNoteEn": "Specialized local SVG explaining the output structure; not final visual approval or a generated image.",
+    "sourceIds": [],
+    "promptAr": "صمم دليلًا مرئيًا لسياسة {{policyType}} من {{stepCount}} خطوات عبر {{channel}}. اعرض التسلسل من بدء الطلب حتى الإغلاق، مع مناطق منفصلة للمدة والشرط والاستثناء يملؤها المستخدم. استخدم أيقونات عملية ومسارًا واضحًا، ولا تخترع مدة أو عنوانًا أو شرطًا قانونيًا. اجعل التصميم مفهومًا على الهاتف والطباعة.",
+    "promptEn": "Design a visual guide for a {{policyType}} policy with {{stepCount}} steps through a {{channel}}. Show the flow from request start to closure, with separate areas for duration, requirement, and exception supplied by the user. Use practical icons and a clear path; invent no timeframe, address, or legal condition. Make it readable on both mobile and print.",
+    "variables": [
+      {
+        "key": "policyType",
+        "labelAr": "نوع السياسة",
+        "labelEn": "Policy type",
+        "defaultValue": "return_exchange",
+        "defaultValueAr": "إرجاع واستبدال",
+        "defaultValueEn": "return and exchange",
+        "descriptionAr": "نوع السياسة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Policy type; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "return_exchange",
+            "labelAr": "إرجاع واستبدال",
+            "labelEn": "Return and exchange"
+          },
+          {
+            "value": "return_only",
+            "labelAr": "إرجاع فقط",
+            "labelEn": "Returns only"
+          }
+        ]
+      },
+      {
+        "key": "stepCount",
+        "labelAr": "عدد الخطوات",
+        "labelEn": "Step count",
+        "defaultValue": "4",
+        "defaultValueAr": "4 خطوات",
+        "defaultValueEn": "4 steps",
+        "descriptionAr": "عدد الخطوات؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Step count; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "3",
+            "labelAr": "3 خطوات",
+            "labelEn": "3 steps"
+          },
+          {
+            "value": "4",
+            "labelAr": "4 خطوات",
+            "labelEn": "4 steps"
+          },
+          {
+            "value": "5",
+            "labelAr": "5 خطوات",
+            "labelEn": "5 steps"
+          }
+        ]
+      },
+      {
+        "key": "channel",
+        "labelAr": "قناة الإجراء",
+        "labelEn": "Action channel",
+        "defaultValue": "online_portal",
+        "defaultValueAr": "بوابة إلكترونية",
+        "defaultValueEn": "online portal",
+        "descriptionAr": "قناة الإجراء؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Action channel; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "online_portal",
+            "labelAr": "بوابة إلكترونية",
+            "labelEn": "Online portal"
+          },
+          {
+            "value": "store_counter",
+            "labelAr": "فرع أو متجر",
+            "labelEn": "Store counter"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 1,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "phase2-050",
+    "titleAr": "لوحة فتح عبوة متسلسلة",
+    "titleEn": "Packaging Unboxing Sequence Board",
+    "categoryAr": "إعلانات المنتجات",
+    "categoryEn": "Product Advertising",
+    "audienceAr": "فرق المحتوى وتصوير المنتجات",
+    "audienceEn": "Content teams and product photographers",
+    "summaryAr": "Storyboard ثابت يخطط لحظات فتح العبوة وظهور المنتج دون اعتباره فيديو أو صورة نهائية.",
+    "summaryEn": "A still storyboard planning unboxing beats and product reveal without pretending to be a video or final photo.",
+    "visualDescriptionAr": "لوحة توضيحية متخصصة تشرح وظيفة البطاقة وبنيتها البصرية، وليست مخرجًا مولدًا من البرومبت.",
+    "visualDescriptionEn": "A specialized visual board explaining the card function and visual structure; not an output generated by the prompt.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/svg/phase2-050.svg",
+    "approved": false,
+    "imageStatus": "illustrative_local",
+    "imageNoteAr": "رسم SVG محلي متخصص يشرح بنية المخرج؛ ليس اعتمادًا بصريًا نهائيًا ولا صورة مولدة.",
+    "imageNoteEn": "Specialized local SVG explaining the output structure; not final visual approval or a generated image.",
+    "sourceIds": [],
+    "promptAr": "أنشئ لوحة Storyboard ثابتة من {{beatCount}} لحظات لفتح عبوة بأسلوب {{unboxingStyle}}، مع محور كشف {{revealFocus}}. رتّب لحظات الختم والفتح والكشف والتفاصيل في إطارات منفصلة، وحدد زاوية كل لقطة ومساحتها، مع الحفاظ على هوية العبوة واستمرارية ترتيبها. هذه لوحة تخطيط لصورة أو جلسة تصوير، وليست فيديو ولا تضف حركة غير مطلوبة أو نصًا دعائيًا.",
+    "promptEn": "Create a still storyboard of {{beatCount}} unboxing beats in a {{unboxingStyle}} style, focused on {{revealFocus}}. Arrange seal, opening, reveal, and detail moments in separate frames, specifying each shot angle and area while preserving package identity and continuity of arrangement. This is a planning board for a photo or shoot, not a video; add no unrequested motion or advertising copy.",
+    "variables": [
+      {
+        "key": "unboxingStyle",
+        "labelAr": "أسلوب الفتح",
+        "labelEn": "Unboxing style",
+        "defaultValue": "calm_premium",
+        "defaultValueAr": "هادئ وفاخر",
+        "defaultValueEn": "calm premium",
+        "descriptionAr": "أسلوب الفتح؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Unboxing style; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "calm_premium",
+            "labelAr": "هادئ وفاخر",
+            "labelEn": "Calm premium"
+          },
+          {
+            "value": "energetic",
+            "labelAr": "حيوي",
+            "labelEn": "Energetic"
+          }
+        ]
+      },
+      {
+        "key": "beatCount",
+        "labelAr": "عدد اللحظات",
+        "labelEn": "Beat count",
+        "defaultValue": "4",
+        "defaultValueAr": "4 لحظات",
+        "defaultValueEn": "4 beats",
+        "descriptionAr": "عدد اللحظات؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Beat count; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "3",
+            "labelAr": "3 لحظات",
+            "labelEn": "3 beats"
+          },
+          {
+            "value": "4",
+            "labelAr": "4 لحظات",
+            "labelEn": "4 beats"
+          },
+          {
+            "value": "5",
+            "labelAr": "5 لحظات",
+            "labelEn": "5 beats"
+          }
+        ]
+      },
+      {
+        "key": "revealFocus",
+        "labelAr": "محور الكشف",
+        "labelEn": "Reveal focus",
+        "defaultValue": "package_details",
+        "defaultValueAr": "تفاصيل العبوة",
+        "defaultValueEn": "package details",
+        "descriptionAr": "محور الكشف؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Reveal focus; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "package_details",
+            "labelAr": "تفاصيل العبوة",
+            "labelEn": "Package details"
+          },
+          {
+            "value": "product_in_use",
+            "labelAr": "المنتج أثناء الاستخدام",
+            "labelEn": "Product in use"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 1,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "phase2-051",
+    "titleAr": "لوحة تحويل صوت العلامة إلى أسلوب بصري",
+    "titleEn": "Brand Voice to Visual Direction Board",
+    "categoryAr": "الهوية التجارية",
+    "categoryEn": "Brand Identity",
+    "audienceAr": "فرق العلامة والمخرجون الفنيون",
+    "audienceEn": "Brand teams and art directors",
+    "summaryAr": "لوحة تربط نبرة العلامة بقرارات اللون والخط والصورة والفراغ لتوحيد التنفيذ.",
+    "summaryEn": "A board translating brand voice into color, type, imagery, and spacing decisions.",
+    "visualDescriptionAr": "لوحة توضيحية متخصصة تشرح وظيفة البطاقة وبنيتها البصرية، وليست مخرجًا مولدًا من البرومبت.",
+    "visualDescriptionEn": "A specialized visual board explaining the card function and visual structure; not an output generated by the prompt.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/svg/phase2-051.svg",
+    "approved": false,
+    "imageStatus": "illustrative_local",
+    "imageNoteAr": "رسم SVG محلي متخصص يشرح بنية المخرج؛ ليس اعتمادًا بصريًا نهائيًا ولا صورة مولدة.",
+    "imageNoteEn": "Specialized local SVG explaining the output structure; not final visual approval or a generated image.",
+    "sourceIds": [],
+    "promptAr": "أنشئ لوحة توجيه بصري تربط نبرة العلامة {{brandVoice}} بجمهور {{audience}} ودرجة أسلوب {{visualIntensity}}. حوّل النبرة إلى قرارات عملية للون والخط والصورة والمساحات، مع أمثلة لما يجب فعله وما يجب تجنبه. لا تنشئ شعارًا جديدًا ولا تكتفِ بكلمات مزاجية عامة؛ اجعل كل قرار قابلًا للتطبيق عبر مواد العلامة.",
+    "promptEn": "Create a visual-direction board translating the {{brandVoice}} voice for {{audience}} at {{visualIntensity}} intensity. Convert the voice into practical color, type, imagery, and spacing decisions, with examples of what to do and avoid. Do not create a new logo or rely on vague mood words; make every decision usable across brand materials.",
+    "variables": [
+      {
+        "key": "brandVoice",
+        "labelAr": "نبرة العلامة",
+        "labelEn": "Brand voice",
+        "defaultValue": "quiet_confident",
+        "defaultValueAr": "هادئة وواثقة",
+        "defaultValueEn": "quiet and confident",
+        "descriptionAr": "نبرة العلامة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Brand voice; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "quiet_confident",
+            "labelAr": "هادئة وواثقة",
+            "labelEn": "Quiet and confident"
+          },
+          {
+            "value": "bold_playful",
+            "labelAr": "جريئة ومرحة",
+            "labelEn": "Bold and playful"
+          },
+          {
+            "value": "warm_trustworthy",
+            "labelAr": "دافئة وموثوقة",
+            "labelEn": "Warm and trustworthy"
+          }
+        ]
+      },
+      {
+        "key": "audience",
+        "labelAr": "الجمهور",
+        "labelEn": "Audience",
+        "defaultValue": "young_professionals",
+        "defaultValueAr": "مهنيون شباب",
+        "defaultValueEn": "young professionals",
+        "descriptionAr": "الجمهور؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Audience; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope."
+      },
+      {
+        "key": "visualIntensity",
+        "labelAr": "حدة الأسلوب",
+        "labelEn": "Visual intensity",
+        "defaultValue": "restrained",
+        "defaultValueAr": "منضبطة",
+        "defaultValueEn": "restrained",
+        "descriptionAr": "حدة الأسلوب؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Visual intensity; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "restrained",
+            "labelAr": "منضبطة",
+            "labelEn": "Restrained"
+          },
+          {
+            "value": "expressive",
+            "labelAr": "تعبيرية",
+            "labelEn": "Expressive"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 1,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "phase2-056",
+    "titleAr": "هندسة قائمة طعام لمقهى",
+    "titleEn": "Café Menu Architecture Board",
+    "categoryAr": "الطعام والضيافة",
+    "categoryEn": "Food & Hospitality",
+    "audienceAr": "المقاهي ومصممو القوائم",
+    "audienceEn": "Cafés and menu designers",
+    "summaryAr": "لوحة تنظم أقسام القائمة وتسلسل القراءة بدل تصميم قائمة نهائية مليئة بنصوص وهمية.",
+    "summaryEn": "A board organizing menu sections and reading order rather than a final menu with invented copy.",
+    "visualDescriptionAr": "لوحة توضيحية متخصصة تشرح وظيفة البطاقة وبنيتها البصرية، وليست مخرجًا مولدًا من البرومبت.",
+    "visualDescriptionEn": "A specialized visual board explaining the card function and visual structure; not an output generated by the prompt.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/svg/phase2-056.svg",
+    "approved": false,
+    "imageStatus": "illustrative_local",
+    "imageNoteAr": "رسم SVG محلي متخصص يشرح بنية المخرج؛ ليس اعتمادًا بصريًا نهائيًا ولا صورة مولدة.",
+    "imageNoteEn": "Specialized local SVG explaining the output structure; not final visual approval or a generated image.",
+    "sourceIds": [],
+    "promptAr": "أنشئ لوحة هندسة لقائمة {{menuType}} من {{sectionCount}} أقسام بمسار قراءة {{readingDirection}}. حدد مواقع العناوين والأصناف والوصف والسعر والعنصر المميز، واربط الأقسام بتسلسل واضح ومساحات تنفس. لا تخترع أطباقًا أو أسعارًا أو ادعاءات غذائية؛ هذه بنية قائمة وليست قائمة تشغيلية نهائية.",
+    "promptEn": "Create a menu-architecture board for a {{menuType}} menu with {{sectionCount}} sections and {{readingDirection}} reading flow. Define locations for headings, items, descriptions, prices, and featured item, connecting sections with clear sequence and breathing room. Do not invent dishes, prices, or nutrition claims; this is a menu structure, not a final operating menu.",
+    "variables": [
+      {
+        "key": "menuType",
+        "labelAr": "نوع القائمة",
+        "labelEn": "Menu type",
+        "defaultValue": "all_day_cafe",
+        "defaultValueAr": "قائمة طوال اليوم",
+        "defaultValueEn": "all-day café",
+        "descriptionAr": "نوع القائمة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Menu type; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "all_day_cafe",
+            "labelAr": "قائمة طوال اليوم",
+            "labelEn": "All-day café"
+          },
+          {
+            "value": "dessert_bar",
+            "labelAr": "حلويات ومشروبات",
+            "labelEn": "Dessert bar"
+          },
+          {
+            "value": "seasonal",
+            "labelAr": "قائمة موسمية",
+            "labelEn": "Seasonal"
+          }
+        ]
+      },
+      {
+        "key": "sectionCount",
+        "labelAr": "عدد الأقسام",
+        "labelEn": "Section count",
+        "defaultValue": "4",
+        "defaultValueAr": "4 أقسام",
+        "defaultValueEn": "4 sections",
+        "descriptionAr": "عدد الأقسام؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Section count; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "3",
+            "labelAr": "3 أقسام",
+            "labelEn": "3 sections"
+          },
+          {
+            "value": "4",
+            "labelAr": "4 أقسام",
+            "labelEn": "4 sections"
+          },
+          {
+            "value": "5",
+            "labelAr": "5 أقسام",
+            "labelEn": "5 sections"
+          }
+        ]
+      },
+      {
+        "key": "readingDirection",
+        "labelAr": "مسار القراءة",
+        "labelEn": "Reading direction",
+        "defaultValue": "arabic_rtl",
+        "defaultValueAr": "عربي RTL",
+        "defaultValueEn": "Arabic RTL",
+        "descriptionAr": "مسار القراءة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Reading direction; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "arabic_rtl",
+            "labelAr": "عربي RTL",
+            "labelEn": "Arabic RTL"
+          },
+          {
+            "value": "english_ltr",
+            "labelAr": "إنجليزي LTR",
+            "labelEn": "English LTR"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 1,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "phase2-058",
+    "titleAr": "بطاقة مكونات وحساسيات الطعام",
+    "titleEn": "Food Allergen Information Card",
+    "categoryAr": "الطعام والضيافة",
+    "categoryEn": "Food & Hospitality",
+    "audienceAr": "المطاعم ومصممو المعلومات",
+    "audienceEn": "Restaurants and information designers",
+    "summaryAr": "بطاقة معلومات تنظم المكونات والحساسيات المحتملة مع تنبيه واضح لضرورة التحقق المهني.",
+    "summaryEn": "An information card organizing ingredients and potential allergens with a clear need for professional verification.",
+    "visualDescriptionAr": "لوحة توضيحية متخصصة تشرح وظيفة البطاقة وبنيتها البصرية، وليست مخرجًا مولدًا من البرومبت.",
+    "visualDescriptionEn": "A specialized visual board explaining the card function and visual structure; not an output generated by the prompt.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/svg/phase2-058.svg",
+    "approved": false,
+    "imageStatus": "illustrative_local",
+    "imageNoteAr": "رسم SVG محلي متخصص يشرح بنية المخرج؛ ليس اعتمادًا بصريًا نهائيًا ولا صورة مولدة.",
+    "imageNoteEn": "Specialized local SVG explaining the output structure; not final visual approval or a generated image.",
+    "sourceIds": [],
+    "promptAr": "أنشئ بطاقة معلومات لمكونات {{foodItem}} تعرض {{allergenCount}} خانات للحساسيات المحتملة بمستوى تنبيه {{warningLevel}}. افصل المكونات عن التحذير وعن ملاحظة التلامس العرضي، واترك القيم لمصدرها الحقيقي. لا تؤكد سلامة الطعام ولا تستنتج حساسية من اللون أو الشكل؛ أضف تنبيهًا بضرورة مراجعة الجهة المختصة.",
+    "promptEn": "Create an information card for {{foodItem}} with {{allergenCount}} potential-allergen fields at a {{warningLevel}} warning level. Separate ingredients, warning, and cross-contact note, leaving values to their real source. Do not certify food safety or infer allergens from color or appearance; include a prompt to verify with the responsible authority.",
+    "variables": [
+      {
+        "key": "foodItem",
+        "labelAr": "نوع الطعام",
+        "labelEn": "Food item",
+        "defaultValue": "bakery_item",
+        "defaultValueAr": "منتج مخبوز",
+        "defaultValueEn": "bakery item",
+        "descriptionAr": "نوع الطعام؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Food item; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope."
+      },
+      {
+        "key": "allergenCount",
+        "labelAr": "عدد الحساسية المحتملة",
+        "labelEn": "Potential allergen count",
+        "defaultValue": "4",
+        "defaultValueAr": "4 عناصر",
+        "defaultValueEn": "4 items",
+        "descriptionAr": "عدد الحساسية المحتملة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Potential allergen count; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "2",
+            "labelAr": "عنصران",
+            "labelEn": "2 items"
+          },
+          {
+            "value": "4",
+            "labelAr": "4 عناصر",
+            "labelEn": "4 items"
+          },
+          {
+            "value": "6",
+            "labelAr": "6 عناصر",
+            "labelEn": "6 items"
+          }
+        ]
+      },
+      {
+        "key": "warningLevel",
+        "labelAr": "مستوى التنبيه",
+        "labelEn": "Warning level",
+        "defaultValue": "prominent",
+        "defaultValueAr": "بارز",
+        "defaultValueEn": "prominent",
+        "descriptionAr": "مستوى التنبيه؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Warning level; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "prominent",
+            "labelAr": "بارز",
+            "labelEn": "Prominent"
+          },
+          {
+            "value": "compact",
+            "labelAr": "مضغوط",
+            "labelEn": "Compact"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 1,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "phase2-061",
+    "titleAr": "نظام بطاقة اقتباس تحريري",
+    "titleEn": "Editorial Quote Card System",
+    "categoryAr": "الأساليب التحريرية",
+    "categoryEn": "Editorial Design",
+    "audienceAr": "الناشرون ومنشئو المحتوى",
+    "audienceEn": "Publishers and content creators",
+    "summaryAr": "نظام بطاقة اقتباس يحافظ على هرمية النص والمصدر دون اختلاق اقتباسات.",
+    "summaryEn": "A quote-card system preserving text hierarchy and source attribution without inventing quotations.",
+    "visualDescriptionAr": "لوحة توضيحية متخصصة تشرح وظيفة البطاقة وبنيتها البصرية، وليست مخرجًا مولدًا من البرومبت.",
+    "visualDescriptionEn": "A specialized visual board explaining the card function and visual structure; not an output generated by the prompt.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/svg/phase2-061.svg",
+    "approved": false,
+    "imageStatus": "illustrative_local",
+    "imageNoteAr": "رسم SVG محلي متخصص يشرح بنية المخرج؛ ليس اعتمادًا بصريًا نهائيًا ولا صورة مولدة.",
+    "imageNoteEn": "Specialized local SVG explaining the output structure; not final visual approval or a generated image.",
+    "sourceIds": [],
+    "promptAr": "صمم نظام بطاقة اقتباس تحريري بطول {{quoteLength}} ومزاوجة خط {{typePairing}} ومعالجة خلفية {{backgroundTreatment}}. اجعل الاقتباس واسم الكاتب والمصدر ورقم السلسلة مناطق مستقلة، مع هرمية مناسبة للنص العربي أو اللاتيني. استخدم النص الذي يقدمه المستخدم فقط، ولا تخترع اقتباسًا أو مصدرًا أو علامة نشر.",
+    "promptEn": "Design an editorial quote-card system with a {{quoteLength}} quote, {{typePairing}} type pairing, and {{backgroundTreatment}} background. Keep quote, author, source, and series number as distinct zones with hierarchy suited to Arabic or Latin text. Use only user-supplied wording; invent no quote, source, or publisher mark.",
+    "variables": [
+      {
+        "key": "quoteLength",
+        "labelAr": "طول الاقتباس",
+        "labelEn": "Quote length",
+        "defaultValue": "short",
+        "defaultValueAr": "قصير",
+        "defaultValueEn": "short",
+        "descriptionAr": "طول الاقتباس؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Quote length; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "short",
+            "labelAr": "قصير",
+            "labelEn": "Short"
+          },
+          {
+            "value": "long",
+            "labelAr": "طويل",
+            "labelEn": "Long"
+          }
+        ]
+      },
+      {
+        "key": "typePairing",
+        "labelAr": "مزاوجة الخط",
+        "labelEn": "Type pairing",
+        "defaultValue": "serif_sans",
+        "defaultValueAr": "سيريف وسانس",
+        "defaultValueEn": "serif and sans",
+        "descriptionAr": "مزاوجة الخط؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Type pairing; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope."
+      },
+      {
+        "key": "backgroundTreatment",
+        "labelAr": "معالجة الخلفية",
+        "labelEn": "Background treatment",
+        "defaultValue": "quiet_texture",
+        "defaultValueAr": "ملمس هادئ",
+        "defaultValueEn": "quiet texture",
+        "descriptionAr": "معالجة الخلفية؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Background treatment; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "quiet_texture",
+            "labelAr": "ملمس هادئ",
+            "labelEn": "Quiet texture"
+          },
+          {
+            "value": "flat_color",
+            "labelAr": "لون مسطح",
+            "labelEn": "Flat color"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 1,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "phase2-063",
+    "titleAr": "نظام بطاقة تعريف معرض",
+    "titleEn": "Museum Exhibit Label System",
+    "categoryAr": "الأساليب التحريرية",
+    "categoryEn": "Editorial Design",
+    "audienceAr": "المتاحف ومصممو المعارض",
+    "audienceEn": "Museums and exhibition designers",
+    "summaryAr": "نظام بطاقات تعريف للقطعة والمعرض والسياق التاريخي مع قابلية القراءة في المكان.",
+    "summaryEn": "An exhibit-label system for object, exhibition, and historical context readable in a physical space.",
+    "visualDescriptionAr": "لوحة توضيحية متخصصة تشرح وظيفة البطاقة وبنيتها البصرية، وليست مخرجًا مولدًا من البرومبت.",
+    "visualDescriptionEn": "A specialized visual board explaining the card function and visual structure; not an output generated by the prompt.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/svg/phase2-063.svg",
+    "approved": false,
+    "imageStatus": "illustrative_local",
+    "imageNoteAr": "رسم SVG محلي متخصص يشرح بنية المخرج؛ ليس اعتمادًا بصريًا نهائيًا ولا صورة مولدة.",
+    "imageNoteEn": "Specialized local SVG explaining the output structure; not final visual approval or a generated image.",
+    "sourceIds": [],
+    "promptAr": "صمم نظام بطاقة معرض من نوع {{labelType}} بترتيب {{languageOrder}} ومسافة قراءة {{readingDistance}}. افصل اسم القطعة والتاريخ والخامة والسياق، واستخدم هرمية واضحة ومساحة بيضاء تساعد الزائر على القراءة. لا تخترع معلومات تاريخية أو تواريخ أو نسبًا، واترك البيانات للقيّم أو المؤسسة.",
+    "promptEn": "Design a {{labelType}} exhibit-label system with {{languageOrder}} language order and {{readingDistance}} reading distance. Separate object name, date, medium, and context with clear hierarchy and whitespace for visitor reading. Invent no historical facts, dates, or attributions; leave data to the curator or institution.",
+    "variables": [
+      {
+        "key": "labelType",
+        "labelAr": "نوع البطاقة",
+        "labelEn": "Label type",
+        "defaultValue": "object_label",
+        "defaultValueAr": "تعريف قطعة",
+        "defaultValueEn": "object label",
+        "descriptionAr": "نوع البطاقة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Label type; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "object_label",
+            "labelAr": "تعريف قطعة",
+            "labelEn": "Object label"
+          },
+          {
+            "value": "wall_text",
+            "labelAr": "نص جداري",
+            "labelEn": "Wall text"
+          }
+        ]
+      },
+      {
+        "key": "readingDistance",
+        "labelAr": "مسافة القراءة",
+        "labelEn": "Reading distance",
+        "defaultValue": "close",
+        "defaultValueAr": "قريبة",
+        "defaultValueEn": "close",
+        "descriptionAr": "مسافة القراءة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Reading distance; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "close",
+            "labelAr": "قريبة",
+            "labelEn": "Close"
+          },
+          {
+            "value": "room_scale",
+            "labelAr": "على مستوى القاعة",
+            "labelEn": "Room scale"
+          }
+        ]
+      },
+      {
+        "key": "languageOrder",
+        "labelAr": "ترتيب اللغة",
+        "labelEn": "Language order",
+        "defaultValue": "arabic_first",
+        "defaultValueAr": "العربية أولًا",
+        "defaultValueEn": "Arabic first",
+        "descriptionAr": "ترتيب اللغة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Language order; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "arabic_first",
+            "labelAr": "العربية أولًا",
+            "labelEn": "Arabic first"
+          },
+          {
+            "value": "english_first",
+            "labelAr": "الإنجليزية أولًا",
+            "labelEn": "English first"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 1,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "phase2-064",
+    "titleAr": "ملصق برنامج مؤتمر",
+    "titleEn": "Conference Program Poster",
+    "categoryAr": "الملصقات والإعلانات المطبوعة",
+    "categoryEn": "Posters & Print Campaigns",
+    "audienceAr": "منظمو المؤتمرات والجامعات",
+    "audienceEn": "Conference organizers and universities",
+    "summaryAr": "ملصق برنامج يوضح اليوم والمسارات والمتحدثين مع قابلية التحديث دون ازدحام.",
+    "summaryEn": "A program poster showing day, tracks, and speakers with room for updates without clutter.",
+    "visualDescriptionAr": "لوحة توضيحية متخصصة تشرح وظيفة البطاقة وبنيتها البصرية، وليست مخرجًا مولدًا من البرومبت.",
+    "visualDescriptionEn": "A specialized visual board explaining the card function and visual structure; not an output generated by the prompt.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/svg/phase2-064.svg",
+    "approved": false,
+    "imageStatus": "illustrative_local",
+    "imageNoteAr": "رسم SVG محلي متخصص يشرح بنية المخرج؛ ليس اعتمادًا بصريًا نهائيًا ولا صورة مولدة.",
+    "imageNoteEn": "Specialized local SVG explaining the output structure; not final visual approval or a generated image.",
+    "sourceIds": [],
+    "promptAr": "صمم ملصق برنامج لمؤتمر {{conferenceType}} من {{trackCount}} مسارات بكثافة {{scheduleDensity}}. اعرض التاريخ والمسارات والمتحدثين والدعوة للتسجيل في شبكة قابلة للتحديث، مع فصل واضح بين المعلومات الأساسية والثانوية. لا تخترع أسماء متحدثين أو جلسات أو مواعيد، ولا تضغط النص حتى يفقد القراءة.",
+    "promptEn": "Design a program poster for a {{conferenceType}} with {{trackCount}} tracks at {{scheduleDensity}} density. Show date, tracks, speakers, and registration call to action in an update-friendly grid, separating primary and secondary information. Invent no speaker names, sessions, or times, and do not compress type until it becomes unreadable.",
+    "variables": [
+      {
+        "key": "conferenceType",
+        "labelAr": "نوع المؤتمر",
+        "labelEn": "Conference type",
+        "defaultValue": "design_conference",
+        "defaultValueAr": "مؤتمر تصميم",
+        "defaultValueEn": "design conference",
+        "descriptionAr": "نوع المؤتمر؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Conference type; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope."
+      },
+      {
+        "key": "trackCount",
+        "labelAr": "عدد المسارات",
+        "labelEn": "Track count",
+        "defaultValue": "3",
+        "defaultValueAr": "3 مسارات",
+        "defaultValueEn": "3 tracks",
+        "descriptionAr": "عدد المسارات؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Track count; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "2",
+            "labelAr": "مساران",
+            "labelEn": "2 tracks"
+          },
+          {
+            "value": "3",
+            "labelAr": "3 مسارات",
+            "labelEn": "3 tracks"
+          },
+          {
+            "value": "4",
+            "labelAr": "4 مسارات",
+            "labelEn": "4 tracks"
+          }
+        ]
+      },
+      {
+        "key": "scheduleDensity",
+        "labelAr": "كثافة البرنامج",
+        "labelEn": "Schedule density",
+        "defaultValue": "balanced",
+        "defaultValueAr": "متوازنة",
+        "defaultValueEn": "balanced",
+        "descriptionAr": "كثافة البرنامج؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Schedule density; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "balanced",
+            "labelAr": "متوازنة",
+            "labelEn": "Balanced"
+          },
+          {
+            "value": "dense",
+            "labelAr": "كثيفة",
+            "labelEn": "Dense"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 1,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "phase2-065",
+    "titleAr": "بطاقة مزايا عقار للإعلان",
+    "titleEn": "Real-Estate Listing Feature Board",
+    "categoryAr": "الإعلانات التجارية",
+    "categoryEn": "Commercial Advertising",
+    "audienceAr": "مسوقو العقارات والمصممون",
+    "audienceEn": "Real-estate marketers and designers",
+    "summaryAr": "لوحة مزايا لعقار تنظم الصور والحقائق والمساحات دون اختلاق موقع أو أرقام.",
+    "summaryEn": "A property-feature board organizing imagery, facts, and spaces without inventing location or figures.",
+    "visualDescriptionAr": "لوحة توضيحية متخصصة تشرح وظيفة البطاقة وبنيتها البصرية، وليست مخرجًا مولدًا من البرومبت.",
+    "visualDescriptionEn": "A specialized visual board explaining the card function and visual structure; not an output generated by the prompt.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/svg/phase2-065.svg",
+    "approved": false,
+    "imageStatus": "illustrative_local",
+    "imageNoteAr": "رسم SVG محلي متخصص يشرح بنية المخرج؛ ليس اعتمادًا بصريًا نهائيًا ولا صورة مولدة.",
+    "imageNoteEn": "Specialized local SVG explaining the output structure; not final visual approval or a generated image.",
+    "sourceIds": [],
+    "promptAr": "أنشئ لوحة إعلان لعقار من نوع {{propertyType}} بعدد {{featureCount}} مزايا وبأسلوب {{layout}}. اترك مساحة لصورة العقار الحقيقية، ونسّق المزايا والمساحة والمخطط وبيانات الاتصال في مناطق منفصلة. لا تخترع عنوانًا أو مساحة أو سعرًا أو إطلالة، ولا تستبدل الصورة الفوتوغرافية المطلوبة برسمة نهائية؛ الأصل هنا لوحة تخطيط للإعلان.",
+    "promptEn": "Create a listing board for a {{propertyType}} with {{featureCount}} features using a {{layout}} approach. Reserve space for the real property photo and organize features, area, plan, and contact information into distinct zones. Invent no address, area, price, or view, and do not replace the required property photograph with a final illustration; this asset is an advertising layout plan.",
+    "variables": [
+      {
+        "key": "propertyType",
+        "labelAr": "نوع العقار",
+        "labelEn": "Property type",
+        "defaultValue": "apartment",
+        "defaultValueAr": "شقة",
+        "defaultValueEn": "apartment",
+        "descriptionAr": "نوع العقار؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Property type; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "apartment",
+            "labelAr": "شقة",
+            "labelEn": "Apartment"
+          },
+          {
+            "value": "retail_unit",
+            "labelAr": "وحدة تجارية",
+            "labelEn": "Retail unit"
+          },
+          {
+            "value": "office",
+            "labelAr": "مكتب",
+            "labelEn": "Office"
+          }
+        ]
+      },
+      {
+        "key": "featureCount",
+        "labelAr": "عدد المزايا",
+        "labelEn": "Feature count",
+        "defaultValue": "4",
+        "defaultValueAr": "4 مزايا",
+        "defaultValueEn": "4 features",
+        "descriptionAr": "عدد المزايا؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Feature count; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "3",
+            "labelAr": "3 مزايا",
+            "labelEn": "3 features"
+          },
+          {
+            "value": "4",
+            "labelAr": "4 مزايا",
+            "labelEn": "4 features"
+          },
+          {
+            "value": "6",
+            "labelAr": "6 مزايا",
+            "labelEn": "6 features"
+          }
+        ]
+      },
+      {
+        "key": "layout",
+        "labelAr": "أسلوب الترتيب",
+        "labelEn": "Layout",
+        "defaultValue": "photo_first",
+        "defaultValueAr": "الصورة أولًا",
+        "defaultValueEn": "photo first",
+        "descriptionAr": "أسلوب الترتيب؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Layout; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "photo_first",
+            "labelAr": "الصورة أولًا",
+            "labelEn": "Photo first"
+          },
+          {
+            "value": "facts_first",
+            "labelAr": "الحقائق أولًا",
+            "labelEn": "Facts first"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 1,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "phase2-067",
+    "titleAr": "لوحة خامات لمشروع داخلي",
+    "titleEn": "Interior Material Palette Board",
+    "categoryAr": "العمارة والديكور",
+    "categoryEn": "Architecture & Interiors",
+    "audienceAr": "مصممو الديكور والعملاء",
+    "audienceEn": "Interior designers and clients",
+    "summaryAr": "لوحة خامات تربط الأرضية والجدار والمعدن والنسيج ضمن اتجاه تصميمي واحد.",
+    "summaryEn": "A material board connecting floor, wall, metal, and textile into one interior direction.",
+    "visualDescriptionAr": "لوحة توضيحية متخصصة تشرح وظيفة البطاقة وبنيتها البصرية، وليست مخرجًا مولدًا من البرومبت.",
+    "visualDescriptionEn": "A specialized visual board explaining the card function and visual structure; not an output generated by the prompt.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/svg/phase2-067.svg",
+    "approved": false,
+    "imageStatus": "illustrative_local",
+    "imageNoteAr": "رسم SVG محلي متخصص يشرح بنية المخرج؛ ليس اعتمادًا بصريًا نهائيًا ولا صورة مولدة.",
+    "imageNoteEn": "Specialized local SVG explaining the output structure; not final visual approval or a generated image.",
+    "sourceIds": [],
+    "promptAr": "أنشئ لوحة خامات لمساحة بمزاج {{spaceMood}} تضم {{materialCount}} خامات في سياق إضاءة {{lightingContext}}. اربط الأرضية والجدار والمعدن والنسيج بعلاقات لون وملمس واضحة، مع عينة لكل خامة وملاحظة استخدامها. لا تخترع علامة تجارية أو مواصفة أداء أو توفرًا تجاريًا للخامة.",
+    "promptEn": "Create a material board for a {{spaceMood}} space with {{materialCount}} materials in a {{lightingContext}} lighting context. Connect floor, wall, metal, and textile through clear color and texture relationships, with one swatch and usage note per material. Invent no brand, performance specification, or commercial availability.",
+    "variables": [
+      {
+        "key": "spaceMood",
+        "labelAr": "مزاج المساحة",
+        "labelEn": "Space mood",
+        "defaultValue": "warm_minimal",
+        "defaultValueAr": "دافئ وبسيط",
+        "defaultValueEn": "warm minimal",
+        "descriptionAr": "مزاج المساحة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Space mood; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "warm_minimal",
+            "labelAr": "دافئ وبسيط",
+            "labelEn": "Warm minimal"
+          },
+          {
+            "value": "cool_modern",
+            "labelAr": "حديث بارد",
+            "labelEn": "Cool modern"
+          },
+          {
+            "value": "earthy_tactile",
+            "labelAr": "ترابي وملموس",
+            "labelEn": "Earthy tactile"
+          }
+        ]
+      },
+      {
+        "key": "materialCount",
+        "labelAr": "عدد الخامات",
+        "labelEn": "Material count",
+        "defaultValue": "4",
+        "defaultValueAr": "4 خامات",
+        "defaultValueEn": "4 materials",
+        "descriptionAr": "عدد الخامات؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Material count; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "4",
+            "labelAr": "4 خامات",
+            "labelEn": "4 materials"
+          },
+          {
+            "value": "6",
+            "labelAr": "6 خامات",
+            "labelEn": "6 materials"
+          }
+        ]
+      },
+      {
+        "key": "lightingContext",
+        "labelAr": "سياق الإضاءة",
+        "labelEn": "Lighting context",
+        "defaultValue": "daylight",
+        "defaultValueAr": "ضوء نهاري",
+        "defaultValueEn": "daylight",
+        "descriptionAr": "سياق الإضاءة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Lighting context; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "daylight",
+            "labelAr": "ضوء نهاري",
+            "labelEn": "Daylight"
+          },
+          {
+            "value": "warm_evening",
+            "labelAr": "مساء دافئ",
+            "labelEn": "Warm evening"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 1,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "phase2-068",
+    "titleAr": "إنفوغرافيك خطوات خدمة",
+    "titleEn": "Service Process Infographic",
+    "categoryAr": "الإنفوغرافيك والتواصل",
+    "categoryEn": "Infographics & Communication",
+    "audienceAr": "فرق الخدمات والعمليات",
+    "audienceEn": "Service and operations teams",
+    "summaryAr": "إنفوغرافيك يشرح مراحل خدمة من الطلب إلى النتيجة مع نقاط المسؤولية.",
+    "summaryEn": "An infographic explaining a service from request to outcome with responsibility points.",
+    "visualDescriptionAr": "لوحة توضيحية متخصصة تشرح وظيفة البطاقة وبنيتها البصرية، وليست مخرجًا مولدًا من البرومبت.",
+    "visualDescriptionEn": "A specialized visual board explaining the card function and visual structure; not an output generated by the prompt.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/svg/phase2-068.svg",
+    "approved": false,
+    "imageStatus": "illustrative_local",
+    "imageNoteAr": "رسم SVG محلي متخصص يشرح بنية المخرج؛ ليس اعتمادًا بصريًا نهائيًا ولا صورة مولدة.",
+    "imageNoteEn": "Specialized local SVG explaining the output structure; not final visual approval or a generated image.",
+    "sourceIds": [],
+    "promptAr": "صمم إنفوغرافيك عموديًا يشرح خدمة {{serviceType}} من {{stageCount}} مراحل وفق توزيع مسؤولية {{ownershipMode}}. اعرض نقطة البداية والمدخلات والمالك والمخرج لكل مرحلة، ثم اربطها بمسار واحد واضح ونقطة متابعة. لا تخترع مددًا أو وعودًا أو نتائج، ولا تستخدم تأثيرات تجعل المخطط يبدو كتقرير أداء حقيقي.",
+    "promptEn": "Design a vertical infographic explaining a {{serviceType}} in {{stageCount}} stages with {{ownershipMode}} ownership. Show starting point, inputs, owner, and output for each stage, connecting them in one clear flow with a follow-up point. Invent no durations, promises, or outcomes, and avoid effects that make the diagram look like a real performance report.",
+    "variables": [
+      {
+        "key": "serviceType",
+        "labelAr": "نوع الخدمة",
+        "labelEn": "Service type",
+        "defaultValue": "design_service",
+        "defaultValueAr": "خدمة تصميم",
+        "defaultValueEn": "design service",
+        "descriptionAr": "نوع الخدمة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Service type; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope."
+      },
+      {
+        "key": "stageCount",
+        "labelAr": "عدد المراحل",
+        "labelEn": "Stage count",
+        "defaultValue": "5",
+        "defaultValueAr": "5 مراحل",
+        "defaultValueEn": "5 stages",
+        "descriptionAr": "عدد المراحل؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Stage count; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "4",
+            "labelAr": "4 مراحل",
+            "labelEn": "4 stages"
+          },
+          {
+            "value": "5",
+            "labelAr": "5 مراحل",
+            "labelEn": "5 stages"
+          },
+          {
+            "value": "6",
+            "labelAr": "6 مراحل",
+            "labelEn": "6 stages"
+          }
+        ]
+      },
+      {
+        "key": "ownershipMode",
+        "labelAr": "توزيع المسؤولية",
+        "labelEn": "Ownership mode",
+        "defaultValue": "team_client",
+        "defaultValueAr": "فريق وعميل",
+        "defaultValueEn": "team and client",
+        "descriptionAr": "توزيع المسؤولية؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Ownership mode; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "team_client",
+            "labelAr": "فريق وعميل",
+            "labelEn": "Team and client"
+          },
+          {
+            "value": "team_only",
+            "labelAr": "الفريق فقط",
+            "labelEn": "Team only"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 1,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "phase2-069",
+    "titleAr": "خريطة رحلة العميل",
+    "titleEn": "Customer Journey Map",
+    "categoryAr": "المحتوى التجاري",
+    "categoryEn": "Business Communication",
+    "audienceAr": "فرق تجربة المستخدم والخدمات",
+    "audienceEn": "UX and service teams",
+    "summaryAr": "خريطة تربط مراحل العميل بالمشاعر ونقاط الألم وفرص التحسين.",
+    "summaryEn": "A map connecting customer stages with emotions, pain points, and opportunities.",
+    "visualDescriptionAr": "لوحة توضيحية متخصصة تشرح وظيفة البطاقة وبنيتها البصرية، وليست مخرجًا مولدًا من البرومبت.",
+    "visualDescriptionEn": "A specialized visual board explaining the card function and visual structure; not an output generated by the prompt.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/svg/phase2-069.svg",
+    "approved": false,
+    "imageStatus": "illustrative_local",
+    "imageNoteAr": "رسم SVG محلي متخصص يشرح بنية المخرج؛ ليس اعتمادًا بصريًا نهائيًا ولا صورة مولدة.",
+    "imageNoteEn": "Specialized local SVG explaining the output structure; not final visual approval or a generated image.",
+    "sourceIds": [],
+    "promptAr": "أنشئ خريطة رحلة عميل لسياق {{journeyContext}} من {{stageCount}} مراحل، مع مستوى دليل {{evidenceLevel}}. اعرض أفعال العميل والأسئلة والمشاعر ونقاط الألم وفرص التحسين في صفوف متوازية، وميّز الفرضيات عن الملاحظات. لا تخترع بيانات بحث أو نسب رضا أو اقتباسات، ولا تقدّم الخريطة كحقيقة إحصائية.",
+    "promptEn": "Create a customer journey map for {{journeyContext}} across {{stageCount}} stages at {{evidenceLevel}} evidence level. Show customer actions, questions, emotions, pain points, and opportunities in parallel rows, distinguishing hypotheses from observations. Invent no research data, satisfaction percentages, or quotes, and do not present the map as statistical fact.",
+    "variables": [
+      {
+        "key": "journeyContext",
+        "labelAr": "سياق الرحلة",
+        "labelEn": "Journey context",
+        "defaultValue": "subscription_service",
+        "defaultValueAr": "خدمة اشتراك",
+        "defaultValueEn": "subscription service",
+        "descriptionAr": "سياق الرحلة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Journey context; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope."
+      },
+      {
+        "key": "stageCount",
+        "labelAr": "عدد المراحل",
+        "labelEn": "Stage count",
+        "defaultValue": "4",
+        "defaultValueAr": "4 مراحل",
+        "defaultValueEn": "4 stages",
+        "descriptionAr": "عدد المراحل؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Stage count; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "4",
+            "labelAr": "4 مراحل",
+            "labelEn": "4 stages"
+          },
+          {
+            "value": "5",
+            "labelAr": "5 مراحل",
+            "labelEn": "5 stages"
+          },
+          {
+            "value": "6",
+            "labelAr": "6 مراحل",
+            "labelEn": "6 stages"
+          }
+        ]
+      },
+      {
+        "key": "evidenceLevel",
+        "labelAr": "مستوى الدليل",
+        "labelEn": "Evidence level",
+        "defaultValue": "hypothesis",
+        "defaultValueAr": "فرضية تحتاج تحققًا",
+        "defaultValueEn": "hypothesis",
+        "descriptionAr": "مستوى الدليل؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Evidence level; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "hypothesis",
+            "labelAr": "فرضية تحتاج تحققًا",
+            "labelEn": "Hypothesis"
+          },
+          {
+            "value": "observed",
+            "labelAr": "ملاحظات مرصودة",
+            "labelEn": "Observed notes"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 1,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "reference-042",
+    "titleAr": "نظام ملصق عبوة متعدد المقاسات",
+    "titleEn": "Multi-Size Packaging Label System",
+    "categoryAr": "تصميم التغليف والملصقات",
+    "categoryEn": "Packaging & Label Systems",
+    "audienceAr": "مصممو التغليف والهوية",
+    "audienceEn": "Packaging and brand designers",
+    "summaryAr": "نظام تصميم ينسق ملصق العبوة الأساسي مع نسخ صغيرة ومتوسطة وكبيرة دون فقدان التسلسل البصري.",
+    "summaryEn": "A design system that keeps primary, medium, and small package labels consistent without losing hierarchy.",
+    "visualDescriptionAr": "لوحة تعرض ثلاث نسخ ملصق على شبكة واحدة مع مناطق الشعار والمعلومات والتحذيرات محددة بوضوح.",
+    "visualDescriptionEn": "A board showing three label sizes on one grid with clear logo, information, and warning zones.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية؛ الأصول التوضيحية والبرومبت من تصميم المشروع وليست استعادة لمصدر خارجي.",
+    "sourceEvidenceEn": "Original local Promptna batch; the illustration and prompt are authored for this project, not reconstructed from an external source.",
+    "fixedElementsAr": [
+      "تبقى بنية المعلومات متسقة بين المقاسات.",
+      "يتم تمييز المساحات الإلزامية عن الزخرفة.",
+      "لا يتم اختراع بيانات قانونية أو ادعاءات للمنتج."
+    ],
+    "fixedElementsEn": [
+      "Information hierarchy stays consistent across sizes.",
+      "Required information zones remain distinct from decoration.",
+      "Do not invent legal data or product claims."
+    ],
+    "image": "/images/cards/curated/reference-042.png",
+    "approved": false,
+    "imageStatus": "curated_local_preview",
+    "imageNoteAr": "معاينة محلية مخصصة مرتبطة بالمخرج المطلوب، أُنشئت دون خدمة مدفوعة؛ يلزم اعتماد بصري نهائي قبل النشر التجاري.",
+    "imageNoteEn": "Custom local preview matched to the requested output, created without paid services; final commercial approval is still required.",
+    "sourceIds": [],
+    "promptAr": "أنشئ لوحة دليل ملصق نهائية بمقاس A4 عمودي لنظام تغليف {{productCategory}}، تعرض نسخة أساسية ونسختين بأحجام {{labelSize}} ضمن تطبيقات عبوة واقعية. استخدم نبرة {{brandTone}} ونظام {{colorSystem}} وترتيب معلومات {{infoHierarchy}}، مع اسم علامة مقدم من المستخدم، وحدود طباعة ومساحات أمان وأمثلة خلفية فاتحة وداكنة. لا تستبدل الشعار الحقيقي بأشكال عامة ولا تخترع نصوصًا؛ أخرج لوحة عرض مكتملة قابلة للتقييم، مع ترك النص الدقيق قابلًا للتحرير عند الحاجة.",
+    "promptEn": "Create a finished A4 portrait label-system presentation for {{productCategory}} packaging, showing a primary label and two {{labelSize}} variants applied to realistic packages. Use a {{brandTone}} tone, {{colorSystem}} color system, and {{infoHierarchy}} information order, with the supplied brand mark, print-safe margins, and light/dark background applications. Do not replace the real logo with generic shapes or invent copy; deliver a complete presentation board while keeping exact small text editable when necessary.",
+    "variables": [
+      {
+        "key": "productCategory",
+        "labelAr": "فئة المنتج",
+        "labelEn": "Product category",
+        "defaultValue": "specialty_food",
+        "defaultValueAr": "طعام متخصص",
+        "defaultValueEn": "specialty food",
+        "descriptionAr": "فئة المنتج؛ يؤثر مباشرة في بنية النتيجة.",
+        "descriptionEn": "Product category; it directly changes the output structure.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within the card scope."
+      },
+      {
+        "key": "labelSize",
+        "labelAr": "مجموعة المقاسات",
+        "labelEn": "Size set",
+        "defaultValue": "small_medium_large",
+        "defaultValueAr": "صغير ومتوسط وكبير",
+        "defaultValueEn": "small, medium, and large",
+        "descriptionAr": "مجموعة المقاسات؛ يؤثر مباشرة في بنية النتيجة.",
+        "descriptionEn": "Size set; it directly changes the output structure.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within the card scope."
+      },
+      {
+        "key": "brandTone",
+        "labelAr": "نبرة العلامة",
+        "labelEn": "Brand tone",
+        "defaultValue": "quiet_premium",
+        "defaultValueAr": "فاخرة هادئة",
+        "defaultValueEn": "quiet premium",
+        "descriptionAr": "نبرة العلامة؛ يؤثر مباشرة في بنية النتيجة.",
+        "descriptionEn": "Brand tone; it directly changes the output structure.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within the card scope.",
+        "options": [
+          {
+            "value": "quiet_premium",
+            "labelAr": "فاخرة هادئة",
+            "labelEn": "Quiet premium"
+          },
+          {
+            "value": "bright_friendly",
+            "labelAr": "مرحة ومشرقة",
+            "labelEn": "Bright and friendly"
+          },
+          {
+            "value": "technical_clean",
+            "labelAr": "تقنية ونظيفة",
+            "labelEn": "Technical and clean"
+          }
+        ]
+      },
+      {
+        "key": "colorSystem",
+        "labelAr": "نظام الألوان",
+        "labelEn": "Color system",
+        "defaultValue": "ink_cream_accent",
+        "defaultValueAr": "حبر داكن وكريمي ولون مميز",
+        "defaultValueEn": "dark ink, cream, and one accent",
+        "descriptionAr": "نظام الألوان؛ يؤثر مباشرة في بنية النتيجة.",
+        "descriptionEn": "Color system; it directly changes the output structure.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within the card scope.",
+        "options": [
+          {
+            "value": "ink_cream_accent",
+            "labelAr": "حبر داكن وكريمي ولون مميز",
+            "labelEn": "Dark ink, cream, one accent"
+          },
+          {
+            "value": "monochrome",
+            "labelAr": "أحادي اللون",
+            "labelEn": "Monochrome"
+          },
+          {
+            "value": "earth_tones",
+            "labelAr": "درجات ترابية",
+            "labelEn": "Earth tones"
+          }
+        ]
+      },
+      {
+        "key": "infoHierarchy",
+        "labelAr": "تسلسل المعلومات",
+        "labelEn": "Information hierarchy",
+        "defaultValue": "brand_name_category_details",
+        "defaultValueAr": "العلامة ثم الفئة ثم التفاصيل",
+        "defaultValueEn": "brand, category, then details",
+        "descriptionAr": "تسلسل المعلومات؛ يؤثر مباشرة في المخرج.",
+        "descriptionEn": "Information hierarchy; directly changes the output.",
+        "allowedValuesAr": "قيمة محددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A specific value within the card scope.",
+        "options": [
+          {
+            "value": "brand_name_category_details",
+            "labelAr": "العلامة ثم الفئة ثم التفاصيل",
+            "labelEn": "Brand, category, then details"
+          },
+          {
+            "value": "category_brand_details",
+            "labelAr": "الفئة ثم العلامة ثم التفاصيل",
+            "labelEn": "Category, brand, then details"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد الفئة ونبرة العلامة قبل بناء النظام.",
+      "راجع بقاء المعلومات الأساسية في المقاس الأصغر.",
+      "افصل بين تصور التصميم ومتطلبات الطباعة والامتثال الفعلية."
+    ],
+    "stepsEn": [
+      "Define the category and brand tone before building the system.",
+      "Check that essential information survives at the smallest size.",
+      "Keep the design concept separate from actual print and compliance requirements."
+    ],
+    "limitationsAr": "هذه بطاقة تصور لنظام تصميم؛ لا تقدم ملف طباعة أو نصًا قانونيًا جاهزًا.",
+    "limitationsEn": "This is a design-system concept; it does not provide a print-ready file or approved legal copy.",
+    "status": "needs_review",
+    "version": 2,
+    "lastReviewedAt": "2026-11-02",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "reference-044",
+    "titleAr": "إنفوغرافيك علمي مبني على بيانات",
+    "titleEn": "Evidence-Based Scientific Infographic",
+    "categoryAr": "الإنفوغرافيك والتواصل العلمي",
+    "categoryEn": "Infographics & Science Communication",
+    "audienceAr": "الباحثون والمحررون ومصممو المعلومات",
+    "audienceEn": "Researchers, editors, and information designers",
+    "summaryAr": "قالب عملي يحول مجموعة بيانات موثقة إلى قصة بصرية واضحة دون اختلاق أرقام أو استنتاجات.",
+    "summaryEn": "A practical structure for turning verified data into a clear visual story without inventing numbers or conclusions.",
+    "visualDescriptionAr": "إنفوغرافيك رأسي مقسم إلى عنوان وسياق ومخطط رئيسي وملاحظات مصدر وخلاصة.",
+    "visualDescriptionEn": "A vertical infographic divided into title, context, main chart, source notes, and takeaway.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية؛ الأصول التوضيحية والبرومبت من تصميم المشروع وليست استعادة لمصدر خارجي.",
+    "sourceEvidenceEn": "Original local Promptna batch; the illustration and prompt are authored for this project, not reconstructed from an external source.",
+    "fixedElementsAr": [
+      "تظهر وحدة القياس ومصدر البيانات بوضوح.",
+      "لا تستبدل الرسوم البيانية بزخرفة.",
+      "الخلاصة لا تتجاوز ما تسمح به البيانات."
+    ],
+    "fixedElementsEn": [
+      "Units and data source remain visible.",
+      "Charts are not replaced by decoration.",
+      "The takeaway does not exceed what the data supports."
+    ],
+    "image": "/images/cards/curated/reference-044.png",
+    "approved": false,
+    "imageStatus": "curated_local_preview",
+    "imageNoteAr": "معاينة محلية مخصصة مرتبطة بالمخرج المطلوب، أُنشئت دون خدمة مدفوعة؛ يلزم اعتماد بصري نهائي قبل النشر التجاري.",
+    "imageNoteEn": "Custom local preview matched to the requested output, created without paid services; final commercial approval is still required.",
+    "sourceIds": [],
+    "promptAr": "أنشئ إنفوغرافيكًا علميًا نهائيًا رأسيًا عن {{topic}} موجهًا إلى {{audience}} باستخدام تنسيق بيانات {{dataFormat}} ولون إبراز {{accentColor}}. استخدم بيانات وأرقامًا يقدمها المستخدم فقط، واعرض الرسم الرئيسي بصريًا مع تسميات مقروءة ومصدر وتاريخ واضحين، وشبكة ومحاذاة وتسلسل هرمي مناسبين للقراءة. لا تحول الناتج إلى مخطط فارغ ولا تخترع قيمًا؛ أخرج إنفوغرافيكًا مكتملًا قابلًا للنشر، ويمكن تركيب النص الدقيق لاحقًا في مناطق محددة.",
+    "promptEn": "Create a finished vertical scientific infographic about {{topic}} for {{audience}}, using a {{dataFormat}} data treatment and {{accentColor}} accent. Use only user-supplied data and numbers; show the main chart visually with readable labels, a clear source and date, disciplined grid, alignment, and hierarchy. Do not turn it into an empty blueprint or invent values. Deliver a publishable infographic, with exact copy allowed to be typeset later in clearly reserved areas.",
+    "variables": [
+      {
+        "key": "topic",
+        "labelAr": "موضوع البيانات",
+        "labelEn": "Data topic",
+        "defaultValue": "water_usage",
+        "defaultValueAr": "استهلاك المياه",
+        "defaultValueEn": "water usage",
+        "descriptionAr": "موضوع البيانات؛ يؤثر مباشرة في بنية النتيجة.",
+        "descriptionEn": "Data topic; it directly changes the output structure.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within the card scope."
+      },
+      {
+        "key": "audience",
+        "labelAr": "الجمهور",
+        "labelEn": "Audience",
+        "defaultValue": "general_readers",
+        "defaultValueAr": "القراء العامون",
+        "defaultValueEn": "general readers",
+        "descriptionAr": "الجمهور؛ يؤثر مباشرة في بنية النتيجة.",
+        "descriptionEn": "Audience; it directly changes the output structure.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within the card scope."
+      },
+      {
+        "key": "dataFormat",
+        "labelAr": "شكل البيانات",
+        "labelEn": "Data format",
+        "defaultValue": "comparison_bars",
+        "defaultValueAr": "أعمدة للمقارنة",
+        "defaultValueEn": "comparison bars",
+        "descriptionAr": "شكل البيانات؛ يؤثر مباشرة في بنية النتيجة.",
+        "descriptionEn": "Data format; it directly changes the output structure.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within the card scope.",
+        "options": [
+          {
+            "value": "comparison_bars",
+            "labelAr": "أعمدة للمقارنة",
+            "labelEn": "Comparison bars"
+          },
+          {
+            "value": "timeline",
+            "labelAr": "خط زمني",
+            "labelEn": "Timeline"
+          },
+          {
+            "value": "process_flow",
+            "labelAr": "تدفق مراحل",
+            "labelEn": "Process flow"
+          }
+        ]
+      },
+      {
+        "key": "accentColor",
+        "labelAr": "لون الإبراز",
+        "labelEn": "Accent color",
+        "defaultValue": "teal",
+        "defaultValueAr": "تركوازي",
+        "defaultValueEn": "teal",
+        "descriptionAr": "لون الإبراز؛ يؤثر مباشرة في بنية النتيجة.",
+        "descriptionEn": "Accent color; it directly changes the output structure.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within the card scope."
+      }
+    ],
+    "stepsAr": [
+      "أدخل الأرقام والمصدر الحقيقيين بعد اعتماد الهيكل.",
+      "راجع الوحدات والمقاييس واتجاه المقارنة.",
+      "لا تستخدم الإنفوغرافيك للنشر قبل مراجعة البيانات من مختص."
+    ],
+    "stepsEn": [
+      "Insert real numbers and sources after approving the structure.",
+      "Check units, scales, and comparison direction.",
+      "Do not publish before a subject-matter review."
+    ],
+    "limitationsAr": "البطاقة تبني هيكل التواصل ولا توفر بيانات علمية أو مراجعة تخصصية.",
+    "limitationsEn": "The card structures communication; it does not provide scientific data or expert review.",
+    "status": "needs_review",
+    "version": 1,
+    "lastReviewedAt": "2026-11-02",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "phase2-052",
+    "titleAr": "ورقة استخدام الشعار ومساحته الآمنة",
+    "titleEn": "Logo Clear-Space and Misuse Sheet",
+    "categoryAr": "الهوية التجارية",
+    "categoryEn": "Brand Identity",
+    "audienceAr": "مصممو الهوية وفرق التسليم",
+    "audienceEn": "Identity designers and handoff teams",
+    "summaryAr": "ورقة مرجعية توضح المساحة الآمنة وأحجام الشعار وأمثلة الاستخدام الصحيح والخاطئ.",
+    "summaryEn": "A reference sheet showing clear space, minimum sizes, and correct versus incorrect logo use.",
+    "visualDescriptionAr": "لوحة توضيحية متخصصة تشرح وظيفة البطاقة وبنيتها البصرية، وليست مخرجًا مولدًا من البرومبت.",
+    "visualDescriptionEn": "A specialized visual board explaining the card function and visual structure; not an output generated by the prompt.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/curated/phase2-052.png",
+    "approved": false,
+    "imageStatus": "curated_local_preview",
+    "imageNoteAr": "معاينة محلية مخصصة مرتبطة بالمخرج المطلوب، أُنشئت دون خدمة مدفوعة؛ يلزم اعتماد بصري نهائي قبل النشر التجاري.",
+    "imageNoteEn": "Custom local preview matched to the requested output, created without paid services; final commercial approval is still required.",
+    "sourceIds": [],
+    "promptAr": "أنشئ ورقة إرشادات شعار نهائية بمقاس A4 عمودي للعلامة المقدمة، تعرض تركيب {{logoLockup}} والشعار الأساسي، مساحة الحماية، الحجم الأدنى {{minSizeUnit}}، وتطبيقات صحيحة وخاطئة على خلفيات {{backgroundSet}}. حافظ على نسب الشعار ولا تعيد رسمه أو تخترع نسخة بديلة، واستخدم شبكة وقياسات مرئية ومساحات نص قابلة للتحرير باللغة الإنجليزية أو العربية حسب محتوى العلامة. أخرج صفحة brand guidelines مكتملة قابلة للعرض، لا دائرة ومستطيلًا عامين أو wireframe.",
+    "promptEn": "Create a finished A4 portrait logo-guidelines sheet for the supplied brand, showing the {{logoLockup}} lockup and primary mark, clear space, minimum size in {{minSizeUnit}}, and correct and incorrect applications on {{backgroundSet}} backgrounds. Preserve the logo proportions without redrawing or inventing a substitute, using a disciplined grid, visible measurements, and editable copy in the brand's required language. Deliver a complete brand-guidelines page, not generic circles, rectangles, or a wireframe.",
+    "variables": [
+      {
+        "key": "logoLockup",
+        "labelAr": "نوع تركيب الشعار",
+        "labelEn": "Logo lockup",
+        "defaultValue": "symbol_wordmark",
+        "defaultValueAr": "رمز مع اسم",
+        "defaultValueEn": "symbol and wordmark",
+        "descriptionAr": "نوع تركيب الشعار؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Logo lockup; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "symbol_wordmark",
+            "labelAr": "رمز مع اسم",
+            "labelEn": "Symbol and wordmark"
+          },
+          {
+            "value": "wordmark_only",
+            "labelAr": "اسم فقط",
+            "labelEn": "Wordmark only"
+          }
+        ]
+      },
+      {
+        "key": "backgroundSet",
+        "labelAr": "مجموعة الخلفيات",
+        "labelEn": "Background set",
+        "defaultValue": "light_dark_photo",
+        "defaultValueAr": "فاتح وداكن وصورة",
+        "defaultValueEn": "light, dark, and photo",
+        "descriptionAr": "مجموعة الخلفيات؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Background set; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope."
+      },
+      {
+        "key": "minSizeUnit",
+        "labelAr": "وحدة الحد الأدنى",
+        "labelEn": "Minimum-size unit",
+        "defaultValue": "px",
+        "defaultValueAr": "بكسل",
+        "defaultValueEn": "pixels",
+        "descriptionAr": "وحدة الحد الأدنى؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Minimum-size unit; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "px",
+            "labelAr": "بكسل",
+            "labelEn": "Pixels"
+          },
+          {
+            "value": "mm",
+            "labelAr": "ملليمتر",
+            "labelEn": "Millimeters"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 1,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "phase2-054",
+    "titleAr": "فاتورة أو إيصال ثنائي اللغة",
+    "titleEn": "Bilingual Invoice and Receipt Layout",
+    "categoryAr": "الهوية التجارية والقرطاسية",
+    "categoryEn": "Brand Identity & Stationery",
+    "audienceAr": "أصحاب الأعمال ومصممو القوالب",
+    "audienceEn": "Business owners and template designers",
+    "summaryAr": "قالب قرطاسية ثنائي اللغة ينظم بيانات الفاتورة دون ادعاء امتثال قانوني.",
+    "summaryEn": "A bilingual stationery template organizing invoice data without claiming legal compliance.",
+    "visualDescriptionAr": "لوحة توضيحية متخصصة تشرح وظيفة البطاقة وبنيتها البصرية، وليست مخرجًا مولدًا من البرومبت.",
+    "visualDescriptionEn": "A specialized visual board explaining the card function and visual structure; not an output generated by the prompt.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/curated/phase2-054.png",
+    "approved": false,
+    "imageStatus": "curated_local_preview",
+    "imageNoteAr": "معاينة محلية مخصصة مرتبطة بالمخرج المطلوب، أُنشئت دون خدمة مدفوعة؛ يلزم اعتماد بصري نهائي قبل النشر التجاري.",
+    "imageNoteEn": "Custom local preview matched to the requested output, created without paid services; final commercial approval is still required.",
+    "sourceIds": [],
+    "promptAr": "أنشئ نموذج فاتورة أو إيصال نهائيًا بصريًا من نوع {{documentType}} بترتيب لغوي {{languageOrder}} وعملة {{currency}}. صمّم صفحة مطبوعة حقيقية بشبكة واضحة وهوية لونية هادئة، مناطق فعلية للبائع والمشتري والعناصر والإجمالي والملاحظات، واتجاه RTL/LTR صحيح. استخدم بيانات تجريبية موسومة أو حقولًا قابلة للتحرير، ولا تخترع أرقامًا أو شعارًا؛ أخرج نموذجًا متكاملًا يشبه مستندًا جاهزًا للطباعة لا مخططًا هيكليًا.",
+    "promptEn": "Create a finished visual {{documentType}} invoice or receipt in {{languageOrder}} language order and {{currency}} currency. Design a realistic printable page with a clear grid, restrained brand palette, real areas for seller, buyer, line items, total, and notes, with correct RTL/LTR direction. Use clearly marked sample data or editable fields and invent no numbers or logo; deliver a complete print-like document, not a structural diagram.",
+    "variables": [
+      {
+        "key": "documentType",
+        "labelAr": "نوع المستند",
+        "labelEn": "Document type",
+        "defaultValue": "invoice",
+        "defaultValueAr": "فاتورة",
+        "defaultValueEn": "invoice",
+        "descriptionAr": "نوع المستند؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Document type; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "invoice",
+            "labelAr": "فاتورة",
+            "labelEn": "Invoice"
+          },
+          {
+            "value": "receipt",
+            "labelAr": "إيصال",
+            "labelEn": "Receipt"
+          }
+        ]
+      },
+      {
+        "key": "languageOrder",
+        "labelAr": "ترتيب اللغات",
+        "labelEn": "Language order",
+        "defaultValue": "arabic_first",
+        "defaultValueAr": "العربية أولًا",
+        "defaultValueEn": "Arabic first",
+        "descriptionAr": "ترتيب اللغات؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Language order; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "arabic_first",
+            "labelAr": "العربية أولًا",
+            "labelEn": "Arabic first"
+          },
+          {
+            "value": "english_first",
+            "labelAr": "الإنجليزية أولًا",
+            "labelEn": "English first"
+          }
+        ]
+      },
+      {
+        "key": "currency",
+        "labelAr": "العملة",
+        "labelEn": "Currency",
+        "defaultValue": "local_currency",
+        "defaultValueAr": "العملة المحلية",
+        "defaultValueEn": "local currency",
+        "descriptionAr": "العملة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Currency; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope."
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 1,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "phase2-055",
+    "titleAr": "نظام لافتات توجيه لمتجر",
+    "titleEn": "Storefront Wayfinding Sign System",
+    "categoryAr": "الهوية التجارية واللافتات",
+    "categoryEn": "Brand Identity & Wayfinding",
+    "audienceAr": "المتاجر والمصممون البيئيون",
+    "audienceEn": "Retailers and environmental designers",
+    "summaryAr": "نظام لافتات يوجه الزائر من المدخل إلى الأقسام والخروج بلغة بصرية موحدة.",
+    "summaryEn": "A sign system guiding visitors from entrance through departments to the exit with one visual language.",
+    "visualDescriptionAr": "لوحة توضيحية متخصصة تشرح وظيفة البطاقة وبنيتها البصرية، وليست مخرجًا مولدًا من البرومبت.",
+    "visualDescriptionEn": "A specialized visual board explaining the card function and visual structure; not an output generated by the prompt.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/curated/phase2-055.png",
+    "approved": false,
+    "imageStatus": "curated_local_preview",
+    "imageNoteAr": "معاينة محلية مخصصة مرتبطة بالمخرج المطلوب، أُنشئت دون خدمة مدفوعة؛ يلزم اعتماد بصري نهائي قبل النشر التجاري.",
+    "imageNoteEn": "Custom local preview matched to the requested output, created without paid services; final commercial approval is still required.",
+    "sourceIds": [],
+    "promptAr": "أنشئ لوحة عرض نهائية لنظام توجيه داخل {{spaceType}} تضم {{signCount}} لافتات واقعية في سياق مكاني واحد، بأسلوب رموز {{iconStyle}}. أظهر المدخل والأقسام والخدمة والخروج مع أسهم ورموز فعلية، خامات تثبيت واقعية، منظورًا وإضاءة متسقين، وتباينًا مقروءًا من مسافة. استخدم نصوصًا يقدمها المستخدم فقط واتركها قابلة للتحرير عند الحاجة، ولا تكتفِ بعقد أو خانات عامة.",
+    "promptEn": "Create a finished presentation board of a wayfinding system inside a {{spaceType}} with {{signCount}} realistic signs using {{iconStyle}} icons. Show entrance, departments, service, and exit in one coherent spatial context with real arrows, symbols, mounting materials, consistent perspective and lighting, and distance-readable contrast. Use only user-supplied wording and keep it editable when needed; do not reduce the output to generic nodes or boxes.",
+    "variables": [
+      {
+        "key": "spaceType",
+        "labelAr": "نوع المساحة",
+        "labelEn": "Space type",
+        "defaultValue": "concept_store",
+        "defaultValueAr": "متجر مفاهيمي",
+        "defaultValueEn": "concept store",
+        "descriptionAr": "نوع المساحة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Space type; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "concept_store",
+            "labelAr": "متجر مفاهيمي",
+            "labelEn": "Concept store"
+          },
+          {
+            "value": "clinic",
+            "labelAr": "عيادة",
+            "labelEn": "Clinic"
+          },
+          {
+            "value": "studio",
+            "labelAr": "استوديو",
+            "labelEn": "Studio"
+          }
+        ]
+      },
+      {
+        "key": "signCount",
+        "labelAr": "عدد اللافتات",
+        "labelEn": "Sign count",
+        "defaultValue": "5",
+        "defaultValueAr": "5 لافتات",
+        "defaultValueEn": "5 signs",
+        "descriptionAr": "عدد اللافتات؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Sign count; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "4",
+            "labelAr": "4 لافتات",
+            "labelEn": "4 signs"
+          },
+          {
+            "value": "5",
+            "labelAr": "5 لافتات",
+            "labelEn": "5 signs"
+          },
+          {
+            "value": "6",
+            "labelAr": "6 لافتات",
+            "labelEn": "6 signs"
+          }
+        ]
+      },
+      {
+        "key": "iconStyle",
+        "labelAr": "أسلوب الرموز",
+        "labelEn": "Icon style",
+        "defaultValue": "line_icons",
+        "defaultValueAr": "رموز خطية",
+        "defaultValueEn": "line icons",
+        "descriptionAr": "أسلوب الرموز؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Icon style; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "line_icons",
+            "labelAr": "رموز خطية",
+            "labelEn": "Line icons"
+          },
+          {
+            "value": "solid_icons",
+            "labelAr": "رموز ممتلئة",
+            "labelEn": "Solid icons"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 1,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "phase2-057",
+    "titleAr": "بطاقة وصفة قابلة للطباعة",
+    "titleEn": "Printable Recipe Card Layout",
+    "categoryAr": "الطعام والضيافة",
+    "categoryEn": "Food & Hospitality",
+    "audienceAr": "الطهاة ومنشئو المحتوى",
+    "audienceEn": "Cooks and content creators",
+    "summaryAr": "قالب بطاقة وصفة يوازن المكونات والخطوات والزمن والملاحظات دون اختلاق الوصفة.",
+    "summaryEn": "A recipe-card template balancing ingredients, steps, time, and notes without inventing the recipe.",
+    "visualDescriptionAr": "لوحة توضيحية متخصصة تشرح وظيفة البطاقة وبنيتها البصرية، وليست مخرجًا مولدًا من البرومبت.",
+    "visualDescriptionEn": "A specialized visual board explaining the card function and visual structure; not an output generated by the prompt.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/curated/phase2-057.png",
+    "approved": false,
+    "imageStatus": "curated_local_preview",
+    "imageNoteAr": "معاينة محلية مخصصة مرتبطة بالمخرج المطلوب، أُنشئت دون خدمة مدفوعة؛ يلزم اعتماد بصري نهائي قبل النشر التجاري.",
+    "imageNoteEn": "Custom local preview matched to the requested output, created without paid services; final commercial approval is still required.",
+    "sourceIds": [],
+    "promptAr": "أنشئ بطاقة وصفة نهائية قابلة للطباعة من نوع {{recipeFormat}} تحتوي على {{stepCount}} خطوات ووسم غذائي {{dietLabel}}. استخدم مقاسًا واتجاهًا وشبكة طباعة واضحة، عنوانًا ومكونات وخطوات وزمنًا وملاحظات في مناطق مكتملة، مع صورة طعام أو أسلوب تصوير مناسب. لا تخترع المقادير أو الادعاءات؛ استخدم نصوص المستخدم أو مناطق تحرير واضحة، واضبط RTL/LTR بدل إنتاج قالب فارغ.",
+    "promptEn": "Create a finished printable recipe card in {{recipeFormat}} format with {{stepCount}} steps and a {{dietLabel}} dietary label. Use a defined page size, orientation, and print grid, with complete zones for title, ingredients, method, timing, and notes, plus a suitable food image or photographic treatment. Invent no quantities or claims; use supplied copy or clearly editable areas, with correct RTL/LTR alignment rather than an empty template.",
+    "variables": [
+      {
+        "key": "recipeFormat",
+        "labelAr": "تنسيق الوصفة",
+        "labelEn": "Recipe format",
+        "defaultValue": "single_card",
+        "defaultValueAr": "بطاقة واحدة",
+        "defaultValueEn": "single card",
+        "descriptionAr": "تنسيق الوصفة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Recipe format; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "single_card",
+            "labelAr": "بطاقة واحدة",
+            "labelEn": "Single card"
+          },
+          {
+            "value": "front_back",
+            "labelAr": "وجه وخلف",
+            "labelEn": "Front and back"
+          }
+        ]
+      },
+      {
+        "key": "stepCount",
+        "labelAr": "عدد الخطوات",
+        "labelEn": "Step count",
+        "defaultValue": "6",
+        "defaultValueAr": "6 خطوات",
+        "defaultValueEn": "6 steps",
+        "descriptionAr": "عدد الخطوات؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Step count; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "4",
+            "labelAr": "4 خطوات",
+            "labelEn": "4 steps"
+          },
+          {
+            "value": "6",
+            "labelAr": "6 خطوات",
+            "labelEn": "6 steps"
+          },
+          {
+            "value": "8",
+            "labelAr": "8 خطوات",
+            "labelEn": "8 steps"
+          }
+        ]
+      },
+      {
+        "key": "dietLabel",
+        "labelAr": "حقل النظام الغذائي",
+        "labelEn": "Diet field",
+        "defaultValue": "optional",
+        "defaultValueAr": "اختياري",
+        "defaultValueEn": "optional",
+        "descriptionAr": "حقل النظام الغذائي؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Diet field; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "optional",
+            "labelAr": "اختياري",
+            "labelEn": "Optional"
+          },
+          {
+            "value": "prominent",
+            "labelAr": "بارز",
+            "labelEn": "Prominent"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 1,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "phase2-059",
+    "titleAr": "نظام بطاقة شهادة عميل",
+    "titleEn": "Customer Testimonial Card System",
+    "categoryAr": "المحتوى الاجتماعي",
+    "categoryEn": "Social Content",
+    "audienceAr": "فرق التسويق ومنشئو المحتوى",
+    "audienceEn": "Marketing teams and content creators",
+    "summaryAr": "نظام بطاقات شهادة عميل يوازن الاقتباس والاسم والسياق دون اختلاق مراجعات.",
+    "summaryEn": "A testimonial-card system balancing quote, attribution, and context without inventing reviews.",
+    "visualDescriptionAr": "لوحة توضيحية متخصصة تشرح وظيفة البطاقة وبنيتها البصرية، وليست مخرجًا مولدًا من البرومبت.",
+    "visualDescriptionEn": "A specialized visual board explaining the card function and visual structure; not an output generated by the prompt.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/curated/phase2-059.png",
+    "approved": false,
+    "imageStatus": "curated_local_preview",
+    "imageNoteAr": "معاينة محلية مخصصة مرتبطة بالمخرج المطلوب، أُنشئت دون خدمة مدفوعة؛ يلزم اعتماد بصري نهائي قبل النشر التجاري.",
+    "imageNoteEn": "Custom local preview matched to the requested output, created without paid services; final commercial approval is still required.",
+    "sourceIds": [],
+    "promptAr": "أنشئ بطاقة شهادة عميل نهائية بصيغة {{testimonialFormat}} وبأسلوب {{tone}}، تستخدم اقتباسًا واسمًا ودليلًا يقدمهما المستخدم. أظهر الاقتباس في هرمية طباعية واضحة مع صورة أو ملمس خلفي مناسب ووسم {{proofType}}، وتباين ومساحة أمان ومقاسًا مناسبًا للعرض. لا تخترع تقييمًا أو رقمًا أو شعارًا، ولا تعرض شبكة مناطق نائبة؛ أخرج بطاقة مكتملة قابلة للنشر مع نص قابل للتحرير عند الحاجة.",
+    "promptEn": "Create a finished customer testimonial card in {{testimonialFormat}} format with a {{tone}} art direction, using the quote, name, and evidence supplied by the user. Give the quote clear typographic hierarchy with an appropriate image or textured background, a {{proofType}} proof marker, strong contrast, safe margins, and a platform-ready size. Invent no rating, number, or logo; do not show a placeholder grid, and keep exact copy editable when needed.",
+    "variables": [
+      {
+        "key": "testimonialFormat",
+        "labelAr": "صيغة الشهادة",
+        "labelEn": "Testimonial format",
+        "defaultValue": "quote_plus_context",
+        "defaultValueAr": "اقتباس وسياق",
+        "defaultValueEn": "quote plus context",
+        "descriptionAr": "صيغة الشهادة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Testimonial format; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "quote_plus_context",
+            "labelAr": "اقتباس وسياق",
+            "labelEn": "Quote plus context"
+          },
+          {
+            "value": "before_after",
+            "labelAr": "قبل وبعد",
+            "labelEn": "Before and after"
+          }
+        ]
+      },
+      {
+        "key": "proofType",
+        "labelAr": "نوع الدليل",
+        "labelEn": "Proof type",
+        "defaultValue": "verified_detail",
+        "defaultValueAr": "تفصيل موثق",
+        "defaultValueEn": "verified detail",
+        "descriptionAr": "نوع الدليل؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Proof type; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "verified_detail",
+            "labelAr": "تفصيل موثق",
+            "labelEn": "Verified detail"
+          },
+          {
+            "value": "none",
+            "labelAr": "دون دليل إضافي",
+            "labelEn": "No extra proof"
+          }
+        ]
+      },
+      {
+        "key": "tone",
+        "labelAr": "النبرة",
+        "labelEn": "Tone",
+        "defaultValue": "credible_warm",
+        "defaultValueAr": "موثوقة ودافئة",
+        "defaultValueEn": "credible and warm",
+        "descriptionAr": "النبرة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Tone; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "credible_warm",
+            "labelAr": "موثوقة ودافئة",
+            "labelEn": "Credible and warm"
+          },
+          {
+            "value": "minimal",
+            "labelAr": "مختصرة",
+            "labelEn": "Minimal"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 1,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "phase2-060",
+    "titleAr": "إطار قصة تفاعلي لاستطلاع",
+    "titleEn": "Interactive Story Poll Frame",
+    "categoryAr": "المحتوى الاجتماعي",
+    "categoryEn": "Social Content",
+    "audienceAr": "فرق التواصل الاجتماعي",
+    "audienceEn": "Social-media teams",
+    "summaryAr": "إطار قصة واحد لاستطلاع أو سؤال تفاعلي مع مساحة واضحة للسؤال وخيارات الإجابة.",
+    "summaryEn": "A single story frame for a poll or question with clear question and response-option areas.",
+    "visualDescriptionAr": "لوحة توضيحية متخصصة تشرح وظيفة البطاقة وبنيتها البصرية، وليست مخرجًا مولدًا من البرومبت.",
+    "visualDescriptionEn": "A specialized visual board explaining the card function and visual structure; not an output generated by the prompt.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/curated/phase2-060.png",
+    "approved": false,
+    "imageStatus": "curated_local_preview",
+    "imageNoteAr": "معاينة محلية مخصصة مرتبطة بالمخرج المطلوب، أُنشئت دون خدمة مدفوعة؛ يلزم اعتماد بصري نهائي قبل النشر التجاري.",
+    "imageNoteEn": "Custom local preview matched to the requested output, created without paid services; final commercial approval is still required.",
+    "sourceIds": [],
+    "promptAr": "أنشئ إطار Story تفاعليًا نهائيًا بنسبة {{storyRatio}} لنوع {{interactionType}} وبمعالجة علامة {{brandTreatment}}. صمّم خلفية وعناصر بصرية واضحة، منطقة سؤال، خيارات إجابة، ومؤشر دعوة للفعل داخل تكوين هاتف عمودي متوازن، مع ألوان وتباين ومساحات آمنة للنص. لا تترك الناتج شبكة هيكلية أو محتوىً عامًا؛ استخدم نصًا تجريبيًا قابلًا للتحرير أو ما يقدمه المستخدم، وأخرج شاشة اجتماعية مكتملة.",
+    "promptEn": "Create a finished vertical interactive Story frame in {{storyRatio}} for {{interactionType}} with a {{brandTreatment}} brand treatment. Design a clear background and visual elements, a question area, response options, and a call-to-action indicator within a balanced phone composition, with strong color contrast and safe copy zones. Do not leave a structural grid or generic content; use editable sample copy or supplied text and deliver a complete social screen.",
+    "variables": [
+      {
+        "key": "interactionType",
+        "labelAr": "نوع التفاعل",
+        "labelEn": "Interaction type",
+        "defaultValue": "poll",
+        "defaultValueAr": "استطلاع",
+        "defaultValueEn": "poll",
+        "descriptionAr": "نوع التفاعل؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Interaction type; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "poll",
+            "labelAr": "استطلاع",
+            "labelEn": "Poll"
+          },
+          {
+            "value": "question",
+            "labelAr": "سؤال مفتوح",
+            "labelEn": "Open question"
+          },
+          {
+            "value": "slider",
+            "labelAr": "مقياس تفاعلي",
+            "labelEn": "Slider"
+          }
+        ]
+      },
+      {
+        "key": "storyRatio",
+        "labelAr": "نسبة القصة",
+        "labelEn": "Story ratio",
+        "defaultValue": "9_16",
+        "defaultValueAr": "9:16",
+        "defaultValueEn": "9:16",
+        "descriptionAr": "نسبة القصة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Story ratio; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope."
+      },
+      {
+        "key": "brandTreatment",
+        "labelAr": "معالجة العلامة",
+        "labelEn": "Brand treatment",
+        "defaultValue": "subtle",
+        "defaultValueAr": "خفيفة",
+        "defaultValueEn": "subtle",
+        "descriptionAr": "معالجة العلامة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Brand treatment; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "subtle",
+            "labelAr": "خفيفة",
+            "labelEn": "Subtle"
+          },
+          {
+            "value": "bold",
+            "labelAr": "بارزة",
+            "labelEn": "Bold"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 1,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "phase2-062",
+    "titleAr": "افتتاحية مقال لمجلة",
+    "titleEn": "Magazine Article Opener Layout",
+    "categoryAr": "الأساليب التحريرية",
+    "categoryEn": "Editorial Design",
+    "audienceAr": "المجلات والمحررون والمصممون",
+    "audienceEn": "Magazines, editors, and designers",
+    "summaryAr": "تخطيط افتتاحية مقال يربط العنوان والمقدمة والصورة والبيانات التعريفية دون اختلاق محتوى.",
+    "summaryEn": "An article-opener layout connecting title, standfirst, image, and metadata without inventing content.",
+    "visualDescriptionAr": "لوحة توضيحية متخصصة تشرح وظيفة البطاقة وبنيتها البصرية، وليست مخرجًا مولدًا من البرومبت.",
+    "visualDescriptionEn": "A specialized visual board explaining the card function and visual structure; not an output generated by the prompt.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/curated/phase2-062.png",
+    "approved": false,
+    "imageStatus": "curated_local_preview",
+    "imageNoteAr": "معاينة محلية مخصصة مرتبطة بالمخرج المطلوب، أُنشئت دون خدمة مدفوعة؛ يلزم اعتماد بصري نهائي قبل النشر التجاري.",
+    "imageNoteEn": "Custom local preview matched to the requested output, created without paid services; final commercial approval is still required.",
+    "sourceIds": [],
+    "promptAr": "أنشئ افتتاحية مقال مجلة نهائية من نوع {{articleType}} في شبكة من {{columnCount}} أعمدة، مع معالجة صورة {{imageRole}}. حدّد صفحة واتجاهًا وهوامش وشبكة تحريرية، عنوانًا ومقدمة واسم كاتب ومساحة صورة حقيقية، وتسلسلًا هرميًا مناسبًا للقراءة RTL/LTR. استخدم نصوصًا يقدمها المستخدم أو مناطق تحرير واضحة، ولا تنتج wireframe أو عناوين وهمية؛ أخرج صفحة افتتاحية مكتملة قابلة للنشر.",
+    "promptEn": "Create a finished magazine article opener for {{articleType}} using a {{columnCount}}-column editorial grid and a {{imageRole}} image treatment. Define page orientation, margins, a real image area, headline, standfirst, byline, and readable RTL/LTR hierarchy. Use supplied copy or clearly editable text zones; do not make a wireframe or invent article wording. Deliver a complete publishable opener page.",
+    "variables": [
+      {
+        "key": "articleType",
+        "labelAr": "نوع المقال",
+        "labelEn": "Article type",
+        "defaultValue": "feature",
+        "defaultValueAr": "تحقيق أو مادة مميزة",
+        "defaultValueEn": "feature",
+        "descriptionAr": "نوع المقال؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Article type; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope."
+      },
+      {
+        "key": "columnCount",
+        "labelAr": "عدد الأعمدة",
+        "labelEn": "Column count",
+        "defaultValue": "2",
+        "defaultValueAr": "عمودان",
+        "defaultValueEn": "2 columns",
+        "descriptionAr": "عدد الأعمدة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Column count; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "1",
+            "labelAr": "عمود واحد",
+            "labelEn": "1 column"
+          },
+          {
+            "value": "2",
+            "labelAr": "عمودان",
+            "labelEn": "2 columns"
+          },
+          {
+            "value": "3",
+            "labelAr": "ثلاثة أعمدة",
+            "labelEn": "3 columns"
+          }
+        ]
+      },
+      {
+        "key": "imageRole",
+        "labelAr": "دور الصورة",
+        "labelEn": "Image role",
+        "defaultValue": "hero_image",
+        "defaultValueAr": "صورة بطلة",
+        "defaultValueEn": "hero image",
+        "descriptionAr": "دور الصورة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Image role; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "hero_image",
+            "labelAr": "صورة بطلة",
+            "labelEn": "Hero image"
+          },
+          {
+            "value": "supporting_image",
+            "labelAr": "صورة داعمة",
+            "labelEn": "Supporting image"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 1,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  },
+  {
+    "id": "phase2-070",
+    "titleAr": "صفحة أثر لمبادرة غير ربحية",
+    "titleEn": "Nonprofit Impact One-Page Visual",
+    "categoryAr": "المحتوى التجاري",
+    "categoryEn": "Business Communication",
+    "audienceAr": "المؤسسات والمصممون والممولون",
+    "audienceEn": "Organizations, designers, and funders",
+    "summaryAr": "صفحة واحدة تربط المشكلة والنشاط والمخرج ومكان الدليل دون اختلاق أرقام الأثر.",
+    "summaryEn": "A one-page visual connecting problem, activity, output, and evidence without inventing impact numbers.",
+    "visualDescriptionAr": "لوحة توضيحية متخصصة تشرح وظيفة البطاقة وبنيتها البصرية، وليست مخرجًا مولدًا من البرومبت.",
+    "visualDescriptionEn": "A specialized visual board explaining the card function and visual structure; not an output generated by the prompt.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/curated/phase2-070.png",
+    "approved": false,
+    "imageStatus": "curated_local_preview",
+    "imageNoteAr": "معاينة محلية مخصصة مرتبطة بالمخرج المطلوب، أُنشئت دون خدمة مدفوعة؛ يلزم اعتماد بصري نهائي قبل النشر التجاري.",
+    "imageNoteEn": "Custom local preview matched to the requested output, created without paid services; final commercial approval is still required.",
+    "sourceIds": [],
+    "promptAr": "أنشئ إنفوغرافيكًا نهائيًا من صفحة واحدة عن مبادرة {{initiativeType}} موجهة إلى {{audience}}، يعرض {{metricCount}} مؤشرات بقيم ومصادر يقدمها المستخدم. استخدم شبكة تحريرية واضحة تربط الحاجة بالنشاط والمخرج والدليل، مع أيقونات ورسوم بسيطة وألوان متباينة وتسلسل بصري من أعلى إلى أسفل. لا تخترع أرقامًا أو نتائج أو شعارات، ولا تترك مربعات نائبة؛ أخرج صفحة أثر مكتملة قابلة للنشر مع ترك النص الدقيق قابلًا للتحرير عند الحاجة.",
+    "promptEn": "Create a finished one-page impact infographic for a {{initiativeType}} aimed at {{audience}}, showing {{metricCount}} metrics with user-supplied values and sources. Use a clear editorial grid connecting need, activity, output, and evidence, with restrained icons, simple charts, strong contrast, and a top-to-bottom visual narrative. Invent no numbers, outcomes, or logos and do not leave empty boxes; deliver a publishable impact page with exact copy editable when needed.",
+    "variables": [
+      {
+        "key": "initiativeType",
+        "labelAr": "نوع المبادرة",
+        "labelEn": "Initiative type",
+        "defaultValue": "education_program",
+        "defaultValueAr": "برنامج تعليمي",
+        "defaultValueEn": "education program",
+        "descriptionAr": "نوع المبادرة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Initiative type; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope."
+      },
+      {
+        "key": "metricCount",
+        "labelAr": "عدد مؤشرات القياس",
+        "labelEn": "Metric count",
+        "defaultValue": "3",
+        "defaultValueAr": "3 مؤشرات",
+        "defaultValueEn": "3 metrics",
+        "descriptionAr": "عدد مؤشرات القياس؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Metric count; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "2",
+            "labelAr": "مؤشران",
+            "labelEn": "2 metrics"
+          },
+          {
+            "value": "3",
+            "labelAr": "3 مؤشرات",
+            "labelEn": "3 metrics"
+          },
+          {
+            "value": "4",
+            "labelAr": "4 مؤشرات",
+            "labelEn": "4 metrics"
+          }
+        ]
+      },
+      {
+        "key": "audience",
+        "labelAr": "الجمهور",
+        "labelEn": "Audience",
+        "defaultValue": "funders",
+        "defaultValueAr": "الممولون",
+        "defaultValueEn": "funders",
+        "descriptionAr": "الجمهور؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Audience; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "funders",
+            "labelAr": "الممولون",
+            "labelEn": "Funders"
+          },
+          {
+            "value": "public",
+            "labelAr": "الجمهور العام",
+            "labelEn": "General public"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 1,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    },
+    "qualityEn": {
+      "score": 0,
+      "criteria": [],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": null
+    }
+  }
+]

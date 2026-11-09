@@ -1,0 +1,2503 @@
+[
+  {
+    "id": "verified-001",
+    "titleAr": "إعلان فوتوغرافي لعبوة في الشاطئ",
+    "titleEn": "Photographic Beach Product Advertisement",
+    "categoryAr": "إعلانات المنتجات",
+    "categoryEn": "Product Advertising",
+    "audienceAr": "فرق التسويق ومصورو المنتجات",
+    "audienceEn": "Marketing teams and product photographers",
+    "summaryAr": "إعلان فوتوغرافي واحد لعبوة منتج في بيئة شاطئية.",
+    "summaryEn": "One photographic product advertisement in a beach setting.",
+    "visualDescriptionAr": "لقطة إعلان فوتوغرافي واحدة لعبوة كاملة في شاطئ مضاء بالشمس.",
+    "visualDescriptionEn": "One photographic ad shot of a complete package on a sunlit beach.",
+    "sourceEvidenceAr": "ملخص المالك المرفق للفيديو 1: تسجيل شاشة/واجهة منتجات ثم عبوة فاتحة ممسوكة بيد أمام شاطئ. تفاصيل العدسة وواجهة الأداة والبرومبت الأصلي غير مؤكدة.",
+    "sourceEvidenceEn": "Owner-provided note for video 1: a product interface/screen recording, followed by a light package held in front of a beach. Lens details, the tool interface, and the original prompt are not confirmed.",
+    "fixedElementsAr": [
+      "شكل العبوة ونسبها ولونها وملصقها كما في الصورة المرجعية",
+      "يد واحدة فقط، من دون حجب تفاصيل العبوة الأساسية",
+      "لا شعارات أو فوائد أو أسعار غير موجودة في المرجع"
+    ],
+    "fixedElementsEn": [
+      "Preserve the package shape, proportions, color, and label from the reference photo.",
+      "Show one hand without obscuring important package details.",
+      "Do not add logos, benefits, or prices absent from the reference."
+    ],
+    "image": "/images/cards/curated/verified-001.png",
+    "approved": false,
+    "imageStatus": "curated_local_preview",
+    "imageNoteAr": "معاينة محلية مخصصة مرتبطة بالمخرج المطلوب، أُنشئت دون خدمة مدفوعة؛ يلزم اعتماد بصري نهائي قبل النشر التجاري.",
+    "imageNoteEn": "Custom local preview matched to the requested output, created without paid services; final commercial approval is still required.",
+    "sourceIds": [
+      1
+    ],
+    "promptAr": "أنشئ صورة إعلان فوتوغرافية عمودية 4:5 للمنتج {{productName}} في بيئة {{beachType}}، مع العبوة كاملة في المقدمة وتكوين {{composition}} ولوحة {{palette}}. استخدم الصورة المرجعية للحفاظ على شكل العبوة ولونها وملصقها، وإضاءة شمسية جانبية وظل تماس واقعي وخلفية ساحلية غير مشتتة. لا تخترع شعارًا أو نصًا أو ادعاءً؛ أخرج إعلانًا واحدًا مكتملًا قابلًا للنشر، لا لوحة أو مجموعة خانات.",
+    "promptEn": "Create one finished 4:5 vertical photographic advertisement for {{productName}} in a {{beachType}} setting, with the complete package in the foreground, a {{composition}} composition, and a {{palette}} palette. Use the reference image to preserve the package shape, color, and label, with side sunlight, a realistic contact shadow, and a clean coastal background. Invent no logo, copy, or claim; deliver one publishable advertisement, not a board or panel set.",
+    "variables": [
+      {
+        "key": "productName",
+        "labelAr": "اسم المنتج",
+        "labelEn": "Product name",
+        "defaultValue": "My product",
+        "defaultValueAr": "منتجي",
+        "defaultValueEn": "the featured product",
+        "descriptionAr": "اسم قصير للتعريف بالعبوة؛ لا تضف وصفًا تسويقيًا أو فائدة.",
+        "descriptionEn": "A short identifier for the package; do not add a marketing claim or benefit.",
+        "allowedValuesAr": "نص حر قصير، من دون ادعاءات أو أسعار.",
+        "allowedValuesEn": "Short free text, without claims or prices."
+      },
+      {
+        "key": "beachType",
+        "labelAr": "نوع الشاطئ",
+        "labelEn": "Beach setting",
+        "defaultValue": "calm_sandy",
+        "descriptionAr": "اختيار البيئة الساحلية خلف العبوة.",
+        "descriptionEn": "Selects the coastal background behind the package.",
+        "allowedValuesAr": "اختر أحد المشاهد المحددة أدناه.",
+        "allowedValuesEn": "Choose one of the listed settings.",
+        "options": [
+          {
+            "value": "calm_sandy",
+            "labelAr": "شاطئ رملي هادئ",
+            "labelEn": "Calm sandy beach"
+          },
+          {
+            "value": "rocky_coast",
+            "labelAr": "ساحل صخري هادئ",
+            "labelEn": "Quiet rocky coast"
+          },
+          {
+            "value": "open_sea",
+            "labelAr": "شاطئ بخلفية بحر مفتوحة",
+            "labelEn": "Beach with open-sea background"
+          }
+        ]
+      },
+      {
+        "key": "composition",
+        "labelAr": "التكوين",
+        "labelEn": "Composition",
+        "defaultValue": "package_foreground",
+        "descriptionAr": "يحدد علاقة العبوة بالخلفية من دون تغيير هوية المنتج.",
+        "descriptionEn": "Sets the package-to-background relationship without changing product identity.",
+        "allowedValuesAr": "اختر تكوينًا واحدًا من القائمة.",
+        "allowedValuesEn": "Choose one composition from the list.",
+        "options": [
+          {
+            "value": "package_foreground",
+            "labelAr": "العبوة في المقدمة والبحر خلفها",
+            "labelEn": "Package foreground, sea behind"
+          },
+          {
+            "value": "centered_package",
+            "labelAr": "العبوة في مركز الإطار مع مساحة حولها",
+            "labelEn": "Centered package with breathing room"
+          }
+        ]
+      },
+      {
+        "key": "palette",
+        "labelAr": "لوحة الألوان",
+        "labelEn": "Color palette",
+        "defaultValue": "sand_sea_white",
+        "descriptionAr": "اختيار لوني مقترح، مع تثبيت ألوان العبوة الأصلية.",
+        "descriptionEn": "A proposed palette while keeping the original package colors fixed.",
+        "allowedValuesAr": "اختر لوحة متناسقة من القائمة.",
+        "allowedValuesEn": "Choose a coordinated palette from the list.",
+        "options": [
+          {
+            "value": "sand_sea_white",
+            "labelAr": "رملي وأزرق بحري وأبيض دافئ",
+            "labelEn": "Sand, sea blue, and warm white"
+          },
+          {
+            "value": "soft_neutral",
+            "labelAr": "درجات محايدة ناعمة",
+            "labelEn": "Soft neutral tones"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "أرفق صورة واضحة للعبوة كاملة؛ هذه الخطوة لا تعيد إنشاء ملصق غير مقروء.",
+      "اختر الخلفية والتكوين، واترك ألوان العبوة ثابتة.",
+      "افحص اليد والملصق وشكل العبوة، ولا تنسب هذه الصياغة إلى نص الفيديو الأصلي."
+    ],
+    "stepsEn": [
+      "Attach a clear photo showing the full package; this prompt does not reconstruct unreadable label text.",
+      "Choose the setting and composition while keeping the package colors fixed.",
+      "Inspect the hand, label, and package shape; do not attribute this wording to the original video."
+    ],
+    "limitationsAr": "المصدر يثبت المشهد المرئي فقط، لا نص البرومبت أو إعدادات العدسة. الوصف والتكوين هنا توصية أصلية من Promptna. تحتاج البطاقة إلى صورة مخصصة محلية وفحص بصري.",
+    "limitationsEn": "The source note supports only the visible scene, not the original prompt or lens settings. The visual brief and composition are original Promptna recommendations. A dedicated local image and visual review are still required.",
+    "status": "needs_review",
+    "version": 5,
+    "lastReviewedAt": "2026-11-02",
+    "qualityAr": {
+      "score": 98,
+      "criteria": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        10,
+        8,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    },
+    "qualityEn": {
+      "score": 98,
+      "criteria": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        10,
+        8,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    }
+  },
+  {
+    "id": "reviewed-003",
+    "titleAr": "إعلان منتج عمودي مكتمل",
+    "titleEn": "Finished Vertical Product Advertisement",
+    "categoryAr": "إعلانات المنتجات",
+    "categoryEn": "Product Advertising",
+    "audienceAr": "فرق التسويق وأصحاب المنتجات",
+    "audienceEn": "Marketing teams and product owners",
+    "summaryAr": "إعلان فوتوغرافي عمودي واحد لمنتج بطل مع تفصيل ملمس ومساحة عنوان سالبة.",
+    "summaryEn": "One finished vertical product advertisement with a hero product, material detail, and negative headline space.",
+    "visualDescriptionAr": "إعلان رأسي واحد لمنتج بطل مع تفصيل خامة صغير ومساحة عنوان.",
+    "visualDescriptionEn": "One vertical product ad with a hero product, a small material detail, and headline space.",
+    "sourceEvidenceAr": "سجل محلي محفوظ للمصدر 3 في `research/review_log.json`: عبوة برتقالية ولوحة إعلانات متعددة الخانات ذات تخطيط عمودي. لم يُستعد نص البرومبت الأصلي كاملًا.",
+    "sourceEvidenceEn": "Saved local record for source 3 in `research/review_log.json`: an orange package and a multi-panel vertical advertising board. The complete original prompt was not recovered.",
+    "fixedElementsAr": [
+      "العبوة نفسها وشكلها وألوانها في جميع الخانات",
+      "لا شعارات أو فوائد أو أسعار غير موجودة في صورة الإدخال",
+      "المقاسات وتخطيط الخانات متساوقان ضمن اللوحة"
+    ],
+    "fixedElementsEn": [
+      "Keep the same package shape and colors across all panels.",
+      "Do not invent logos, benefits, or prices absent from the input photo.",
+      "Keep panel sizing and the grid consistent across the board."
+    ],
+    "image": "/images/cards/curated/reviewed-003.png",
+    "approved": false,
+    "imageStatus": "curated_local_preview",
+    "imageNoteAr": "معاينة محلية مخصصة مرتبطة بالمخرج المطلوب، أُنشئت دون خدمة مدفوعة؛ يلزم اعتماد بصري نهائي قبل النشر التجاري.",
+    "imageNoteEn": "Custom local preview matched to the requested output, created without paid services; final commercial approval is still required.",
+    "sourceIds": [
+      3
+    ],
+    "promptAr": "أنشئ إعلانًا فوتوغرافيًا عموديًا 9:16 لمنتج {{productName}} في لقطة واحدة مكتملة: المنتج بطل الصورة، مع تفصيل ملمس صغير مدمج داخل التكوين ومساحة عنوان سالبة. استخدم خلفية {{background}} ولوحة {{palette}} وإضاءة استوديو ثابتة، وحافظ على شكل المنتج وملصقه. اجعل {{panelCount}} يحدد كثافة التكوين فقط، ولا تعرض شبكة أو مربعات أو مخططًا.",
+    "promptEn": "Create one finished 9:16 vertical photographic advertisement for {{productName}}: make the product the hero, with one integrated material detail and intentional negative space for a headline. Use a {{background}} setting, {{palette}} palette, and consistent studio lighting while preserving the product shape and label. Let {{panelCount}} control only the visual density; do not show a grid, boxes, or blueprint.",
+    "variables": [
+      {
+        "key": "productName",
+        "labelAr": "اسم المنتج",
+        "labelEn": "Product name",
+        "defaultValue": "My product",
+        "defaultValueAr": "منتجي",
+        "defaultValueEn": "the featured product",
+        "descriptionAr": "اسم تعريفي للعبوة، بلا فوائد أو ادعاءات.",
+        "descriptionEn": "An identifier for the package, without benefits or claims.",
+        "allowedValuesAr": "نص قصير حر، لا يتضمن ادعاءً تسويقيًا.",
+        "allowedValuesEn": "Short free text with no marketing claim."
+      },
+      {
+        "key": "panelCount",
+        "labelAr": "عدد الخانات",
+        "labelEn": "Panel count",
+        "defaultValue": "6",
+        "descriptionAr": "يحدد عدد الخانات وتخطيط الشبكة.",
+        "descriptionEn": "Sets the number of panels and grid layout.",
+        "allowedValuesAr": "ست خانات (2×3) أو تسع خانات (3×3) فقط.",
+        "allowedValuesEn": "Six panels (2×3) or nine panels (3×3) only.",
+        "options": [
+          {
+            "value": "6",
+            "labelAr": "6 خانات — 2×3",
+            "labelEn": "6 panels — 2×3"
+          },
+          {
+            "value": "9",
+            "labelAr": "9 خانات — 3×3",
+            "labelEn": "9 panels — 3×3"
+          }
+        ]
+      },
+      {
+        "key": "palette",
+        "labelAr": "لوحة الألوان",
+        "labelEn": "Palette",
+        "defaultValue": "warm_orange",
+        "descriptionAr": "يغير لون الخلفية والإشارات فقط؛ لا يغير لون العبوة المرجعية.",
+        "descriptionEn": "Changes backgrounds and accents only; it does not recolor the referenced package.",
+        "allowedValuesAr": "لوحة برتقالية دافئة أو لوحة محايدة.",
+        "allowedValuesEn": "Warm orange palette or neutral palette.",
+        "options": [
+          {
+            "value": "warm_orange",
+            "labelAr": "برتقالي دافئ وأبيض",
+            "labelEn": "Warm orange and white"
+          },
+          {
+            "value": "neutral",
+            "labelAr": "محايدة وفحمية",
+            "labelEn": "Neutral and charcoal"
+          }
+        ]
+      },
+      {
+        "key": "background",
+        "labelAr": "الخلفية",
+        "labelEn": "Background",
+        "defaultValue": "soft studio surface",
+        "defaultValueAr": "سطح استوديو ناعم",
+        "defaultValueEn": "soft studio surface",
+        "descriptionAr": "يحدد سطح أو خلفية العرض خلف المنتج.",
+        "descriptionEn": "Sets the display surface or background behind the product.",
+        "allowedValuesAr": "وصف قصير لخلفية استوديو بسيطة وغير مشتتة.",
+        "allowedValuesEn": "A short description of a simple, non-distracting studio background."
+      }
+    ],
+    "stepsAr": [
+      "أرفق صورة واضحة للعبوة كاملة ومن دون قص الملصق.",
+      "اختر ستًا أو تسع خانات؛ سيتغير تخطيط الشبكة تبعًا للاختيار.",
+      "راجع كل خانة بحثًا عن اختلاف العبوة أو نصوص وادعاءات مختلقة."
+    ],
+    "stepsEn": [
+      "Attach a clear photo showing the complete package and label.",
+      "Choose six or nine panels; the grid changes with the selection.",
+      "Inspect each panel for package drift or invented text and claims."
+    ],
+    "limitationsAr": "السجل المحلي لا يثبت صحة فوائد أو أسعار ظاهرة في اللوحة الأصلية؛ لذلك تمنع هذه البطاقة إضافتها ما لم تكن موجودة في مدخل موثق. لا توجد صورة مخصصة معتمدة بعد.",
+    "limitationsEn": "The local record does not verify benefits or prices visible in the source board; this card therefore excludes them unless they are present in a documented input. No dedicated image is approved yet.",
+    "status": "needs_image",
+    "version": 4,
+    "lastReviewedAt": "2026-10-31",
+    "qualityAr": {
+      "score": 94,
+      "criteria": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        10,
+        9,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    },
+    "qualityEn": {
+      "score": 94,
+      "criteria": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        10,
+        9,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    }
+  },
+  {
+    "id": "reviewed-004",
+    "titleAr": "صورة أزياء تحريرية مع تفصيل خامة",
+    "titleEn": "Editorial Fashion Photograph with Texture Detail",
+    "categoryAr": "تفاصيل المنتجات والخامات",
+    "categoryEn": "Product Detail & Material",
+    "audienceAr": "مصورو المنتجات ومصممو الأزياء",
+    "audienceEn": "Product photographers and fashion designers",
+    "summaryAr": "صورة أزياء عمودية واحدة تُظهر القطعة كاملة مع تفصيل خامة مدمج.",
+    "summaryEn": "One vertical fashion photograph showing the full garment with an integrated material detail.",
+    "visualDescriptionAr": "صورة أزياء واحدة للقطعة كاملة مع تفصيل خامة مدمج.",
+    "visualDescriptionEn": "One fashion image showing the full garment with an integrated texture detail.",
+    "sourceEvidenceAr": "ملخص المالك للفيديو 4: قميص فاتح بطباعة مركزية، ثم لقطة قريبة للقماش والثنيات والحافة؛ أُشير إلى الماكرو وحرفة القماش والطابع الفاخر، وبقية النص غير مؤكدة.",
+    "sourceEvidenceEn": "Owner-provided note for video 4: a light shirt with a centered print, followed by close views of fabric, folds, and an edge. Macro/fabric-craft/luxury wording was visible; the rest is not confirmed.",
+    "fixedElementsAr": [
+      "لون القطعة وشكلها وموضع الطبعة كما في الصورة المرجعية",
+      "لا أجسام أو أيدٍ أو شعارات غير موجودة في المدخل",
+      "لا تفاصيل نسيج مختلقة أو تنعيم يخفي الملمس"
+    ],
+    "fixedElementsEn": [
+      "Preserve the garment color, shape, and print placement from the reference.",
+      "Do not add bodies, hands, or logos absent from the input.",
+      "Do not invent fabric details or smooth away the real texture."
+    ],
+    "image": "/images/cards/curated/reviewed-004.png",
+    "approved": false,
+    "imageStatus": "curated_local_preview",
+    "imageNoteAr": "معاينة محلية مخصصة مرتبطة بالمخرج المطلوب، أُنشئت دون خدمة مدفوعة؛ يلزم اعتماد بصري نهائي قبل النشر التجاري.",
+    "imageNoteEn": "Custom local preview matched to the requested output, created without paid services; final commercial approval is still required.",
+    "sourceIds": [
+      4
+    ],
+    "promptAr": "أنشئ صورة أزياء تحريرية عمودية واحدة لقطعة {{garmentType}}، تظهر القطعة كاملة على عارضة أو علاقة مع لقطة ملمس صغيرة مدمجة في الزاوية. استخدم إضاءة {{lighting}} وخلفية {{background}}، وحافظ على اللون والقصة والخياطة دون نباتات أو أثاث. أخرج صورة أزياء نهائية، لا لوحة تفاصيل أو شبكة.",
+    "promptEn": "Create one finished vertical editorial fashion photograph of a {{garmentType}}, showing the full garment on a model or hanger with one small integrated texture detail. Use {{lighting}} lighting and a {{background}} background, preserving color, cut, and stitching without plants or furniture. Deliver a final fashion image, not a detail board or grid.",
+    "variables": [
+      {
+        "key": "garmentType",
+        "labelAr": "نوع القطعة",
+        "labelEn": "Garment type",
+        "defaultValue": "shirt",
+        "defaultValueAr": "قميص",
+        "defaultValueEn": "shirt",
+        "descriptionAr": "يحدد اسم القطعة الظاهرة في المرجع.",
+        "descriptionEn": "Names the garment shown in the reference.",
+        "allowedValuesAr": "اسم قطعة ملابس ظاهر في الصورة؛ لا تغيّر التصميم.",
+        "allowedValuesEn": "A garment type visible in the photo; do not change its design."
+      },
+      {
+        "key": "lighting",
+        "labelAr": "الإضاءة",
+        "labelEn": "Lighting",
+        "defaultValue": "soft_side",
+        "descriptionAr": "طريقة إبراز النسيج من دون تغيير اللون.",
+        "descriptionEn": "Reveals the texture without shifting the color.",
+        "allowedValuesAr": "إضاءة جانبية ناعمة أو ضوء منتشر محايد.",
+        "allowedValuesEn": "Soft side light or neutral diffused light.",
+        "options": [
+          {
+            "value": "soft_side",
+            "labelAr": "إضاءة جانبية ناعمة",
+            "labelEn": "Soft side light"
+          },
+          {
+            "value": "diffused",
+            "labelAr": "ضوء منتشر محايد",
+            "labelEn": "Neutral diffused light"
+          }
+        ]
+      },
+      {
+        "key": "background",
+        "labelAr": "الخلفية",
+        "labelEn": "Background",
+        "defaultValue": "neutral warm gray",
+        "defaultValueAr": "رمادي دافئ محايد",
+        "defaultValueEn": "neutral warm gray",
+        "descriptionAr": "خلفية هادئة تساعد على فصل القطعة.",
+        "descriptionEn": "A quiet background that separates the garment from its surroundings.",
+        "allowedValuesAr": "وصف قصير لخلفية محايدة غير مشتتة.",
+        "allowedValuesEn": "A short description of a neutral, non-distracting background."
+      }
+    ],
+    "stepsAr": [
+      "استخدم صورة واضحة للقطعة كاملة قبل طلب التكبير.",
+      "اختر الإضاءة والخلفية؛ لا تغيّر خصائص القطعة المرجعية.",
+      "قارن اللقطات المكبرة بالأصل بحثًا عن تفاصيل مختلقة."
+    ],
+    "stepsEn": [
+      "Start with a clear photo of the complete garment before requesting close-ups.",
+      "Choose the lighting and background without changing the referenced item.",
+      "Compare magnified views with the original for invented details."
+    ],
+    "limitationsAr": "التكبير قد يوحي بنسيج غير موجود أو غير قابل للرؤية في دقة المرجع؛ يجب مقارنة كل تفصيل بالصورة الأصلية. لا توجد صورة مخصصة معتمدة بعد.",
+    "limitationsEn": "Magnification can imply texture that is absent or unresolved in the reference; compare every detail with the original. No dedicated image is approved yet.",
+    "status": "needs_image",
+    "version": 4,
+    "lastReviewedAt": "2026-10-31",
+    "qualityAr": {
+      "score": 99,
+      "criteria": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        10,
+        9,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    },
+    "qualityEn": {
+      "score": 99,
+      "criteria": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        10,
+        9,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    }
+  },
+  {
+    "id": "reviewed-005",
+    "titleAr": "إعلان اجتماعي عمودي من صورة منتج",
+    "titleEn": "Vertical Social Product Advertisement",
+    "categoryAr": "محتوى الشبكات الاجتماعية",
+    "categoryEn": "Social Media Content",
+    "audienceAr": "صناع المحتوى وفرق التسويق",
+    "audienceEn": "Content creators and marketing teams",
+    "summaryAr": "إعلان اجتماعي عمودي واحد يضع المنتج في سياق استخدام واقعي.",
+    "summaryEn": "One vertical social advertisement placing the product in a realistic use context.",
+    "visualDescriptionAr": "إعلان اجتماعي واحد يضع المنتج كاملًا في سياق استخدام واقعي.",
+    "visualDescriptionEn": "One social advertisement placing the complete product in a realistic use context.",
+    "sourceEvidenceAr": "ملخص المالك للفيديو 5 يذكر عبوة Puck زرقاء في متجر، وواجهة هاتف، ومخرجات إعلانية متعددة؛ جزء من وصف الطلب كان مقروءًا فقط. تستخدم البطاقة منتجًا عامًا وتتجنب ادعاء معرفة النص الكامل.",
+    "sourceEvidenceEn": "The owner's note for video 5 mentions a blue Puck package in a store, a phone interface, and multiple advertising outputs; only part of the request was readable. This card uses a generic product and does not claim to know the full text.",
+    "fixedElementsAr": [
+      "هوية العبوة وألوانها وشكلها واتجاه ملصقها في جميع الخانات",
+      "لا علامة تجارية أو فوائد أو أسعار أو شهادات غير مطلوبة",
+      "مساحة نصية فارغة بدل توليد كتابة صغيرة غير موثوقة"
+    ],
+    "fixedElementsEn": [
+      "Keep package identity, colors, shape, and label orientation consistent across panels.",
+      "Do not add an unrequested brand, benefit, price, or endorsement.",
+      "Leave copy areas blank instead of generating unreliable small text."
+    ],
+    "image": "/images/cards/curated/reviewed-005.png",
+    "approved": false,
+    "imageStatus": "curated_local_preview",
+    "imageNoteAr": "معاينة محلية مخصصة مرتبطة بالمخرج المطلوب، أُنشئت دون خدمة مدفوعة؛ يلزم اعتماد بصري نهائي قبل النشر التجاري.",
+    "imageNoteEn": "Custom local preview matched to the requested output, created without paid services; final commercial approval is still required.",
+    "sourceIds": [
+      5
+    ],
+    "promptAr": "أنشئ صورة إعلان اجتماعي عمودية واحدة للمنتج المرجعي بأسلوب {{style}} وإضاءة {{lighting}}. اجعل المنتج كاملًا هو البطل داخل سياق استخدام واقعي، مع مساحة سالبة واضحة لعنوان لاحق، وحافظ على العبوة وملصقها. استخدم {{storyCount}} لتحديد كثافة التفاصيل في المشهد، لا عدد الخانات. لا تخترع نصًا أو ادعاءات، وأخرج إعلانًا واحدًا جاهزًا للنشر.",
+    "promptEn": "Create one finished vertical social advertisement for the reference product using {{style}} styling and {{lighting}} lighting. Make the complete product the hero in a realistic use context, with clean negative space for later copy, preserving the package and label. Use {{storyCount}} only to control scene detail, not panel count. Invent no text or claims; deliver one publishable ad.",
+    "variables": [
+      {
+        "key": "storyCount",
+        "labelAr": "عدد الإطارات",
+        "labelEn": "Frame count",
+        "defaultValue": "4",
+        "descriptionAr": "يحدد العدد مع قواعد واضحة لتكييف المشاهد.",
+        "descriptionEn": "Sets the number with explicit rules for adapting the scenes.",
+        "allowedValuesAr": "3 أو 4 أو 6 إطارات فقط.",
+        "allowedValuesEn": "3, 4, or 6 frames only.",
+        "options": [
+          {
+            "value": "3",
+            "labelAr": "3 إطارات",
+            "labelEn": "3 frames"
+          },
+          {
+            "value": "4",
+            "labelAr": "4 إطارات",
+            "labelEn": "4 frames"
+          },
+          {
+            "value": "6",
+            "labelAr": "6 إطارات",
+            "labelEn": "6 frames"
+          }
+        ]
+      },
+      {
+        "key": "style",
+        "labelAr": "الأسلوب",
+        "labelEn": "Style",
+        "defaultValue": "clean_editorial",
+        "descriptionAr": "يحدد الطابع العام من دون تغيير هوية المنتج.",
+        "descriptionEn": "Sets the overall treatment without changing product identity.",
+        "allowedValuesAr": "تحريري نظيف أو سياق استخدام هادئ.",
+        "allowedValuesEn": "Clean editorial or a calm use context.",
+        "options": [
+          {
+            "value": "clean_editorial",
+            "labelAr": "تحريري نظيف",
+            "labelEn": "Clean editorial"
+          },
+          {
+            "value": "calm_lifestyle",
+            "labelAr": "أسلوب استخدام هادئ",
+            "labelEn": "Calm lifestyle"
+          }
+        ]
+      },
+      {
+        "key": "lighting",
+        "labelAr": "الإضاءة",
+        "labelEn": "Lighting",
+        "defaultValue": "soft_daylight",
+        "descriptionAr": "يحدد إحساس الإضاءة مع الحفاظ على لون المنتج.",
+        "descriptionEn": "Sets the lighting mood while preserving product color.",
+        "allowedValuesAr": "ضوء نهاري ناعم أو إضاءة استوديو منتشرة.",
+        "allowedValuesEn": "Soft daylight or diffused studio light.",
+        "options": [
+          {
+            "value": "soft_daylight",
+            "labelAr": "ضوء نهاري ناعم",
+            "labelEn": "Soft daylight"
+          },
+          {
+            "value": "diffused_studio",
+            "labelAr": "إضاءة استوديو منتشرة",
+            "labelEn": "Diffused studio light"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "أرفق صورة واضحة للمنتج والملصق.",
+      "اختر عدد الإطارات والأسلوب والإضاءة؛ القواعد داخل البرومبت توضّح التكييف.",
+      "افحص ثبات العبوة بين الإطارات، ثم أضف النص النهائي يدويًا."
+    ],
+    "stepsEn": [
+      "Attach a clear photo of the product and label.",
+      "Choose the frame count, style, and lighting; the prompt specifies how scenes adapt.",
+      "Check package consistency across frames, then add final copy manually."
+    ],
+    "limitationsAr": "ملاحظة المالك لا تتضمن النص الكامل ولا تثبت طريقة إنشاء كل مخرج. يلزم فحص كل إطار منفردًا؛ لا توجد صورة مخصصة معتمدة بعد.",
+    "limitationsEn": "The owner's note does not include the full prompt or establish how every output was produced. Inspect each frame individually; no dedicated image is approved yet.",
+    "status": "needs_image",
+    "version": 4,
+    "lastReviewedAt": "2026-10-31",
+    "qualityAr": {
+      "score": 93,
+      "criteria": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        10,
+        8,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    },
+    "qualityEn": {
+      "score": 93,
+      "criteria": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        10,
+        8,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    }
+  },
+  {
+    "id": "owner-note-002",
+    "titleAr": "موكاب واقعي لهوية مقهى على منتجات",
+    "titleEn": "Realistic Cafe Brand Product Mockup",
+    "categoryAr": "العلامة التجارية والمنتجات",
+    "categoryEn": "Branding & Products",
+    "audienceAr": "أصحاب المقاهي والمصممون الباحثون عن تصور بصري لهوية مقهى مطبّقة على منتجات.",
+    "audienceEn": "Cafe owners and designers seeking a visual concept for a cafe identity applied across products.",
+    "summaryAr": "مشهد تصويري واحد يعرض العلامة على منتجات مكتملة بخامات واقعية.",
+    "summaryEn": "One photographed product scene showing the brand on complete products with realistic materials.",
+    "visualDescriptionAr": "مشهد تصويري واحد لمنتجات تحمل علامة المقهى بخامات وإضاءة واقعية.",
+    "visualDescriptionEn": "One photographed product scene with realistic branded cafe applications.",
+    "sourceEvidenceAr": "المصدر الوحيد هو ملف الملاحظة المرفق. ملخص المالك يذكر مرجع قميص ثم هوية SMILE COFFEE على قميص وحقيبة وعبوات في لوحة متعددة المنتجات، ويذكر أن نص البرومبت الكامل لم يكن مقروءًا. لم يُفتح رابط الفيديو ولم تُشاهد مادته.",
+    "sourceEvidenceEn": "The sole source is the attached note file. The owner summary mentions a shirt reference followed by the SMILE COFFEE identity on a shirt, bag, and containers in a multi-product board, and says the full prompt was not readable. The video link was not opened and its content was not viewed.",
+    "fixedElementsAr": [
+      "صورة ثابتة، لا فيديو أو حركة.",
+      "لوحة تعرض تطبيق هوية مقهى على قميص وحقيبة وعبوات.",
+      "استخدام الاسم SMILE COFFEE كما هو دون اختراع نص شعار إضافي.",
+      "صياغة تصور تصميمي أصلي؛ لا ادعاء باستعادة البرومبت أو مظهر المصدر."
+    ],
+    "fixedElementsEn": [
+      "A still image, not video or motion.",
+      "A board showing a cafe identity applied to a shirt, bag, and containers.",
+      "Use the name SMILE COFFEE as written, without inventing additional slogan text.",
+      "Create an original design concept; do not claim to recover the source's prompt or appearance."
+    ],
+    "image": "/images/cards/curated/owner-note-002.png",
+    "approved": false,
+    "imageStatus": "curated_local_preview",
+    "imageNoteAr": "معاينة محلية مخصصة مرتبطة بالمخرج المطلوب، أُنشئت دون خدمة مدفوعة؛ يلزم اعتماد بصري نهائي قبل النشر التجاري.",
+    "imageNoteEn": "Custom local preview matched to the requested output, created without paid services; final commercial approval is still required.",
+    "sourceIds": [
+      2
+    ],
+    "promptAr": "أنشئ صورة موكاب واقعية نهائية لعلامة {{brandName}} على مجموعة التطبيقات {{applicationSet}}، بتكوين {{layout}} ولوحة {{palette}}. أظهر قميصًا وحقيبة وكوبًا وعبوة مكتملة تحمل العلامة المقدمة، مع خامات واقعية وإضاءة استوديو واتساق في الشعار. لا تعرض لوحة شرح أو أسماء نائبة؛ أخرج مشهد عرض تجاري واحدًا للمنتجات.",
+    "promptEn": "Create one finished realistic brand mockup for {{brandName}} across the {{applicationSet}} applications, using a {{layout}} composition and {{palette}} palette. Show a complete shirt, bag, cup, and package carrying the supplied mark, with realistic materials, studio lighting, and consistent logo placement. Do not show an explanatory board or placeholder names; deliver one commercial product scene.",
+    "variables": [
+      {
+        "key": "brandName",
+        "labelAr": "اسم العلامة",
+        "labelEn": "Brand name",
+        "defaultValue": "Cedar Cafe",
+        "defaultValueAr": "مقهى سيدر",
+        "defaultValueEn": "Cedar Cafe",
+        "descriptionAr": "اسم العلامة؛ يؤثر مباشرة في المخرج.",
+        "descriptionEn": "Brand name; directly changes the output.",
+        "allowedValuesAr": "قيمة محددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A specific value within the card scope."
+      },
+      {
+        "key": "palette",
+        "labelAr": "لوحة الألوان",
+        "labelEn": "Color palette",
+        "defaultValue": "warm_neutral",
+        "defaultValueAr": "محايدة دافئة",
+        "defaultValueEn": "Warm neutral",
+        "descriptionAr": "اختيار طابع الألوان الموصى به للوحة والمنتجات.",
+        "descriptionEn": "Selects the recommended color mood for the board and products.",
+        "allowedValuesAr": "القيم: محايدة دافئة، أبيض وأسود، ألوان زاهية.",
+        "allowedValuesEn": "Values: warm neutral, monochrome, vivid colors.",
+        "options": [
+          {
+            "value": "warm_neutral",
+            "labelAr": "محايدة دافئة",
+            "labelEn": "Warm neutral"
+          },
+          {
+            "value": "monochrome",
+            "labelAr": "أبيض وأسود",
+            "labelEn": "Monochrome"
+          },
+          {
+            "value": "vivid",
+            "labelAr": "ألوان زاهية",
+            "labelEn": "Vivid colors"
+          }
+        ]
+      },
+      {
+        "key": "layout",
+        "labelAr": "التخطيط",
+        "labelEn": "Layout",
+        "defaultValue": "grid",
+        "defaultValueAr": "شبكي",
+        "defaultValueEn": "Grid",
+        "descriptionAr": "يحدد طريقة ترتيب المنتجات داخل لوحة العرض.",
+        "descriptionEn": "Determines how the products are arranged on the presentation board.",
+        "allowedValuesAr": "القيم: شبكي، مسطح علوي، عرض استوديو.",
+        "allowedValuesEn": "Values: grid, flat lay, studio display.",
+        "options": [
+          {
+            "value": "grid",
+            "labelAr": "شبكي",
+            "labelEn": "Grid"
+          },
+          {
+            "value": "flat_lay",
+            "labelAr": "مسطح علوي",
+            "labelEn": "Flat lay"
+          },
+          {
+            "value": "studio_display",
+            "labelAr": "عرض استوديو",
+            "labelEn": "Studio display"
+          }
+        ]
+      },
+      {
+        "key": "applicationSet",
+        "labelAr": "مجموعة التطبيقات",
+        "labelEn": "Application set",
+        "defaultValue": "cafe_core",
+        "defaultValueAr": "الشعار والعبوة واللافتة",
+        "defaultValueEn": "logo, packaging, and signage",
+        "descriptionAr": "مجموعة التطبيقات؛ يؤثر مباشرة في المخرج.",
+        "descriptionEn": "Application set; directly changes the output.",
+        "allowedValuesAr": "قيمة محددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A specific value within the card scope.",
+        "options": [
+          {
+            "value": "cafe_core",
+            "labelAr": "الشعار والعبوة واللافتة",
+            "labelEn": "Logo, packaging, and signage"
+          },
+          {
+            "value": "stationery_core",
+            "labelAr": "الشعار والبطاقة والأختام",
+            "labelEn": "Logo, card, and stamps"
+          },
+          {
+            "value": "digital_core",
+            "labelAr": "الشعار والواجهة والمنشورات",
+            "labelEn": "Logo, interface, and social posts"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "اختر لوحة الألوان والتخطيط.",
+      "أنشئ صورة ثابتة واحدة تعرض القميص والحقيبة والعبوات.",
+      "تحقق من ظهور اسم SMILE COFFEE بوضوح ومن عدم إضافة نصوص غير مطلوبة."
+    ],
+    "stepsEn": [
+      "Choose the color palette and layout.",
+      "Create one still image showing the shirt, bag, and containers.",
+      "Check that SMILE COFFEE is legible and that no unrequested text has been added."
+    ],
+    "limitationsAr": "ملخص المالك لا يحدد ألوانًا أو أسلوبًا أو ترتيبًا دقيقًا أو تفاصيل للمنتجات؛ الخيارات في البرومبت توصيات تصميمية قابلة للتعديل. نص البرومبت الأصلي غير متاح، ولا يمكن ضمان دقة كتابة النص داخل الصورة.",
+    "limitationsEn": "The owner summary does not specify colors, style, exact arrangement, or product details; the prompt's choices are adjustable design recommendations. The original prompt is unavailable, and accurate text rendering in the image cannot be guaranteed.",
+    "status": "needs_review",
+    "version": 4,
+    "lastReviewedAt": "2026-11-02",
+    "qualityAr": {
+      "score": 97,
+      "criteria": [
+        14,
+        14,
+        15,
+        15,
+        15,
+        10,
+        9,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    },
+    "qualityEn": {
+      "score": 97,
+      "criteria": [
+        14,
+        14,
+        15,
+        15,
+        15,
+        10,
+        9,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    }
+  },
+  {
+    "id": "owner-note-007",
+    "titleAr": "لوحة مقارنة لهوية سرمد البصرية",
+    "titleEn": "Sarmad Visual Identity Comparison Board",
+    "categoryAr": "هوية بصرية وتصميم علامة",
+    "categoryEn": "Visual Identity and Brand Design",
+    "audienceAr": "مصممو الهوية البصرية وأصحاب المشاريع الذين يريدون عرض اتجاهين تصميميين للمقارنة",
+    "audienceEn": "Brand designers and business owners who want to compare two visual design directions",
+    "summaryAr": "لوحة مفهوم ثابتة تقارن دراستين تخيليتين لكتابة «سرمد / SARMAD»، لا هوية بصرية كاملة.",
+    "summaryEn": "A static concept board comparing two hypothetical lettering studies for “سرمد / SARMAD,” not a complete visual identity.",
+    "visualDescriptionAr": "لوحة مفهوم ثابتة تقارن دراستين تخيليتين لكتابة «سرمد / SARMAD»، لا هوية بصرية كاملة.",
+    "visualDescriptionEn": "A static concept board comparing two hypothetical lettering studies for “سرمد / SARMAD,” not a complete visual identity.",
+    "sourceEvidenceAr": "ملخص المالك؛ لم تُعد مشاهدة الفيديو في هذه المهمة. ما أورده المالك حرفيًا: «مقارنة واجهتي توليد ومخرجات هوية بصرية تحمل «سرمد / SARMAD». نص المهمة الكامل لا يمكن تأكيده، ولا يمكن الجزم بتطابق المدخلين اعتمادًا على شكل العرض وحده.» توصية Promptna الأصلية: إنشاء لوحة مقارنة ثابتة لاتجاهين بصريين افتراضيين تحمل الاسم المذكور، من دون الادعاء بأنهما الواجهتان أو المخرجات الأصلية.",
+    "sourceEvidenceEn": "Owner summary; the video was not re-watched for this task. The owner's statement, translated: “A comparison of two generation interfaces and visual identity outputs bearing ‘سرمد / SARMAD.’ The full task text cannot be confirmed, and the inputs cannot be assumed to match based on the presentation alone.” Original Promptna recommendation: create a static comparison board of two hypothetical visual directions bearing the stated name, without claiming they are the original interfaces or outputs.",
+    "fixedElementsAr": [
+      "صورة ثابتة فقط، وليست فيديو أو واجهة فعلية.",
+      "تكوين مقارن من عمودين يقدّم اتجاهين بصريين مستقلين.",
+      "اكتب الاسم «سرمد / SARMAD» كما هو دون إضافة ادعاءات عن العلامة.",
+      "لا تنسب التصميم إلى واجهة أو مخرجات حقيقية ولا توحِ بتطابق مدخلين."
+    ],
+    "fixedElementsEn": [
+      "Static image only, not a video or an actual interface.",
+      "A two-column comparison presenting two independent visual directions.",
+      "Render the name “سرمد / SARMAD” as provided, without adding brand claims.",
+      "Do not attribute the design to real interfaces or outputs or imply that two inputs match."
+    ],
+    "image": "/images/cards/webp/owner-note-007.webp",
+    "approved": false,
+    "imageStatus": "experimental",
+    "imageNoteAr": "صورة تجريبية مولدة لتوضيح الفكرة؛ ليست نتيجة ناتجة من هذا البرومبت ولا اعتمادًا بصريًا.",
+    "imageNoteEn": "AI-generated concept preview for illustration; it is not an output produced by this prompt or a visual approval.",
+    "sourceIds": [
+      7
+    ],
+    "promptAr": "أنشئ صورة ثابتة عالية الجودة للوحة مفهوم تقارن بين دراستين تخيليتين مستقلتين لمعالجة الاسم «سرمد / SARMAD» كشعار وكتابة، لا كهوية بصرية مكتملة. أظهر الاسم نفسه بوضوح وبتهجئته الدقيقة في كل دراسة، مع تناغم مقروء بين الحروف العربية وSARMAD اللاتينية.\n\nالتوجيه الأسلوبي: {{style}}.\nتوجيه ترتيب اللوحة: {{layout}}.\n\nاجعل الدراستين مختلفتين فعلًا في بناء الحروف والإيقاع البصري، مع اتساق بصري داخلي لكل منهما. استخدم خلفية مسطحة نظيفة، وتباينًا لونيًا مدروسًا، وعناصر رسومية مقتصدة، ومساحات بيضاء مريحة ومحاذاة دقيقة وهوامش متسقة. اعرض التصميم من الأمام كلوحة مسطحة، بإضاءة متجانسة ناعمة، وحواف واضحة وتفاصيل حادة.\n\nلا تضف نصوصًا تفسيرية أو شعارات أخرى أو لوحة ألوان مستقلة أو تطبيقات للهوية أو صور منتجات. تجنب أخطاء كتابة الاسم، والحروف الزائدة، والتشويه أو التداخل، والزخرفة المفرطة، والازدحام، والعناصر غير المرتبطة، والظلال الدرامية والمؤثرات ثلاثية الأبعاد. لا توحِ بأن التصميم هوية مكتملة أو بأنه أصلي أو معتمد.",
+    "promptEn": "Create a polished, high-quality static concept board comparing two independent hypothetical treatments of the name “سرمد / SARMAD” as logo and lettering studies, not as a complete visual identity. Render the exact supplied name clearly in each study, preserving its spelling and keeping the Arabic lettering harmonious and legible alongside the Latin SARMAD.\n\nStyle direction: {{style}}.\nBoard arrangement direction: {{layout}}.\n\nMake the two studies genuinely distinct in letterform construction and visual rhythm, while giving each a coherent visual treatment. Use a clean, flat background, considered color contrast, restrained graphic elements, comfortable negative space, precise alignment, and consistent margins. Show the design straight-on as a flat board, with soft, even lighting, crisp details, and clean edges.\n\nDo not add explanatory copy, other logos, a separate color palette, identity applications, or product imagery. Avoid misspellings, extra characters, distortion or overlap, excessive ornament, clutter, unrelated elements, dramatic shadows, and 3D effects. Do not imply a complete identity or claim that the design is original or approved.",
+    "variables": [
+      {
+        "key": "style",
+        "labelAr": "الأسلوب البصري",
+        "labelEn": "Visual style",
+        "defaultValue": "minimal",
+        "defaultValueAr": "بسيط",
+        "defaultValueEn": "Minimal",
+        "descriptionAr": "يحدد المعالجة المرئية التي تميز اتجاهي الهوية في اللوحة.",
+        "descriptionEn": "Sets the visual treatment that distinguishes the two identity directions on the board.",
+        "allowedValuesAr": "اختر إحدى القيم: بسيط، هندسي، تحريري.",
+        "allowedValuesEn": "Choose one value: minimal, geometric, editorial.",
+        "options": [
+          {
+            "value": "minimal",
+            "labelAr": "بسيط",
+            "labelEn": "Minimal"
+          },
+          {
+            "value": "geometric",
+            "labelAr": "هندسي",
+            "labelEn": "Geometric"
+          },
+          {
+            "value": "editorial",
+            "labelAr": "تحريري",
+            "labelEn": "Editorial"
+          }
+        ]
+      },
+      {
+        "key": "layout",
+        "labelAr": "تنسيق اللوحة",
+        "labelEn": "Board layout",
+        "defaultValue": "balanced side-by-side",
+        "defaultValueAr": "متوازن جنبًا إلى جنب",
+        "defaultValueEn": "Balanced side-by-side",
+        "descriptionAr": "يحدد كيفية ترتيب الاتجاهين على لوحة المقارنة.",
+        "descriptionEn": "Determines how the two directions are arranged on the comparison board.",
+        "allowedValuesAr": "اختر إحدى القيم: متوازن جنبًا إلى جنب، عمودان غير متماثلين، شبكة بطاقات.",
+        "allowedValuesEn": "Choose one value: balanced side-by-side, asymmetric columns, card grid.",
+        "options": [
+          {
+            "value": "balanced side-by-side",
+            "labelAr": "متوازن جنبًا إلى جنب",
+            "labelEn": "Balanced side-by-side"
+          },
+          {
+            "value": "asymmetric columns",
+            "labelAr": "عمودان غير متماثلين",
+            "labelEn": "Asymmetric columns"
+          },
+          {
+            "value": "card grid",
+            "labelAr": "شبكة بطاقات",
+            "labelEn": "Card grid"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "ثبّت اسم «سرمد / SARMAD» في موضع مقروء ضمن كلا الاتجاهين.",
+      "أنشئ معالجة بصرية مستقلة لكل عمود مع الحفاظ على وضوح المقارنة.",
+      "طبّق الأسلوب والتنسيق المختارين مع تجنب محاكاة واجهة فعلية أو اختلاق تفاصيل مصدرية."
+    ],
+    "stepsEn": [
+      "Place the name “سرمد / SARMAD” legibly within both directions.",
+      "Create an independent visual treatment for each column while keeping the comparison clear.",
+      "Apply the selected style and layout without imitating a real interface or inventing source details."
+    ],
+    "limitationsAr": "الملاحظة لا تكشف نص المهمة الأصلي أو تفاصيل الواجهتين أو المخرجات، ولا تثبت أن المدخلين متطابقان. لذلك تصف البطاقة تصورًا ثابتًا عامًا لا إعادة إنشاء دقيقة للمحتوى المشار إليه. يلزم إرفاق صورة مستقلة للمراجعة قبل القبول.",
+    "limitationsEn": "The note does not reveal the original task text, interface details, or outputs, and does not establish that the inputs match. This card therefore describes a general static concept, not a faithful recreation of the referenced content. An independent image is required for review before acceptance.",
+    "status": "needs_image",
+    "version": 3,
+    "lastReviewedAt": "2026-10-31",
+    "qualityAr": {
+      "score": 96,
+      "criteria": [
+        15,
+        15,
+        14,
+        15,
+        14,
+        9,
+        9,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    },
+    "qualityEn": {
+      "score": 96,
+      "criteria": [
+        15,
+        15,
+        14,
+        15,
+        14,
+        9,
+        9,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    }
+  },
+  {
+    "id": "owner-note-008",
+    "titleAr": "ورقة ملصقات طعام مكتملة",
+    "titleEn": "Finished Food Sticker Sheet",
+    "categoryAr": "ملصقات ورسوم طعام",
+    "categoryEn": "Food stickers and illustration",
+    "audienceAr": "لمن يريد إنشاء ورقة ملصقات طعام مرحة للاستخدام الرقمي أو للطباعة",
+    "audienceEn": "People creating a playful food sticker sheet for digital use or print",
+    "summaryAr": "ورقة ملصقات نهائية قابلة للطباعة لكوب وسندويتش بشخصيات مختلفة.",
+    "summaryEn": "A finished printable sticker sheet for a cup and sandwich with distinct characters.",
+    "visualDescriptionAr": "ورقة ملصقات نهائية لكوب وسندويتش بشخصيات مختلفة.",
+    "visualDescriptionEn": "A finished sticker sheet for a cup and sandwich with distinct characters.",
+    "sourceEvidenceAr": "المصدر الوحيد: ملف ملاحظة المالك. نصه: «عرض واجهتي ChatGPT وGemini ثم نتائج ملصقات مرتبطة بصورة كوب طعام وسندويتش. الملاحظة المرئية مقارنة المخرجات؛ لا يُفترض تطابق المدخلات ما لم يوثق.» لم يُفتح رابط الفيديو ولم تُشاهد مادته. المقارنة والتفاصيل غير الواردة ليست أدلة على البرومبتات أو المدخلات الأصلية.",
+    "sourceEvidenceEn": "Sole source: the owner-note file. Its text says: “The ChatGPT and Gemini interfaces were shown, followed by sticker results related to an image of a food cup and a sandwich. The visible note is a comparison of outputs; matching inputs should not be assumed unless documented.” The video link was not opened and its contents were not viewed. The comparison and details absent from the note are not evidence of the original prompts or inputs.",
+    "fixedElementsAr": [
+      "صورة ثابتة لورقة ملصقات أصلية، لا فيديو أو حركة.",
+      "كوب طعام وسندويتش هما موضوعا الرسوم الأساسيان.",
+      "ترتيب بصري واضح مع فصل العناصر وحواف ملصقات ظاهرة.",
+      "لا تُمثّل الصورة إعادة إنشاء مؤكدة لنتيجة أو واجهة أو مدخلات المصدر."
+    ],
+    "fixedElementsEn": [
+      "A static image of an original sticker sheet, not video or animation.",
+      "A food cup and a sandwich are the primary illustrated subjects.",
+      "Use a clear layout with separated elements and visible sticker outlines.",
+      "Do not present the image as a verified recreation of any source result, interface, or input."
+    ],
+    "image": "/images/cards/curated/owner-note-008.png",
+    "approved": false,
+    "imageStatus": "curated_local_preview",
+    "imageNoteAr": "معاينة محلية مخصصة مرتبطة بالمخرج المطلوب، أُنشئت دون خدمة مدفوعة؛ يلزم اعتماد بصري نهائي قبل النشر التجاري.",
+    "imageNoteEn": "Custom local preview matched to the requested output, created without paid services; final commercial approval is still required.",
+    "sourceIds": [
+      8
+    ],
+    "promptAr": "أنشئ ورقة ملصقات طعام نهائية قابلة للطباعة بأسلوب {{sticker_style}} ومقاس {{sheetFormat}}، تحتوي على {{stickerCount}} رسوم مكتملة لكوب مشروب وسندويتش. اجعل كل ملصق ذا شخصية ووضعية مختلفة، بألوان وحدود قص متساوية وخلفية بيضاء أو شفافة. أخرج ورقة ملصقات فعلية، لا مخططًا أو مناطق نائبة أو نصًا مشوهًا.",
+    "promptEn": "Create one finished printable food sticker sheet in {{sticker_style}} style and {{sheetFormat}} format with {{stickerCount}} complete illustrations of a drink cup and sandwich. Give each sticker a distinct pose and personality, with unified colors, even cutlines, and a white or transparent background. Deliver an actual sticker sheet, not a diagram, placeholder zones, or distorted text.",
+    "variables": [
+      {
+        "key": "sticker_style",
+        "labelAr": "أسلوب الملصقات",
+        "labelEn": "Sticker style",
+        "defaultValue": "playful flat illustration",
+        "defaultValueAr": "رسم توضيحي مسطح مرح",
+        "defaultValueEn": "playful flat illustration",
+        "descriptionAr": "يحدد المظهر الرسومي المستخدم لرسوم الكوب والسندويتش؛ القيمة الافتراضية مستخدمة في البرومبت.",
+        "descriptionEn": "Sets the illustrative appearance of the cup and sandwich; the default is used in the prompt.",
+        "allowedValuesAr": "اختر إحدى القيم المحددة في الخيارات.",
+        "allowedValuesEn": "Choose one of the listed values.",
+        "options": [
+          {
+            "value": "playful flat illustration",
+            "labelAr": "رسم توضيحي مسطح مرح",
+            "labelEn": "Playful flat illustration"
+          },
+          {
+            "value": "soft watercolor illustration",
+            "labelAr": "رسم مائي ناعم",
+            "labelEn": "Soft watercolor illustration"
+          },
+          {
+            "value": "bold retro illustration",
+            "labelAr": "رسم توضيحي عتيق جريء",
+            "labelEn": "Bold retro illustration"
+          }
+        ]
+      },
+      {
+        "key": "sheetFormat",
+        "labelAr": "تنسيق ورقة الملصقات",
+        "labelEn": "Sticker-sheet format",
+        "defaultValue": "two_by_two",
+        "defaultValueAr": "شبكة 2×2",
+        "defaultValueEn": "2x2 sheet",
+        "descriptionAr": "تنسيق ورقة الملصقات؛ يؤثر مباشرة في المخرج.",
+        "descriptionEn": "Sticker-sheet format; directly changes the output.",
+        "allowedValuesAr": "قيمة محددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A specific value within the card scope.",
+        "options": [
+          {
+            "value": "two_by_two",
+            "labelAr": "شبكة 2×2",
+            "labelEn": "2x2 sheet"
+          },
+          {
+            "value": "horizontal_strip",
+            "labelAr": "شريط أفقي",
+            "labelEn": "Horizontal strip"
+          },
+          {
+            "value": "individual_cuts",
+            "labelAr": "ملصقات منفردة متباعدة",
+            "labelEn": "Separated individual cuts"
+          }
+        ]
+      },
+      {
+        "key": "stickerCount",
+        "labelAr": "عدد الملصقات",
+        "labelEn": "Sticker count",
+        "defaultValue": "two",
+        "defaultValueAr": "ملصقان رئيسيان",
+        "defaultValueEn": "two main stickers",
+        "descriptionAr": "عدد الملصقات؛ يؤثر مباشرة في المخرج.",
+        "descriptionEn": "Sticker count; directly changes the output.",
+        "allowedValuesAr": "قيمة محددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A specific value within the card scope.",
+        "options": [
+          {
+            "value": "two",
+            "labelAr": "ملصقان رئيسيان",
+            "labelEn": "Two main stickers"
+          },
+          {
+            "value": "four",
+            "labelAr": "أربعة ملصقات",
+            "labelEn": "Four stickers"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "اختر أسلوب الملصقات من الخيارات؛ الافتراضي رسم توضيحي مسطح مرح.",
+      "أنشئ صورة ثابتة تتضمن كوب طعام وسندويتش كموضوعين أساسيين.",
+      "رتّب الملصقات بوضوح على خلفية بسيطة مع حواف ومسافات فاصلة."
+    ],
+    "stepsEn": [
+      "Choose a sticker style; the default is playful flat illustration.",
+      "Create a static image with a food cup and sandwich as the main subjects.",
+      "Arrange the stickers clearly on a simple background with outlines and spacing."
+    ],
+    "limitationsAr": "الملاحظة لا توثق البرومبت الأصلي، ولا تثبت أن المدخلات متطابقة بين الواجهتين، ولا تقدم تفاصيل بصرية إضافية. هذه مسودة صورة ثابتة توصوية وليست إعادة بناء للمخرجات المعروضة.",
+    "limitationsEn": "The note does not document the original prompt, establish that inputs matched across the interfaces, or provide further visual details. This is a recommended static-image draft, not a reconstruction of the displayed outputs.",
+    "status": "needs_review",
+    "version": 4,
+    "lastReviewedAt": "2026-11-02",
+    "qualityAr": {
+      "score": 98,
+      "criteria": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        9,
+        9,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    },
+    "qualityEn": {
+      "score": 98,
+      "criteria": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        9,
+        9,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    }
+  },
+  {
+    "id": "owner-note-038",
+    "titleAr": "صورة ثابتة فاخرة لكوب قهوة أسود",
+    "titleEn": "Luxury Still Image of a Black Coffee Cup",
+    "categoryAr": "تصوير المنتجات",
+    "categoryEn": "Product Photography",
+    "audienceAr": "صنّاع المحتوى وأصحاب المنتجات الذين يحتاجون صورة ترويجية ثابتة للقهوة",
+    "audienceEn": "Content creators and product owners who need a promotional still image for coffee",
+    "summaryAr": "صورة إعلانية استوديوية لكوب قهوة أسود، بلقطة قريبة تُظهر شكله ومقبضه بوضوح مع إضاءة وتباين مضبوطين.",
+    "summaryEn": "A refined studio product image of a black coffee cup, framed close to show its form and handle with controlled lighting and contrast.",
+    "visualDescriptionAr": "صورة إعلانية استوديوية لكوب قهوة أسود، بلقطة قريبة تُظهر شكله ومقبضه بوضوح مع إضاءة وتباين مضبوطين.",
+    "visualDescriptionEn": "A refined studio product image of a black coffee cup, framed close to show its form and handle with controlled lighting and contrast.",
+    "sourceEvidenceAr": "المصدر الوحيد: ملف الملاحظة 38. ما يورده المالك: انتقال يتضمن يدًا تحمل كوبًا، وواجهة إنشاء فيديو، ثم مشهد منتج لكوب قهوة أسود؛ ويذكر جزء من النص فيديو منتج فاخرًا مدته عشر ثوانٍ واستخدام صورة المنتج مرجعًا مع أولوية الحفاظ على المنتج، مع عدم تأكد بقية النص. لم يُفتح رابط الفيديو ولم يُشاهد الفيديو. توصيات الإخراج الثابتة في البطاقة ليست ادعاءات عن المصدر.",
+    "sourceEvidenceEn": "Sole source: owner note 38. The owner reports a transition involving a hand holding a cup, a video-creation interface, and then a product scene of a black coffee cup; part of the text mentions a ten-second luxury product video, using the product image as a reference, and prioritizing product preservation, while the rest is uncertain. The video link was not opened and the video was not watched. The still-image art direction in this card is a recommendation, not a claim about the source.",
+    "fixedElementsAr": [
+      "صورة ثابتة وليست فيديو.",
+      "كوب قهوة أسود هو العنصر الرئيسي.",
+      "مشهد ترويجي أنيق مع الحفاظ على بساطة العنصر وعدم اختلاق مواصفات أو نصوص للمنتج."
+    ],
+    "fixedElementsEn": [
+      "A still image, not a video.",
+      "A black coffee cup is the main subject.",
+      "An elegant promotional scene that keeps the subject simple and does not invent product specifications or text."
+    ],
+    "image": "/images/cards/webp/owner-note-038.webp",
+    "approved": false,
+    "imageStatus": "experimental",
+    "imageNoteAr": "صورة تجريبية مولدة لتوضيح الفكرة؛ ليست نتيجة ناتجة من هذا البرومبت ولا اعتمادًا بصريًا.",
+    "imageNoteEn": "AI-generated concept preview for illustration; it is not an output produced by this prompt or a visual approval.",
+    "sourceIds": [
+      38
+    ],
+    "promptAr": "أنشئ صورة ثابتة ترويجية راقية لكوب قهوة أسود بوصفه العنصر الوحيد والرئيسي. اتجاه التكوين: {{composition}}. استخدم لقطة قريبة بزاوية ثلاثية الأرباع تُظهر جسم الكوب ومقبضه كاملين بوضوح، مع مساحة تنفّس حوله. توجيه الخلفية: {{background}}. اجعلها بسيطة ونظيفة وتوفّر تباينًا كافيًا لإبراز حدود الكوب وسطحه. أسلوب الإضاءة: {{lighting}}؛ اجعل الضوء ناعمًا وموجّهًا، مع إظهار تفاصيل الخامة دون لمعان محروق أو ظلال تسدّ التفاصيل، ويمكن إضافة حافة ضوئية خفيفة لفصل الكوب عن الخلفية. اعتمد لوحة ألوان متناسقة وخامات واقعية للكوب وسطح ارتكازه، وانعكاسًا مضبوطًا أو خيط بخار رقيقًا فقط إذا بدا طبيعيًا وغير مشتت. ركّز بصريًا على شكل الكوب، بتفاصيل واضحة وتدرجات ناعمة وأسلوب تصوير منتجات احترافي واقعي. لا تضف أيديًا أو أدوات أو مكونات أو مواصفات غير محددة للمنتج، ولا شعارات أو كتابة أو علامات مائية أو واجهات. صورة واحدة ثابتة فقط.",
+    "promptEn": "Create a refined promotional still image of a black coffee cup as the sole, unmistakable subject. Composition direction: {{composition}}. Use a close three-quarter view that clearly shows the cup’s full body and handle, with comfortable negative space around it. Background direction: {{background}}. Keep the backdrop clean and simple, with enough contrast to define the cup’s silhouette and surface. Lighting style: {{lighting}}. Keep the light soft and directional, revealing material detail without blown highlights or shadows that swallow detail; a subtle rim highlight may separate the cup from the background. Use a harmonious palette and realistic materials for the cup and its resting surface. Include a controlled reflection or faint wisp of steam only if it looks natural and unobtrusive. Keep visual attention on the cup’s form, with crisp detail, smooth tonal transitions, and realistic professional product photography. Do not add hands, props, ingredients, unspecified product features, logos, text, watermarks, or interfaces. One still image only.",
+    "variables": [
+      {
+        "key": "composition",
+        "labelAr": "التكوين",
+        "labelEn": "Composition",
+        "defaultValue": "centered",
+        "defaultValueAr": "متمركز",
+        "defaultValueEn": "centered",
+        "descriptionAr": "موضع الكوب وتوزيعه داخل إطار الصورة؛ القيمة الافتراضية مستخدمة في البرومبت.",
+        "descriptionEn": "The cup’s placement within the image frame; the default is used in the prompt.",
+        "allowedValuesAr": "اختر إحدى القيم: centered، left-aligned، right-aligned.",
+        "allowedValuesEn": "Choose one value: centered, left-aligned, right-aligned.",
+        "options": [
+          {
+            "value": "centered",
+            "labelAr": "متمركز",
+            "labelEn": "Centered"
+          },
+          {
+            "value": "left-aligned",
+            "labelAr": "محاذاة إلى اليسار",
+            "labelEn": "Left-aligned"
+          },
+          {
+            "value": "right-aligned",
+            "labelAr": "محاذاة إلى اليمين",
+            "labelEn": "Right-aligned"
+          }
+        ]
+      },
+      {
+        "key": "background",
+        "labelAr": "الخلفية",
+        "labelEn": "Background",
+        "defaultValue": "soft charcoal",
+        "defaultValueAr": "فحمية ناعمة",
+        "defaultValueEn": "soft charcoal",
+        "descriptionAr": "لون الخلفية وملمسها العام؛ القيمة الافتراضية مستخدمة في البرومبت.",
+        "descriptionEn": "The general color and feel of the background; the default is used in the prompt.",
+        "allowedValuesAr": "اختر إحدى القيم: soft charcoal، warm beige، deep navy.",
+        "allowedValuesEn": "Choose one value: soft charcoal, warm beige, deep navy.",
+        "options": [
+          {
+            "value": "soft charcoal",
+            "labelAr": "فحمية ناعمة",
+            "labelEn": "Soft charcoal"
+          },
+          {
+            "value": "warm beige",
+            "labelAr": "بيج دافئ",
+            "labelEn": "Warm beige"
+          },
+          {
+            "value": "deep navy",
+            "labelAr": "كحلي عميق",
+            "labelEn": "Deep navy"
+          }
+        ]
+      },
+      {
+        "key": "lighting",
+        "labelAr": "الإضاءة",
+        "labelEn": "Lighting",
+        "defaultValue": "soft side lighting",
+        "defaultValueAr": "إضاءة جانبية ناعمة",
+        "defaultValueEn": "soft side lighting",
+        "descriptionAr": "أسلوب الإضاءة المستخدمة لإظهار شكل الكوب؛ القيمة الافتراضية مستخدمة في البرومبت.",
+        "descriptionEn": "The lighting style used to reveal the cup’s form; the default is used in the prompt.",
+        "allowedValuesAr": "اختر إحدى القيم: soft side lighting، overhead softbox lighting، gentle backlighting.",
+        "allowedValuesEn": "Choose one value: soft side lighting, overhead softbox lighting, gentle backlighting.",
+        "options": [
+          {
+            "value": "soft side lighting",
+            "labelAr": "إضاءة جانبية ناعمة",
+            "labelEn": "Soft side lighting"
+          },
+          {
+            "value": "overhead softbox lighting",
+            "labelAr": "إضاءة سوفت بوكس علوية",
+            "labelEn": "Overhead softbox lighting"
+          },
+          {
+            "value": "gentle backlighting",
+            "labelAr": "إضاءة خلفية لطيفة",
+            "labelEn": "Gentle backlighting"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "اختر قيم التكوين والخلفية والإضاءة من الخيارات المحددة.",
+      "استخدم البرومبت لإنتاج صورة ثابتة لكوب قهوة أسود؛ لا تستخدمه لطلب فيديو.",
+      "راجع الصورة للتأكد من وضوح الكوب وعدم ظهور شعارات أو تفاصيل مختلقة.",
+      "أرفق صورة مستقلة عند توفرها قبل اعتماد البطاقة."
+    ],
+    "stepsEn": [
+      "Choose composition, background, and lighting from the listed options.",
+      "Use the prompt to produce a still image of a black coffee cup; do not use it to request a video.",
+      "Review the image to ensure the cup is clear and no logos or invented details appear.",
+      "Attach a separate image when available before approving the card."
+    ],
+    "limitationsAr": "الملاحظة لا تثبت شكل الكوب أو تفاصيله أو خلفيته أو نص البرومبت الأصلي، لذلك لا تُنسب هذه الأمور للمصدر. لا تتضمن البطاقة مدة الفيديو أو تعليمات فيديو، ولا تضمن مطابقة منتج مرجعي بعينه. يلزم إرفاق صورة مستقلة قبل الاعتماد.",
+    "limitationsEn": "The note does not establish the cup’s design or details, its background, or the original prompt text, so none of these are attributed to the source. This card includes no video duration or video instructions and does not guarantee a match to a particular reference product. A separate image is needed before approval.",
+    "status": "needs_image",
+    "version": 3,
+    "lastReviewedAt": "2026-10-31",
+    "qualityAr": {
+      "score": 96,
+      "criteria": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        8,
+        8,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    },
+    "qualityEn": {
+      "score": 96,
+      "criteria": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        8,
+        8,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    }
+  },
+  {
+    "id": "idea-010",
+    "titleAr": "غلاف تحريري لمقارنة نتيجتين",
+    "titleEn": "Editorial Comparison Cover",
+    "categoryAr": "مقارنة واجهات وذكاء اصطناعي",
+    "categoryEn": "AI Interface Comparison",
+    "audienceAr": "صنّاع المحتوى والمصممون الذين يريدون غلافًا بصريًا لمقارنة مخرجات مساعدي الذكاء الاصطناعي.",
+    "audienceEn": "Content creators and designers who need a visual cover comparing AI assistant outputs.",
+    "summaryAr": "غلاف رأسي مكتمل يقارن نتيجتين بصريًا ضمن صورتين متجاورتين.",
+    "summaryEn": "A finished vertical cover comparing two visual results in adjacent scenes.",
+    "visualDescriptionAr": "غلاف واحد بمشهدين متجاورين يقارن نتيجتين بصريًا.",
+    "visualDescriptionEn": "One cover with two adjacent scenes comparing visual results.",
+    "sourceEvidenceAr": "وفق السجل المحلي وحده، الدليل هو وصف الغلاف العمودي المحمّل من مشغل TikTok (540×960): تظهر في أعلاه مقارنة هاتفين/واجهتين، وفي أسفله عبارة عربية برتقالية واضحة تتضمن «تجربة شات جي بي تي ضد جيمناي باستخدام نفس النص». كما يسجل المصدر سمات بصرية إضافية مذكورة في visual_features. لم يُفتح الرابط ولم تُراجع مادة الفيديو؛ لا يثبت السجل تفاصيل المخرجات داخل الفيديو أو وظيفة أداة.",
+    "sourceEvidenceEn": "Based solely on the local record, the evidence is its description of the vertical cover loaded from the TikTok player (540×960): a comparison of two phones/interfaces appears at the top, with clear orange Arabic wording below that includes “تجربة شات جي بي تي ضد جيمناي باستخدام نفس النص” (“ChatGPT vs Gemini using the same text”). The source also records the additional visual notes in visual_features. The link was not opened and the video was not reviewed; the record does not establish details of results inside the video or any tool functionality.",
+    "fixedElementsAr": [
+      "صورة ثابتة بتكوين عمودي لغلاف مقارنة.",
+      "لوحتان متجاورتان لواجهتين/لقطتي شاشة هاتفيتين، مع توضيح أن المدخل واحد.",
+      "عنوان عربي واضح أسفل المقارنة؛ لا تُختلق تفاصيل عن محتوى لقطات الشاشة.",
+      "لا تحوّل التصميم إلى ادعاء عن ميزات أو نتائج فعلية لمساعد بعينه."
+    ],
+    "fixedElementsEn": [
+      "A static image in a vertical comparison-cover composition.",
+      "Two side-by-side panels showing interfaces/phone screenshots, making clear that the input is the same.",
+      "A clear Arabic headline below the comparison; do not invent screenshot contents.",
+      "Do not turn the design into claims about actual features or results of any particular assistant."
+    ],
+    "image": "/images/cards/curated/idea-010.png",
+    "approved": false,
+    "imageStatus": "curated_local_preview",
+    "imageNoteAr": "معاينة محلية مخصصة مرتبطة بالمخرج المطلوب، أُنشئت دون خدمة مدفوعة؛ يلزم اعتماد بصري نهائي قبل النشر التجاري.",
+    "imageNoteEn": "Custom local preview matched to the requested output, created without paid services; final commercial approval is still required.",
+    "sourceIds": [
+      10
+    ],
+    "promptAr": "أنشئ غلافًا تحريريًا رأسيًا 9:16 يقارن بصريًا بين نتيجة {{assistant_left}} ونتيجة {{assistant_right}} بعد استخدام المدخل {{shared_input}}. اجعل الناتج صورة تحريرية واحدة بمشهدين متجاورين متكاملين وفاصل واضح، مع مساحة مخصصة للعنوان العربي {{headline_ar}} بلون {{headline_color}} يضاف لاحقًا. لا تعرض واجهة تطبيق أو شعارات أو مخططًا.",
+    "promptEn": "Create one finished 9:16 editorial cover comparing the result from {{assistant_left}} with the result from {{assistant_right}} after using {{shared_input}}. Build one complete image with two adjacent visual scenes and a clear divider, reserving space for the Arabic headline {{headline_ar}} in {{headline_color}} to be added later. Do not show app UI, logos, or a diagram.",
+    "variables": [
+      {
+        "key": "assistant_left",
+        "labelAr": "تسمية اللوحة اليسرى",
+        "labelEn": "Left panel label",
+        "defaultValue": "ChatGPT",
+        "defaultValueAr": "ChatGPT",
+        "defaultValueEn": "ChatGPT",
+        "descriptionAr": "اسم المساعد الذي سيظهر كتسمية للوحة اليسرى.",
+        "descriptionEn": "Assistant name displayed as the label for the left panel.",
+        "allowedValuesAr": "نص قصير؛ الافتراضي ChatGPT.",
+        "allowedValuesEn": "Short text; default is ChatGPT."
+      },
+      {
+        "key": "assistant_right",
+        "labelAr": "تسمية اللوحة اليمنى",
+        "labelEn": "Right panel label",
+        "defaultValue": "Gemini",
+        "defaultValueAr": "Gemini",
+        "defaultValueEn": "Gemini",
+        "descriptionAr": "اسم المساعد الذي سيظهر كتسمية للوحة اليمنى.",
+        "descriptionEn": "Assistant name displayed as the label for the right panel.",
+        "allowedValuesAr": "نص قصير؛ الافتراضي Gemini.",
+        "allowedValuesEn": "Short text; default is Gemini."
+      },
+      {
+        "key": "shared_input",
+        "labelAr": "المدخل النصي المشترك",
+        "labelEn": "Shared text input",
+        "defaultValue": "اكتب هنا النص نفسه لكلا المساعدين",
+        "defaultValueAr": "اكتب هنا النص نفسه لكلا المساعدين",
+        "defaultValueEn": "Enter the same prompt for both assistants here",
+        "descriptionAr": "المدخل الذي يوضح أن المقارنة تستخدم نصًا واحدًا؛ تجنب عرضه كنص نتيجة.",
+        "descriptionEn": "The input that makes clear the comparison uses one shared text; do not present it as a result.",
+        "allowedValuesAr": "نص حر قصير؛ الافتراضي عربي كما هو موضح.",
+        "allowedValuesEn": "Free short text; default is the Arabic placeholder shown."
+      },
+      {
+        "key": "headline_ar",
+        "labelAr": "العنوان العربي السفلي",
+        "labelEn": "Lower Arabic headline",
+        "defaultValue": "تجربة شات جي بي تي ضد جيمناي باستخدام نفس النص",
+        "defaultValueAr": "تجربة شات جي بي تي ضد جيمناي باستخدام نفس النص",
+        "defaultValueEn": "تجربة شات جي بي تي ضد جيمناي باستخدام نفس النص",
+        "descriptionAr": "العنوان العربي أسفل اللوحتين؛ الافتراضي مستند إلى العبارة التي سجلها المصدر.",
+        "descriptionEn": "The Arabic headline below the panels; the default is based on the wording recorded by the source.",
+        "allowedValuesAr": "نص عربي حر قصير؛ الافتراضي يطابق العبارة المرصودة في السجل.",
+        "allowedValuesEn": "Free short Arabic text; the default matches the wording observed in the record."
+      },
+      {
+        "key": "headline_color",
+        "labelAr": "لون العنوان",
+        "labelEn": "Headline color",
+        "defaultValue": "برتقالي",
+        "defaultValueAr": "برتقالي",
+        "defaultValueEn": "orange",
+        "descriptionAr": "لون العنوان العربي العريض.",
+        "descriptionEn": "Color for the bold Arabic headline.",
+        "allowedValuesAr": "اختر قيمة واحدة من الخيارات المحددة.",
+        "allowedValuesEn": "Choose one value from the listed options.",
+        "options": [
+          {
+            "value": "برتقالي",
+            "labelAr": "برتقالي",
+            "labelEn": "Orange"
+          },
+          {
+            "value": "أبيض",
+            "labelAr": "أبيض",
+            "labelEn": "White"
+          },
+          {
+            "value": "أصفر",
+            "labelAr": "أصفر",
+            "labelEn": "Yellow"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "ضع إطارًا عموديًا واحدًا وخلفية خضراء هادئة.",
+      "أنشئ لوحتين متجاورتين متساويتين لإطارَي هاتف بواجهات داكنة عامة.",
+      "أضف تسميتي المساعدين والمدخل النصي المشترك من المتغيرات، مع الإشارة بصريًا إلى أن النص واحد.",
+      "أضف علامات مقارنة حمراء وتسميات بيضاء، ثم العنوان العربي في الأسفل باللون المختار.",
+      "تحقق من وضوح العربية وعدم اختلاق محتوى للنتائج أو شعارات، ثم أخرج صورة ثابتة."
+    ],
+    "stepsEn": [
+      "Set one vertical frame with a restrained green background.",
+      "Create two equal side-by-side panels framed as phones with generic dark interfaces.",
+      "Add both assistant labels and the shared text input from the variables, visually indicating that the text is the same.",
+      "Add red comparison marks and white labels, then place the Arabic headline at the bottom in the selected color.",
+      "Check Arabic legibility, avoid inventing result content or logos, and export a static image."
+    ],
+    "limitationsAr": "المصدر مقتصر على وصف غلاف عمودي وسماته المرئية؛ لم تُراجع مادة الفيديو ولا الرابط. لا دليل على نصوص النتائج أو خصائص المساعدين أو أدوات مستخدمة داخله. الخلفية والتباين وترتيب اللوحتين هي تعليمات تصميمية مستمدة من الوصف أو توصيات تنفيذية، وليست ادعاءات عن محتوى الفيديو. صورة البطاقة غير مرفقة.",
+    "limitationsEn": "The source is limited to a description of a vertical cover and its visible features; neither the video nor the link was reviewed. There is no evidence for result text, assistant capabilities, or tools used in the video. Background, contrast, and panel arrangement are design instructions based on the description or implementation recommendations, not claims about video content. No card image is attached.",
+    "status": "needs_review",
+    "version": 2,
+    "lastReviewedAt": "2026-11-02",
+    "qualityAr": {
+      "score": 88,
+      "criteria": [
+        13,
+        14,
+        13,
+        14,
+        13,
+        9,
+        8,
+        4
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    },
+    "qualityEn": {
+      "score": 88,
+      "criteria": [
+        13,
+        14,
+        13,
+        14,
+        13,
+        9,
+        8,
+        4
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    }
+  },
+  {
+    "id": "idea-015",
+    "titleAr": "صورة أزياء تحريرية للقطعة المرجعية",
+    "titleEn": "Editorial Photograph for a Reference Garment",
+    "categoryAr": "تصوير أزياء ومنتجات",
+    "categoryEn": "Fashion and product photography",
+    "audienceAr": "متاجر الملابس، المصممون، وصنّاع محتوى الأزياء",
+    "audienceEn": "Clothing shops, designers, and fashion content creators",
+    "summaryAr": "صورة أزياء نهائية للقطعة المرجعية مع مساحة عنوان سالبة.",
+    "summaryEn": "A finished fashion photograph of the reference garment with negative headline space.",
+    "visualDescriptionAr": "صورة أزياء واحدة للقطعة المرجعية مع مساحة عنوان سالبة.",
+    "visualDescriptionEn": "One fashion photograph of the reference garment with negative headline space.",
+    "sourceEvidenceAr": "يذكر سجل الإدخال المحلي أن الفيديو أظهر أولًا قميصًا بنيًا/داكنًا معلّقًا، ثم تصميمًا رأسيًا لقميص مماثل فوق أكمام بيضاء طويلة على خلفية محايدة، مع العنوانين الظاهرين «أسلوب لا يتكرر» و«تفاصيل كلاسيكية، روح الشارع». كما يسجل ظهور وسم Contains AI-generated media في المشغل. البطاقة مبنية على وصف السجل وحده؛ لم يُفتح الرابط أو يُعَد تشغيل الفيديو لهذه البطاقة.",
+    "sourceEvidenceEn": "The local input record says the video first showed a brown/dark shirt hanging, followed by a vertical design of a similar shirt over long white sleeves on a neutral background, with the displayed Arabic lines “أسلوب لا يتكرر” and “تفاصيل كلاسيكية، روح الشارع”. It also records a Contains AI-generated media label in the player. This card is based only on the record description; the link was not opened and the video was not replayed for this card.",
+    "fixedElementsAr": [
+      "صورة ثابتة إعلانية لقطعة ملابس، وليست فيديو.",
+      "اجعل قطعة الملابس هي العنصر البصري الرئيسي، مع عرضها فوق طبقة ملابس داعمة وخلفية محايدة.",
+      "استخدم عنوانًا عربيًا قصيرًا وواضحًا داخل التصميم.",
+      "لا تضف شعارًا أو علامة تجارية أو تفاصيل منتج غير موجودة في المدخلات."
+    ],
+    "fixedElementsEn": [
+      "A static promotional clothing image, not a video.",
+      "Keep the garment as the main visual, presented over a supporting clothing layer against a neutral background.",
+      "Include a short, legible Arabic headline in the design.",
+      "Do not add a logo, brand, or product details that are not present in the inputs."
+    ],
+    "image": "/images/cards/curated/idea-015.png",
+    "approved": false,
+    "imageStatus": "curated_local_preview",
+    "imageNoteAr": "معاينة محلية مخصصة مرتبطة بالمخرج المطلوب، أُنشئت دون خدمة مدفوعة؛ يلزم اعتماد بصري نهائي قبل النشر التجاري.",
+    "imageNoteEn": "Custom local preview matched to the requested output, created without paid services; final commercial approval is still required.",
+    "sourceIds": [
+      15
+    ],
+    "promptAr": "أنشئ صورة أزياء تحريرية 4:5 للقطعة {{garment_description}} على خلفية استوديو بدرجة {{background_tone}} ولوحة {{palette}}. أظهر الخامة والقصّة والطبقات بوضوح على عارضة أو علاقة، بإضاءة ناعمة واتجاه كاميرا احترافي، واترك مساحة سالبة للعنوان {{headline_ar}} بدل توليد النص. لا تضف نباتات أو أثاثًا أو منصة.",
+    "promptEn": "Create a finished 4:5 editorial fashion photograph of {{garment_description}} on a {{background_tone}} studio background with a {{palette}} palette. Show the material, cut, and layers clearly on a model or hanger under soft professional lighting, reserving negative space for {{headline_ar}} instead of generating text. Add no plants, furniture, or pedestal.",
+    "variables": [
+      {
+        "key": "garment_description",
+        "labelAr": "وصف قطعة الملابس",
+        "labelEn": "Garment description",
+        "defaultValue": "قميص داكن معلّق",
+        "defaultValueAr": "قميص داكن معلّق",
+        "defaultValueEn": "a hanging dark shirt",
+        "descriptionAr": "صف القطعة التي ستُعرض؛ الوصف النصي لا يغني عن رفع صورتها عند استخدام أداة صور.",
+        "descriptionEn": "Describe the item to present; text does not replace uploading its photo when using an image tool.",
+        "allowedValuesAr": "نص حر قصير يصف القطعة دون إضافة سمات غير معروفة.",
+        "allowedValuesEn": "Short free text describing the item without adding unknown attributes."
+      },
+      {
+        "key": "background_tone",
+        "labelAr": "درجة الخلفية",
+        "labelEn": "Background tone",
+        "defaultValue": "warm neutral",
+        "defaultValueAr": "محايدة دافئة",
+        "defaultValueEn": "warm neutral",
+        "descriptionAr": "اختر النبرة العامة لخلفية التصميم.",
+        "descriptionEn": "Choose the overall tone of the design background.",
+        "allowedValuesAr": "إحدى القيم المحددة في الخيارات.",
+        "allowedValuesEn": "One of the values listed in the options.",
+        "options": [
+          {
+            "value": "warm neutral",
+            "labelAr": "محايدة دافئة",
+            "labelEn": "Warm neutral"
+          },
+          {
+            "value": "cool neutral",
+            "labelAr": "محايدة باردة",
+            "labelEn": "Cool neutral"
+          },
+          {
+            "value": "soft cream",
+            "labelAr": "كريمية هادئة",
+            "labelEn": "Soft cream"
+          }
+        ]
+      },
+      {
+        "key": "palette",
+        "labelAr": "لوحة الألوان",
+        "labelEn": "Color palette",
+        "defaultValue": "brown, beige, and cream",
+        "defaultValueAr": "بني وبيج وكريمي",
+        "defaultValueEn": "brown, beige, and cream",
+        "descriptionAr": "حدّد مجموعة الألوان المهيمنة على تنسيق الصورة.",
+        "descriptionEn": "Set the dominant color combination for the image styling.",
+        "allowedValuesAr": "إحدى القيم المحددة في الخيارات.",
+        "allowedValuesEn": "One of the values listed in the options.",
+        "options": [
+          {
+            "value": "brown, beige, and cream",
+            "labelAr": "بني وبيج وكريمي",
+            "labelEn": "Brown, beige, and cream"
+          },
+          {
+            "value": "black, white, and beige",
+            "labelAr": "أسود وأبيض وبيج",
+            "labelEn": "Black, white, and beige"
+          },
+          {
+            "value": "charcoal, white, and cream",
+            "labelAr": "فحمي وأبيض وكريمي",
+            "labelEn": "Charcoal, white, and cream"
+          }
+        ]
+      },
+      {
+        "key": "headline_ar",
+        "labelAr": "العنوان العربي",
+        "labelEn": "Arabic headline",
+        "defaultValue": "أسلوب لا يتكرر",
+        "defaultValueAr": "أسلوب لا يتكرر",
+        "defaultValueEn": "أسلوب لا يتكرر",
+        "descriptionAr": "اكتب عنوانًا عربيًا موجزًا ليظهر نصًا داخل الصورة.",
+        "descriptionEn": "Write a concise Arabic headline to appear as text in the image.",
+        "allowedValuesAr": "نص عربي حر قصير؛ تجنب الادعاءات أو المعلومات غير المثبتة.",
+        "allowedValuesEn": "Short free-form Arabic text; avoid unsupported claims or information."
+      }
+    ],
+    "stepsAr": [
+      "أدخل وصف قطعة الملابس وارفع صورتها في أداة توليد الصور التي تستخدمها.",
+      "اختر درجة الخلفية ولوحة الألوان، واكتب العنوان العربي المطلوب.",
+      "ولّد الصورة الثابتة وراجع وضوح القطعة والعنوان قبل النشر."
+    ],
+    "stepsEn": [
+      "Enter the garment description and upload its photo in your chosen image-generation tool.",
+      "Choose the background tone and color palette, then provide the Arabic headline.",
+      "Generate the static image and check that the garment and headline are clear before publishing."
+    ],
+    "limitationsAr": "السجل يصف نتيجة مرئية وفكرة تحويل صورة ملابس إلى تصميم دعائي، لكنه لا يحدد أداة التوليد أو إعداداتها أو طريقة الإدخال أو قابلية إعادة إنتاج النتيجة. لا يثبت دقة النص العربي أو تفاصيل الخامة أو الاحتفاظ التام بشكل القطعة، ولا يؤكد حقوق استخدام العلامات التجارية. توصية التصميم بإضافة طبقة الأكمام البيضاء والعنوان وخيارات الألوان مستندة إلى السمات المذكورة، وليست حقائق مضمونة عن آلية العمل. قد تحتاج كتابة النص داخل الصورة إلى إضافة أو تصحيح يدوي.",
+    "limitationsEn": "The record describes a visible result and an idea for turning a clothing photo into a promotional design, but does not identify the generation tool, its settings, the input method, or reproducibility. It does not establish accurate Arabic text rendering, fabric details, exact preservation of the item, or trademark-use rights. The design recommendation to add a white-sleeved layer, headline, and palette choices is based on described visual features and is not a guaranteed property of the process. Text in the image may need manual addition or correction.",
+    "status": "needs_image",
+    "version": 3,
+    "lastReviewedAt": "2026-10-31",
+    "qualityAr": {
+      "score": 94,
+      "criteria": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        10,
+        9,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    },
+    "qualityEn": {
+      "score": 94,
+      "criteria": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        10,
+        9,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    }
+  },
+  {
+    "id": "idea-032",
+    "titleAr": "موكاب واقعي لبطاقة أعمال ثنائية الوجه",
+    "titleEn": "Realistic Two-Sided Business Card Mockup",
+    "categoryAr": "تصميم الهوية والقرطاسية",
+    "categoryEn": "Brand Identity & Stationery Design",
+    "audienceAr": "المستقلون وأصحاب الأعمال الصغيرة والمهنيون الذين يريدون تصورًا بصريًا لبطاقة أعمال شخصية.",
+    "audienceEn": "Freelancers, small-business owners, and professionals seeking a visual concept for a personal business card.",
+    "summaryAr": "تصوير واقعي لبطاقة أعمال مطبوعة يعرض وجهيها فعليًا.",
+    "summaryEn": "A realistic photograph of a printed business card showing both sides.",
+    "visualDescriptionAr": "تصوير واقعي لبطاقة أعمال مطبوعة يعرض وجهيها.",
+    "visualDescriptionEn": "A realistic photograph of a printed business card showing both sides.",
+    "sourceEvidenceAr": "سجل المصدر المحلي يقترح بطاقة أعمال من بيانات الاسم والمهنة والبريد الإلكتروني والهاتف/الموقع، واختيار العاجي والأخضر الداكن، ونمط بسيط مقسم، ووجهين متناسقين مع مساحة للشعار ومعلومات التواصل. كما يسجل نموذج إدخال داكنًا على هاتف وبطاقة نهائية أفقية على خلفية سوداء. لا يثبت السجل أداة توليد بعينها أو دقة الطباعة.",
+    "sourceEvidenceEn": "The local source record proposes a business card using name, profession, email, and phone/website; ivory and dark green; a simple divided style; and coordinated front and back with room for a logo and contact information. It also records a dark phone input form and a final horizontal card against a black background. The record does not establish a particular generation tool or print accuracy.",
+    "fixedElementsAr": [
+      "صورة ثابتة واحدة تعرض وجهَي بطاقة أعمال متناسقين جنبًا إلى جنب.",
+      "تكوين بسيط ومقسم مع ترتيب بصري واضح للاسم والمهنة ومعلومات التواصل.",
+      "الأخضر الداكن والعاجي هما اللونان الأساسيان، مع تباين ومساحة سالبة كافيين.",
+      "الشعار اختياري؛ لا تخترع علامة أو بيانات اتصال غير مقدمة."
+    ],
+    "fixedElementsEn": [
+      "One static image showing two coordinated business-card sides side by side.",
+      "A simple divided composition with a clear hierarchy for name, profession, and contact details.",
+      "Dark green and ivory are the core colors, with sufficient contrast and negative space.",
+      "Logo is optional; do not invent a brand or contact details that were not provided."
+    ],
+    "image": "/images/cards/curated/idea-032.png",
+    "approved": false,
+    "imageStatus": "curated_local_preview",
+    "imageNoteAr": "معاينة محلية مخصصة مرتبطة بالمخرج المطلوب، أُنشئت دون خدمة مدفوعة؛ يلزم اعتماد بصري نهائي قبل النشر التجاري.",
+    "imageNoteEn": "Custom local preview matched to the requested output, created without paid services; final commercial approval is still required.",
+    "sourceIds": [
+      32
+    ],
+    "promptAr": "أنشئ موكابًا واقعيًا نهائيًا لبطاقة أعمال مطبوعة ثنائية الوجه، يعرض الوجهين فعليًا على سطح ورقي مع ظل ناعم. استخدم {{person_name}} و{{profession}} و{{email}} و{{contact}} وطبّق لوحة {{palette}} وتخطيط {{layout}} مع نصوص واضحة قابلة للتحرير. لا تخترع شعارًا أو بيانات، ولا تعرض مخطط مناطق؛ أخرج بطاقة أعمال مكتملة في مشهد تصويري.",
+    "promptEn": "Create one finished realistic mockup of a printed two-sided business card, showing both sides on paper with a soft contact shadow. Use {{person_name}}, {{profession}}, {{email}}, and {{contact}}, applying the {{palette}} palette and {{layout}} layout with editable, accurate copy. Invent no logo or data and do not show a zone diagram; deliver a complete card in a photographed scene.",
+    "variables": [
+      {
+        "key": "person_name",
+        "labelAr": "الاسم",
+        "labelEn": "Name",
+        "defaultValue": "ليان أحمد",
+        "descriptionAr": "الاسم الذي تريد عرضه على البطاقة؛ استبدل المثال باسمك.",
+        "descriptionEn": "The name to show on the card; replace the example with your own.",
+        "allowedValuesAr": "نص قصير للاسم الشخصي أو المهني.",
+        "allowedValuesEn": "A short personal or professional name.",
+        "defaultValueAr": "ليان أحمد",
+        "defaultValueEn": "Layan Ahmad"
+      },
+      {
+        "key": "profession",
+        "labelAr": "المهنة أو المسمى",
+        "labelEn": "Profession or title",
+        "defaultValue": "مصممة مستقلة",
+        "descriptionAr": "المسمى المهني الموجز أسفل الاسم.",
+        "descriptionEn": "A concise professional title beneath the name.",
+        "allowedValuesAr": "عبارة مهنية قصيرة.",
+        "allowedValuesEn": "A short professional phrase.",
+        "defaultValueAr": "مصممة مستقلة",
+        "defaultValueEn": "Independent Designer"
+      },
+      {
+        "key": "email",
+        "labelAr": "البريد الإلكتروني",
+        "labelEn": "Email",
+        "defaultValue": "hello@example.com",
+        "descriptionAr": "البريد المراد عرضه؛ استبدل القيمة التجريبية بعنوانك الصحيح.",
+        "descriptionEn": "The email to display; replace the sample with your actual address.",
+        "allowedValuesAr": "عنوان بريد إلكتروني يقدمه المستخدم.",
+        "allowedValuesEn": "An email address supplied by the user.",
+        "defaultValueAr": "hello@example.com",
+        "defaultValueEn": "hello@example.com"
+      },
+      {
+        "key": "contact",
+        "labelAr": "الهاتف أو الموقع",
+        "labelEn": "Phone or website",
+        "defaultValue": "+000 000 0000",
+        "descriptionAr": "أدخل رقم الهاتف أو رابط الموقع الذي تريد إظهاره؛ المثال ليس رقمًا حقيقيًا.",
+        "descriptionEn": "Enter the phone number or website you want displayed; the sample is not a real number.",
+        "allowedValuesAr": "قيمة اتصال واحدة يقدمها المستخدم.",
+        "allowedValuesEn": "One contact value supplied by the user.",
+        "defaultValueAr": "+000 000 0000",
+        "defaultValueEn": "+000 000 0000"
+      },
+      {
+        "key": "palette",
+        "labelAr": "لوحة الألوان",
+        "labelEn": "Color palette",
+        "defaultValue": "dark_green_ivory",
+        "descriptionAr": "اختر تناغمًا لونيًا للبطاقة.",
+        "descriptionEn": "Choose a color pairing for the card.",
+        "allowedValuesAr": "اختر أحد الخيارات المحددة.",
+        "allowedValuesEn": "Choose one of the listed options.",
+        "defaultValueAr": "أخضر داكن وعاجي",
+        "defaultValueEn": "Dark green and ivory",
+        "options": [
+          {
+            "value": "dark_green_ivory",
+            "labelAr": "أخضر داكن وعاجي",
+            "labelEn": "Dark green and ivory"
+          },
+          {
+            "value": "charcoal_ivory",
+            "labelAr": "فحمي وعاجي",
+            "labelEn": "Charcoal and ivory"
+          },
+          {
+            "value": "navy_white",
+            "labelAr": "كحلي وأبيض",
+            "labelEn": "Navy and white"
+          }
+        ]
+      },
+      {
+        "key": "layout",
+        "labelAr": "نمط التقسيم",
+        "labelEn": "Layout style",
+        "defaultValue": "simple_divided",
+        "descriptionAr": "حدد أسلوب تنظيم المساحات والمعلومات.",
+        "descriptionEn": "Choose how the space and information are organized.",
+        "allowedValuesAr": "اختر أحد الخيارات المحددة.",
+        "allowedValuesEn": "Choose one of the listed options.",
+        "defaultValueAr": "بسيط مقسم",
+        "defaultValueEn": "Simple divided layout",
+        "options": [
+          {
+            "value": "simple_divided",
+            "labelAr": "بسيط مقسم",
+            "labelEn": "Simple divided"
+          },
+          {
+            "value": "minimal_centered",
+            "labelAr": "وسطي مبسط",
+            "labelEn": "Minimal centered"
+          },
+          {
+            "value": "asymmetric_grid",
+            "labelAr": "شبكة غير متماثلة",
+            "labelEn": "Asymmetric grid"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "استبدل الاسم والمهنة والبريد ووسيلة التواصل بالقيم الصحيحة التي تريد ظهورها.",
+      "اختر لوحة الألوان ونمط التقسيم من الخيارات؛ عدّل القيم الافتراضية المحلية عند الحاجة.",
+      "ولّد صورة ثابتة واحدة تُظهر وجهي البطاقة بوضوح، ثم راجع تهجئة النص والمحاذاة يدويًا.",
+      "لا تعتمد الصورة كملف طباعة؛ جهّز النصوص والقياسات في أداة تصميم مناسبة بعد المراجعة."
+    ],
+    "stepsEn": [
+      "Replace the name, profession, email, and contact method with the exact values you want shown.",
+      "Choose a color palette and layout style; adjust the local defaults if needed.",
+      "Generate one static image clearly showing both card sides, then manually check spelling and alignment.",
+      "Do not treat the image as print-ready artwork; prepare final text and dimensions in a suitable design tool after review."
+    ],
+    "limitationsAr": "قد لا ترسم مولدات الصور النصوص الصغيرة بدقة، ولا تضمن هذه الصورة القياسات أو الهوامش أو جاهزية الطباعة. القيم الافتراضية أمثلة محلية وليست بيانات حقيقية. لا توجد حاجة لمرجع هوية في هذه الفكرة العامة، لكن استخدام شعار قائم يتطلب من المستخدم تقديمه والتحقق من حقوقه خارج هذا الوصف.",
+    "limitationsEn": "Image generators may render small text inaccurately, and this image does not guarantee dimensions, bleed, or print readiness. Defaults are local examples, not real personal data. This general concept does not require a brand reference, but using an existing logo requires the user to provide it and verify rights outside this description.",
+    "status": "needs_image",
+    "version": 3,
+    "lastReviewedAt": "2026-10-31",
+    "qualityAr": {
+      "score": 94,
+      "criteria": [
+        15,
+        15,
+        15,
+        15,
+        14,
+        10,
+        5,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    },
+    "qualityEn": {
+      "score": 94,
+      "criteria": [
+        15,
+        15,
+        15,
+        15,
+        14,
+        10,
+        5,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    }
+  },
+  {
+    "id": "idea-035",
+    "titleAr": "تصميم ملصق منتج بقصّة die-cut",
+    "titleEn": "Finished Die-Cut Product Sticker",
+    "categoryAr": "تصميم ملصقات المنتجات",
+    "categoryEn": "Product Sticker Design",
+    "audienceAr": "أصحاب المنتجات والمصممون الذين يريدون تصورًا بصريًا لملصق منتج انطلاقًا من صورة مرجعية.",
+    "audienceEn": "Product owners and designers seeking a visual sticker concept based on a product reference image.",
+    "summaryAr": "ملصق منتج مكتمل بقصّة die-cut وظل تماس وخلفية نظيفة.",
+    "summaryEn": "A finished die-cut product sticker with a contact shadow and clean background.",
+    "visualDescriptionAr": "تصميم ملصق منتج واحد بقصّة die-cut وظل تماس.",
+    "visualDescriptionEn": "One die-cut product sticker design with a contact shadow.",
+    "sourceEvidenceAr": "يدعم سجل المصدر فكرة تحويل صورة منتج مرفوعة إلى مفهوم ملصق فاخر مقصوص Die-cut قابل للطباعة مع الحفاظ على ملامح المنتج. ويذكر صورة منتج/عبوة مصغرة في حقل الإدخال وطلبًا إنجليزيًا مبتورًا يبدأ بـ Create a premium printable die-cut sticker s...؛ كما ينص على أن الملصق النهائي غير ظاهر. لا يثبت السجل ألوان التصميم النهائي أو مادته أو مظهره.",
+    "sourceEvidenceEn": "The source record supports transforming an uploaded product image into a premium printable die-cut sticker concept while preserving the product's features. It mentions a small product/package image in the input field and a truncated English request beginning “Create a premium printable die-cut sticker s...”; it also states the final sticker is not visible. The record does not establish the final design's colors, material, or appearance.",
+    "fixedElementsAr": [
+      "صورة ثابتة لملصق واحد، لا فيديو ولا واجهة تطبيق.",
+      "استخدم الصورة المرجعية للحفاظ على هوية المنتج الظاهرة؛ لا تستبدل المنتج ولا تخترع علامة تجارية أو كتابة.",
+      "اجعل حد القص أبيض، متصلًا وواضحًا حول الشكل، مع هامش بصري منتظم.",
+      "اعرض المنتج كاملًا وواضحًا على خلفية محايدة بسيطة، دون عناصر زائدة.",
+      "لا تدّعِ أن الناتج ملف طباعة جاهز أو أن دقة القص والألوان مضمونة."
+    ],
+    "fixedElementsEn": [
+      "One still sticker image, not a video or app interface.",
+      "Use the reference image to preserve the product's visible identity; do not replace it or invent branding or text.",
+      "Make the cutline white, continuous, and clearly visible around the shape, with an even visual margin.",
+      "Show the full product clearly on a simple neutral background, without extra objects.",
+      "Do not claim the result is a production-ready print file or that cut accuracy and colors are guaranteed."
+    ],
+    "image": "/images/cards/curated/idea-035.png",
+    "approved": false,
+    "imageStatus": "curated_local_preview",
+    "imageNoteAr": "معاينة محلية مخصصة مرتبطة بالمخرج المطلوب، أُنشئت دون خدمة مدفوعة؛ يلزم اعتماد بصري نهائي قبل النشر التجاري.",
+    "imageNoteEn": "Custom local preview matched to the requested output, created without paid services; final commercial approval is still required.",
+    "sourceIds": [
+      35
+    ],
+    "promptAr": "أنشئ ملصق منتج واحدًا مكتملًا بقصّة die-cut حول {{product_description}}، بأسلوب {{sticker_style}} ولون {{background_color}}. حافظ على شكل المنتج وملصقه من المرجع، وحد قص متساوٍ وظل تماس خفيف وخلفية نظيفة. أخرج تصميم الملصق نفسه جاهزًا للعرض، لا قالب قص أو رسمًا هندسيًا.",
+    "promptEn": "Create one complete die-cut product sticker featuring {{product_description}}, using {{sticker_style}} styling and {{background_color}} background. Preserve the product shape and label from the reference, with an even cutline, subtle contact shadow, and clean background. Deliver the sticker design itself, not a cutline template or geometric diagram.",
+    "variables": [
+      {
+        "key": "product_description",
+        "labelAr": "وصف المنتج",
+        "labelEn": "Product description",
+        "defaultValue": "the product shown in the attached reference image",
+        "descriptionAr": "وصف موجز لما يظهر في الصورة المرجعية؛ لا تضف تفاصيل لا يدعمها المرجع.",
+        "descriptionEn": "A brief description of what appears in the reference image; do not add details unsupported by it.",
+        "allowedValuesAr": "اكتب وصفًا موجزًا ومحايدًا للمنتج كما يظهر في المرجع.",
+        "allowedValuesEn": "Enter a brief, neutral description of the product as shown in the reference.",
+        "defaultValueAr": "المنتج الظاهر في الصورة المرجعية المرفقة",
+        "defaultValueEn": "the product shown in the attached reference image"
+      },
+      {
+        "key": "sticker_style",
+        "labelAr": "أسلوب الملصق",
+        "labelEn": "Sticker style",
+        "defaultValue": "premium, clean, realistic product sticker",
+        "descriptionAr": "يحدد المعالجة البصرية العامة دون تغيير هوية المنتج المرجعي.",
+        "descriptionEn": "Sets the overall visual treatment without changing the reference product's identity.",
+        "allowedValuesAr": "استخدم وصفًا أسلوبيًا قصيرًا؛ تجنب طلب علامات أو نصوص جديدة.",
+        "allowedValuesEn": "Use a short style description; avoid requesting new branding or text.",
+        "defaultValueAr": "ملصق منتج فاخر ونظيف وواقعي",
+        "defaultValueEn": "premium, clean, realistic product sticker"
+      },
+      {
+        "key": "background_color",
+        "labelAr": "لون الخلفية المحايدة",
+        "labelEn": "Neutral background color",
+        "defaultValue": "soft warm gray",
+        "descriptionAr": "لون خلفية العرض فقط، وليس تغييرًا في لون المنتج.",
+        "descriptionEn": "The display background color only, not a change to the product color.",
+        "allowedValuesAr": "اختر لونًا محايدًا بسيطًا للخلفية.",
+        "allowedValuesEn": "Choose a simple neutral background color.",
+        "defaultValueAr": "رمادي دافئ هادئ",
+        "defaultValueEn": "soft warm gray"
+      }
+    ],
+    "stepsAr": [
+      "أرفق صورة واضحة للمنتج المراد تحويله إلى ملصق.",
+      "اكتب وصفًا موجزًا مطابقًا لما يظهر في المرجع، واضبط الأسلوب ولون الخلفية عند الحاجة.",
+      "استخدم البرومبت لتوليد تصور صورة ثابتة واحدة، ثم افحص حفظ ملامح المنتج ووضوح حد القص.",
+      "تحقق من ملف الطباعة ومقاساته وهوامش القص خارجيًا قبل الإنتاج الفعلي."
+    ],
+    "stepsEn": [
+      "Attach a clear image of the product to turn into a sticker.",
+      "Enter a brief description consistent with the reference, and adjust the style and background color if needed.",
+      "Use the prompt to generate one still-image concept, then check product identity preservation and cutline clarity.",
+      "Verify the print file, dimensions, and cut margins separately before production."
+    ],
+    "limitationsAr": "تتطلب الفكرة صورة مرجعية للمنتج. لا يضمن التصور المولد دقة مطبعية أو قصًا فعليًا أو صحة النصوص الصغيرة، ولا يمكن استنتاج تصميم النتيجة الأصلية من سجل المصدر. المظهر المقترح للحد والخلفية والظل توصيات تصميمية فقط.",
+    "limitationsEn": "This idea requires a product reference image. A generated concept does not guarantee print accuracy, actual cutting, or correct small text, and the original result's design cannot be inferred from the source record. The suggested cutline, background, and shadow are design recommendations only.",
+    "status": "needs_reference",
+    "version": 3,
+    "lastReviewedAt": "2026-10-31",
+    "qualityAr": {
+      "score": 98,
+      "criteria": [
+        14,
+        15,
+        15,
+        15,
+        15,
+        10,
+        9,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    },
+    "qualityEn": {
+      "score": 98,
+      "criteria": [
+        14,
+        15,
+        15,
+        15,
+        15,
+        10,
+        9,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    }
+  },
+  {
+    "id": "idea-039",
+    "titleAr": "بوستر إعلاني موسمي للمنتج",
+    "titleEn": "Seasonal Product Advertising Poster",
+    "categoryAr": "إعلانات المنتجات",
+    "categoryEn": "Product Advertising",
+    "audienceAr": "أصحاب المتاجر والعلامات التجارية والمسوقون الذين يريدون ملصق عرض موسمي لمنتج قائم.",
+    "audienceEn": "Shop owners, brands, and marketers who need a seasonal offer poster for an existing product.",
+    "summaryAr": "بوستر رأسي مكتمل ممتد إلى كامل الإطار لمنتج في مناسبة موسمية.",
+    "summaryEn": "A finished full-bleed vertical poster for a product and seasonal occasion.",
+    "visualDescriptionAr": "بوستر رأسي واحد ممتد إلى كامل الإطار لمنتج موسمي.",
+    "visualDescriptionEn": "One full-bleed vertical poster for a seasonal product.",
+    "sourceEvidenceAr": "يدعم سجل المصدر صورة منتج/زجاجة كمدخل، وملصقاً رأسياً بنسبة 9:16، وقاعدة حجرية وإضاءة درامية وخلفية موسمية وعنواناً عربياً قصيراً وخصماً قابلاً للتعديل. ويصف أيضاً أمثلة مشاهدة لملصقات منتجات، منها ملصق WTR/Strawberry بخصم 30% وختام لزجاجة BURBERRY HERO مع عرض اليوم الوطني وخصم 96% ورمز/علم سعودي ونخلة. هذه أمثلة موصوفة في السجل وليست متطلبات للبطاقة.",
+    "sourceEvidenceEn": "The source record supports a product/bottle photo as input; a 9:16 vertical poster; a stone plinth, dramatic lighting, seasonal background, short Arabic headline, and adjustable discount. It also describes observed product-poster examples, including a WTR/Strawberry poster with 30% off and a closing BURBERRY HERO bottle poster with a National Day offer, 96% off, a Saudi flag/symbol, and a palm tree. These are recorded examples, not requirements for this card.",
+    "fixedElementsAr": [
+      "صورة ثابتة واحدة، وليست فيديو أو مجموعة لوحات.",
+      "تكوين رأسي بنسبة 9:16 مع المنتج محور التركيز.",
+      "الحفاظ على شكل المنتج وملصقه وشعاره كما يظهر في الصورة المرجعية، دون اختراع تفاصيل أو علامة تجارية.",
+      "لا تُستخدم عناصر وطنية إلا عند اختيار مناسبة وطنية، ولا تُنسخ العلامات أو الخصومات الواردة في أمثلة المصدر."
+    ],
+    "fixedElementsEn": [
+      "One static image, not a video or a multi-panel set.",
+      "Vertical 9:16 composition with the product as the focal point.",
+      "Preserve the product shape, label, and logo as shown in the reference image; do not invent product details or a brand.",
+      "Use national motifs only for a selected national occasion, and do not copy brands or discounts from the source examples."
+    ],
+    "image": "/images/cards/curated/idea-039.png",
+    "approved": false,
+    "imageStatus": "curated_local_preview",
+    "imageNoteAr": "معاينة محلية مخصصة مرتبطة بالمخرج المطلوب، أُنشئت دون خدمة مدفوعة؛ يلزم اعتماد بصري نهائي قبل النشر التجاري.",
+    "imageNoteEn": "Custom local preview matched to the requested output, created without paid services; final commercial approval is still required.",
+    "sourceIds": [
+      39
+    ],
+    "promptAr": "أنشئ بوسترًا إعلانيًا رأسيًا 9:16 مكتملًا لمنتج {{product_type}} في مناسبة {{occasion}}، بتكوين فاخر وإضاءة درامية ولوحة {{accent_color}}. أظهر المنتج كاملًا مع خلفية وملمس مناسبين، واترك مساحة محسوبة لإضافة {{headline}} و{{discount}} لاحقًا دون توليد النص. لا تضع إطار موكاب خارجيًا؛ أخرج البوستر نفسه ممتدًا إلى كامل الإطار.",
+    "promptEn": "Create one finished 9:16 vertical advertising poster for {{product_type}} for {{occasion}}, with a luxurious composition, dramatic lighting, and {{accent_color}} palette. Show the complete product with an appropriate background and material treatment, reserving measured space for {{headline}} and {{discount}} to be typeset later without generating text. Do not add an outer mockup frame; deliver the poster itself full-bleed.",
+    "variables": [
+      {
+        "key": "product_type",
+        "labelAr": "نوع المنتج",
+        "labelEn": "Product type",
+        "defaultValue": "عطر",
+        "descriptionAr": "اسم عام لنوع المنتج الظاهر في الصورة المرجعية، دون اختراع علامة تجارية.",
+        "descriptionEn": "A generic name for the product type shown in the reference photo; do not invent a brand.",
+        "allowedValuesAr": "اكتب نوع المنتج كما ينطبق على الصورة المرجعية.",
+        "allowedValuesEn": "Enter the product type applicable to the reference photo.",
+        "defaultValueAr": "عطر",
+        "defaultValueEn": "perfume"
+      },
+      {
+        "key": "occasion",
+        "labelAr": "المناسبة أو الموسم",
+        "labelEn": "Occasion or season",
+        "defaultValue": "موسم الشتاء",
+        "descriptionAr": "المناسبة التي توجه أجواء الخلفية؛ اختر مناسبة وطنية فقط إن رغبت بعناصر وطنية.",
+        "descriptionEn": "The occasion guiding the backdrop; choose a national occasion only if national motifs are desired.",
+        "allowedValuesAr": "اكتب مناسبة أو موسماً مناسباً.",
+        "allowedValuesEn": "Enter a suitable occasion or season.",
+        "defaultValueAr": "موسم الشتاء",
+        "defaultValueEn": "winter season"
+      },
+      {
+        "key": "headline",
+        "labelAr": "العنوان العربي القصير",
+        "labelEn": "Short Arabic headline",
+        "defaultValue": "اختيار الموسم",
+        "descriptionAr": "عبارة عربية قصيرة للعنوان؛ راجع كتابتها في الناتج النهائي.",
+        "descriptionEn": "A short Arabic headline; verify its rendering in the final image.",
+        "allowedValuesAr": "عبارة موجزة فقط، بلا ادعاءات غير موثقة.",
+        "allowedValuesEn": "A concise phrase only, with no unsupported claims.",
+        "defaultValueAr": "اختيار الموسم",
+        "defaultValueEn": "اختيار الموسم"
+      },
+      {
+        "key": "discount",
+        "labelAr": "نسبة الخصم أو نص العرض",
+        "labelEn": "Discount or offer text",
+        "defaultValue": "خصم 20%",
+        "descriptionAr": "قيمة يحددها المستخدم؛ تحقق من صحتها التجارية قبل النشر.",
+        "descriptionEn": "A user-specified value; verify the commercial offer before publication.",
+        "allowedValuesAr": "قيمة عرض مؤكدة من المستخدم، أو اكتب لا يوجد عرض.",
+        "allowedValuesEn": "A user-confirmed offer value, or enter no offer.",
+        "defaultValueAr": "خصم 20%",
+        "defaultValueEn": "خصم 20%"
+      },
+      {
+        "key": "accent_color",
+        "labelAr": "لون اللمسات",
+        "labelEn": "Accent color",
+        "defaultValue": "ذهبي دافئ",
+        "descriptionAr": "لون ثانوي محدود للتفاصيل الزخرفية مع الحفاظ على وضوح المنتج.",
+        "descriptionEn": "A restrained secondary color for accents while keeping the product clear.",
+        "allowedValuesAr": "لون واحد أو وصف لوني موجز.",
+        "allowedValuesEn": "One color or a brief color description.",
+        "defaultValueAr": "ذهبي دافئ",
+        "defaultValueEn": "warm gold"
+      }
+    ],
+    "stepsAr": [
+      "أرفق صورة واضحة للمنتج المراد الإعلان عنه.",
+      "حدّد نوع المنتج والمناسبة والعنوان وقيمة العرض المؤكدة ولون اللمسات.",
+      "ولّد ملصقاً ثابتاً واحداً وراجع هوية المنتج ووضوح النص العربي وصحة الخصم قبل الاستخدام."
+    ],
+    "stepsEn": [
+      "Attach a clear photo of the product to advertise.",
+      "Specify the product type, occasion, headline, confirmed offer value, and accent color.",
+      "Generate one static poster, then verify product identity, Arabic text legibility, and discount accuracy before use."
+    ],
+    "limitationsAr": "تتطلب البطاقة صورة مرجعية للحفاظ على هوية المنتج. قد لا يعرض مولد الصور النص العربي أو النسبة بدقة؛ راجع النص والخصم يدوياً. لا تثبت أمثلة المصدر صلاحية أي ادعاء أو عرض تجاري، ولا ينبغي نسخ علامة تجارية أو نسبة خصم منها.",
+    "limitationsEn": "A reference image is required to preserve product identity. Image generators may render Arabic text or percentages inaccurately; verify the copy and discount manually. Source examples do not validate any commercial claim or offer, and their brands or discount values should not be copied.",
+    "status": "needs_reference",
+    "version": 3,
+    "lastReviewedAt": "2026-10-31",
+    "qualityAr": {
+      "score": 99,
+      "criteria": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        10,
+        9,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    },
+    "qualityEn": {
+      "score": 99,
+      "criteria": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        10,
+        9,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    }
+  },
+  {
+    "id": "phase2-048",
+    "titleAr": "صورة منتج رئيسية للتجارة الإلكترونية",
+    "titleEn": "E-Commerce Product Hero Image",
+    "categoryAr": "التجارة الإلكترونية",
+    "categoryEn": "E-commerce",
+    "audienceAr": "مصممو صفحات المنتجات والبائعون",
+    "audienceEn": "Product-page designers and sellers",
+    "summaryAr": "صورة منتج رئيسية واحدة مع تفاصيل مدمجة حول المنتج.",
+    "summaryEn": "One e-commerce hero image with integrated product details.",
+    "visualDescriptionAr": "صورة منتج رئيسية واحدة مع تفاصيل مدمجة حول المنتج.",
+    "visualDescriptionEn": "One product hero image with integrated details around the product.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/curated/phase2-048.png",
+    "approved": false,
+    "imageStatus": "curated_local_preview",
+    "imageNoteAr": "معاينة تصميمية محلية مكتملة مرتبطة مباشرة بالمخرج المطلوب؛ النصوص التجريبية قابلة للاستبدال قبل النشر.",
+    "imageNoteEn": "Completed local design preview directly matched to the requested output; sample copy is replaceable before publishing.",
+    "sourceIds": [],
+    "promptAr": "أنشئ صورة منتج رئيسية واحدة نهائية لمنتج {{productCategory}} بأسلوب تصوير تجارة إلكترونية، مع تكوين بطل واضح وأربعة تفاصيل مرئية مدمجة حوله بدل خانات منفصلة. اجعل {{sequenceLength}} يحدد مقدار التفاصيل، واجعل {{contentPriority}} يحدد ما يظهر في المقدمة. استخدم الصورة المرجعية لحفظ شكل المنتج، وخلفية وإضاءة واقعية، وأخرج صورة واحدة قابلة للنشر لا storyboard.",
+    "promptEn": "Create one finished hero product image for {{productCategory}} in an e-commerce photography style, with a clear hero composition and four integrated visual details around it instead of separate panels. Let {{sequenceLength}} control detail density and {{contentPriority}} control what leads the composition. Use the reference to preserve the product shape, with realistic background and lighting; deliver one publishable image, not a storyboard.",
+    "variables": [
+      {
+        "key": "sequenceLength",
+        "labelAr": "طول التسلسل",
+        "labelEn": "Sequence length",
+        "defaultValue": "5",
+        "defaultValueAr": "5 صور",
+        "defaultValueEn": "5 images",
+        "descriptionAr": "طول التسلسل؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Sequence length; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "4",
+            "labelAr": "4 صور",
+            "labelEn": "4 images"
+          },
+          {
+            "value": "5",
+            "labelAr": "5 صور",
+            "labelEn": "5 images"
+          },
+          {
+            "value": "6",
+            "labelAr": "6 صور",
+            "labelEn": "6 images"
+          }
+        ]
+      },
+      {
+        "key": "productCategory",
+        "labelAr": "فئة المنتج",
+        "labelEn": "Product category",
+        "defaultValue": "home_goods",
+        "defaultValueAr": "منتجات منزلية",
+        "defaultValueEn": "home goods",
+        "descriptionAr": "فئة المنتج؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Product category; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope."
+      },
+      {
+        "key": "contentPriority",
+        "labelAr": "الأولوية",
+        "labelEn": "Content priority",
+        "defaultValue": "clarity_first",
+        "defaultValueAr": "الوضوح أولًا",
+        "defaultValueEn": "clarity first",
+        "descriptionAr": "الأولوية؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Content priority; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "clarity_first",
+            "labelAr": "الوضوح أولًا",
+            "labelEn": "Clarity first"
+          },
+          {
+            "value": "lifestyle_first",
+            "labelAr": "الاستخدام أولًا",
+            "labelEn": "Lifestyle first"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 2,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 82,
+      "criteria": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        10,
+        7,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-11-03"
+    },
+    "qualityEn": {
+      "score": 82,
+      "criteria": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        10,
+        7,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-11-03"
+    }
+  },
+  {
+    "id": "phase2-053",
+    "titleAr": "بوستر فعالية مكتمل",
+    "titleEn": "Finished Event Poster",
+    "categoryAr": "الملصقات والإعلانات المطبوعة",
+    "categoryEn": "Posters & Print Campaigns",
+    "audienceAr": "فرق الفعاليات والمصممون",
+    "audienceEn": "Event teams and designers",
+    "summaryAr": "بوستر واحد مكتمل يحتوي على صورة رئيسية ومعلومات فعالية قابلة للتحرير.",
+    "summaryEn": "One finished event poster with a hero visual and editable event information.",
+    "visualDescriptionAr": "بوستر فعالية واحد مكتمل بصورة رئيسية ومعلومات قابلة للتحرير.",
+    "visualDescriptionEn": "One complete event poster with a hero visual and editable information.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/curated/phase2-053.png",
+    "approved": false,
+    "imageStatus": "curated_local_preview",
+    "imageNoteAr": "معاينة تصميمية محلية مكتملة مرتبطة مباشرة بالمخرج المطلوب؛ النصوص التجريبية قابلة للاستبدال قبل النشر.",
+    "imageNoteEn": "Completed local design preview directly matched to the requested output; sample copy is replaceable before publishing.",
+    "sourceIds": [],
+    "promptAr": "أنشئ بوستر فعالية واحدًا مكتملًا من نوع {{eventType}} في مقاس {{formatSet}} وبهرمية {{hierarchy}}، مع صورة رئيسية قوية، خلفية، عنوان، تاريخ، مكان، ودعوة فعل قابلة للتحرير. اجعل النصوص التي يقدمها المستخدم هي المصدر الوحيد للمعلومات، واستخدم شبكة طباعة وتباينًا واضحًا وهوامش أمان. أخرج البوستر نفسه، لا مجموعة مقاسات أو wireframe.",
+    "promptEn": "Create one finished event poster for {{eventType}} in {{formatSet}} format with {{hierarchy}} hierarchy, including one strong hero visual, background, headline, date, venue, and editable call to action. Use only user-supplied event information, with a print grid, strong contrast, and safe margins. Deliver the poster itself, not a multi-format board or wireframe.",
+    "variables": [
+      {
+        "key": "eventType",
+        "labelAr": "نوع الفعالية",
+        "labelEn": "Event type",
+        "defaultValue": "design_talk",
+        "defaultValueAr": "حديث تصميم",
+        "defaultValueEn": "design talk",
+        "descriptionAr": "نوع الفعالية؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Event type; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "design_talk",
+            "labelAr": "حديث تصميم",
+            "labelEn": "Design talk"
+          },
+          {
+            "value": "community_market",
+            "labelAr": "سوق مجتمعي",
+            "labelEn": "Community market"
+          },
+          {
+            "value": "music_night",
+            "labelAr": "ليلة موسيقية",
+            "labelEn": "Music night"
+          }
+        ]
+      },
+      {
+        "key": "formatSet",
+        "labelAr": "مجموعة المقاسات",
+        "labelEn": "Format set",
+        "defaultValue": "poster_story_square",
+        "defaultValueAr": "ملصق وقصة ومربع",
+        "defaultValueEn": "poster, story, square",
+        "descriptionAr": "مجموعة المقاسات؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Format set; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope."
+      },
+      {
+        "key": "hierarchy",
+        "labelAr": "عنصر البطولة",
+        "labelEn": "Hero hierarchy",
+        "defaultValue": "event_name_first",
+        "defaultValueAr": "اسم الفعالية أولًا",
+        "defaultValueEn": "event name first",
+        "descriptionAr": "عنصر البطولة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Hero hierarchy; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "event_name_first",
+            "labelAr": "اسم الفعالية أولًا",
+            "labelEn": "Event name first"
+          },
+          {
+            "value": "date_first",
+            "labelAr": "التاريخ أولًا",
+            "labelEn": "Date first"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 2,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 84,
+      "criteria": [
+        13,
+        13,
+        13,
+        13,
+        12,
+        10,
+        5,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-11-03"
+    },
+    "qualityEn": {
+      "score": 84,
+      "criteria": [
+        13,
+        13,
+        13,
+        13,
+        12,
+        10,
+        5,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-11-03"
+    }
+  },
+  {
+    "id": "phase2-066",
+    "titleAr": "مخطط علوي نهائي لتقسيم غرفة",
+    "titleEn": "Finished Top-Down Room Plan",
+    "categoryAr": "العمارة والديكور",
+    "categoryEn": "Architecture & Interiors",
+    "audienceAr": "مصممو الديكور وأصحاب المساحات",
+    "audienceEn": "Interior designers and space owners",
+    "summaryAr": "مخطط علوي واحد لغرفة مقسمة فعليًا مع أثاث ومسار حركة.",
+    "summaryEn": "One finished top-down room plan with real zones, furniture, and circulation.",
+    "visualDescriptionAr": "مخطط علوي واحد لغرفة حقيقية مع مناطق وأثاث ومسار حركة.",
+    "visualDescriptionEn": "One top-down room plan with zones, furniture, and circulation.",
+    "sourceEvidenceAr": "بطاقة أصلية من دفعة Promptna المحلية، أُنشئت لتوسيع الوظائف دون تكرار البطاقات الموجودة.",
+    "sourceEvidenceEn": "Original local Promptna card created to expand functionality without duplicating existing cards.",
+    "fixedElementsAr": [
+      "المخرج يلتزم بوظيفة البطاقة المحددة.",
+      "لا يختلق بيانات أو شعارات أو نصوصًا غير مقدمة.",
+      "يحافظ على تسلسل بصري واضح وقابل للاستخدام."
+    ],
+    "fixedElementsEn": [
+      "The output must follow the defined card function.",
+      "Do not invent data, logos, or copy not supplied.",
+      "Keep a clear, usable visual hierarchy."
+    ],
+    "image": "/images/cards/curated/phase2-066.png",
+    "approved": false,
+    "imageStatus": "curated_local_preview",
+    "imageNoteAr": "معاينة محلية مخصصة مرتبطة بالمخرج المطلوب، أُنشئت دون خدمة مدفوعة؛ يلزم اعتماد بصري نهائي قبل النشر التجاري.",
+    "imageNoteEn": "Custom local preview matched to the requested output, created without paid services; final commercial approval is still required.",
+    "sourceIds": [],
+    "promptAr": "أنشئ مخططًا علويًا نهائيًا واحدًا لغرفة {{roomType}} مقسمة فعليًا إلى {{zoneCount}} مناطق، مع جدران وأبواب ونوافذ وأثاث ومسار حركة ذي أولوية {{circulationPriority}}. استخدم ترميزًا لونيًا واضحًا ومفتاحًا صغيرًا، واجعل الحدود والمسار والأثاث مقروءة. لا تعرض أربع بطاقات أو إنفوغرافيكًا عامًا ولا تدّعي أبعادًا تنفيذية؛ أخرج مخطط الغرفة نفسه.",
+    "promptEn": "Create one finished top-down floor plan for a {{roomType}} physically divided into {{zoneCount}} zones, with walls, doors, windows, furniture, and a movement path prioritized by {{circulationPriority}}. Use clear color coding and a small legend, keeping boundaries, circulation, and furniture legible. Do not show four cards or a generic infographic and do not claim construction dimensions; deliver the room plan itself.",
+    "variables": [
+      {
+        "key": "roomType",
+        "labelAr": "نوع الغرفة",
+        "labelEn": "Room type",
+        "defaultValue": "living_room",
+        "defaultValueAr": "غرفة معيشة",
+        "defaultValueEn": "living room",
+        "descriptionAr": "نوع الغرفة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Room type; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "living_room",
+            "labelAr": "غرفة معيشة",
+            "labelEn": "Living room"
+          },
+          {
+            "value": "studio",
+            "labelAr": "استوديو",
+            "labelEn": "Studio"
+          },
+          {
+            "value": "retail_room",
+            "labelAr": "غرفة تجارية",
+            "labelEn": "Retail room"
+          }
+        ]
+      },
+      {
+        "key": "zoneCount",
+        "labelAr": "عدد المناطق",
+        "labelEn": "Zone count",
+        "defaultValue": "4",
+        "defaultValueAr": "4 مناطق",
+        "defaultValueEn": "4 zones",
+        "descriptionAr": "عدد المناطق؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Zone count; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "3",
+            "labelAr": "3 مناطق",
+            "labelEn": "3 zones"
+          },
+          {
+            "value": "4",
+            "labelAr": "4 مناطق",
+            "labelEn": "4 zones"
+          },
+          {
+            "value": "5",
+            "labelAr": "5 مناطق",
+            "labelEn": "5 zones"
+          }
+        ]
+      },
+      {
+        "key": "circulationPriority",
+        "labelAr": "أولوية الحركة",
+        "labelEn": "Circulation priority",
+        "defaultValue": "clear_path",
+        "defaultValueAr": "مسار واضح",
+        "defaultValueEn": "clear path",
+        "descriptionAr": "أولوية الحركة؛ يغير بنية المخرج أو محتواه مباشرة.",
+        "descriptionEn": "Circulation priority; directly changes the output structure or content.",
+        "allowedValuesAr": "قيمة قصيرة ومحددة ضمن نطاق البطاقة.",
+        "allowedValuesEn": "A short, specific value within this card scope.",
+        "options": [
+          {
+            "value": "clear_path",
+            "labelAr": "مسار واضح",
+            "labelEn": "Clear path"
+          },
+          {
+            "value": "social_center",
+            "labelAr": "مركز اجتماعي",
+            "labelEn": "Social center"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدد القيم الحقيقية قبل إنتاج النسخة النهائية.",
+      "راجع التسلسل البصري والحقول بعد التخصيص.",
+      "أضف النصوص النهائية يدويًا إذا كانت الدقة الطباعية مطلوبة."
+    ],
+    "stepsEn": [
+      "Provide real values before producing the final version.",
+      "Review the visual sequence and fields after customization.",
+      "Add final copy manually when exact typography is required."
+    ],
+    "limitationsAr": "الأصل توضيحي، والنتيجة تحتاج مراجعة بشرية للنصوص والهوية قبل الاستخدام النهائي.",
+    "limitationsEn": "The asset is illustrative; final copy and identity require human review before use.",
+    "status": "needs_review",
+    "version": 2,
+    "lastReviewedAt": "2026-11-03",
+    "qualityAr": {
+      "score": 80,
+      "criteria": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        10,
+        7,
+        3
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-11-03"
+    },
+    "qualityEn": {
+      "score": 80,
+      "criteria": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        10,
+        7,
+        3
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-11-03"
+    }
+  }
+]

@@ -1,0 +1,570 @@
+[
+  {
+    "id": "owner-note-006",
+    "titleAr": "دمج عبوة منتج وخريطة في مشهد واحد",
+    "titleEn": "Combine a Product Package and Map in One Scene",
+    "categoryAr": "تركيب صور المنتجات",
+    "categoryEn": "Product Image Composition",
+    "audienceAr": "لمن يريد صياغة برومبت صورة ثابتة لدمج مرجع عبوة منتج وخريطة مع الحفاظ على هوية كل مرجع.",
+    "audienceEn": "For anyone seeking a still-image prompt to combine a product-package reference and a map while preserving each reference’s identity.",
+    "summaryAr": "ظهور عبوة منتج وخريطة كمرجعين مرفقين، ثم طلب دمجهما في مشهد واحد مع الحفاظ على هوية كل منهما.",
+    "summaryEn": "A product package and a map appear as two attached references, followed by a request to combine them in one scene while preserving the identity of each.",
+    "visualDescriptionAr": "صورة ثابتة تعرض عبوة المنتج والخريطة المرجعين معًا ضمن تركيب بصري واحد، مع إبقاء السمات المميزة لكل مرجع واضحة وعدم طمس أحدهما بالآخر. يُترك تحديد تفاصيل العبوة والخريطة للصورتين المرجعيتين.",
+    "visualDescriptionEn": "A still image showing the referenced product package and map together in one visual composition, keeping the distinguishing features of each reference clear and neither obscured by the other. Details of the package and map are left to the reference images.",
+    "sourceEvidenceAr": "المصدر المسموح به هو ملخص المالك في ملف الملاحظة: «ظهور عبوة منتج وخريطة كمرجعين مرفقين، ثم طلب دمجهما في مشهد واحد مع الحفاظ على هوية كل منهما.» يذكر الملف أن الفيديو لم يُعَدْ مشاهدته؛ لم يُفتح الرابط ولم يُخترع نص برومبت أصلي.",
+    "sourceEvidenceEn": "The sole permitted source is the owner summary in the note: “A product package and a map appear as two attached references, followed by a request to combine them in one scene while preserving the identity of each.” The note says the video was not rewatched; the link was not opened and no original prompt text was invented.",
+    "fixedElementsAr": [
+      "إنشاء صورة ثابتة واحدة فقط، لا فيديو.",
+      "استخدام مرجعي عبوة المنتج والخريطة المرفقين بوصفهما مصدري التفاصيل البصرية.",
+      "دمج العنصرين في مشهد واحد مع الحفاظ على هوية كل مرجع ووضوحه."
+    ],
+    "fixedElementsEn": [
+      "Create one still image only, not a video.",
+      "Use the attached product-package and map references as the sources of visual detail.",
+      "Combine both elements in one scene while preserving the identity and clarity of each reference."
+    ],
+    "image": "/images/cards/webp/owner-note-006.webp",
+    "approved": false,
+    "imageStatus": "experimental",
+    "imageNoteAr": "صورة توضيحية مولدة للمعاينة فقط؛ ليست لقطة موثقة من المصدر ولا اعتمادًا للنتيجة.",
+    "imageNoteEn": "AI-generated illustrative preview only; not a verified source frame or approval of the resulting image.",
+    "sourceIds": [
+      6
+    ],
+    "promptAr": "أنشئ صورة ثابتة واحدة تدمج عبوة المنتج والخريطة المرفقين في مشهد واحد. حافظ بدقة على هوية كل مرجع وسماته الظاهرة، واجعل كليهما واضحًا وغير محجوب. استخدم ترتيبًا بصريًا من نوع {{composition}}، من دون اختراع تفاصيل غير موجودة في المرجعين أو إضافة نصوص جديدة. لا تحوّل الناتج إلى فيديو.",
+    "promptEn": "Create one still image combining the attached product-package and map references in a single scene. Preserve the identity and visible features of each reference accurately, keeping both clear and unobscured. Use a {{composition}} visual arrangement, without inventing details absent from the references or adding new text. Do not turn the output into a video.",
+    "variables": [
+      {
+        "key": "composition",
+        "labelAr": "ترتيب العنصرين",
+        "labelEn": "Element arrangement",
+        "defaultValue": "side_by_side",
+        "defaultValueAr": "جنبًا إلى جنب",
+        "defaultValueEn": "side by side",
+        "descriptionAr": "يحدد العلاقة المكانية بين العبوة والخريطة في المشهد، مع إبقاء كلتيهما ظاهرتين.",
+        "descriptionEn": "Sets the spatial relationship between the package and map in the scene while keeping both visible.",
+        "allowedValuesAr": "اختر إحدى القيمتين المحددتين: جنبًا إلى جنب أو متداخلان جزئيًا.",
+        "allowedValuesEn": "Choose one of the two specified values: side by side or partially overlapping.",
+        "options": [
+          {
+            "value": "side_by_side",
+            "labelAr": "جنبًا إلى جنب",
+            "labelEn": "Side by side"
+          },
+          {
+            "value": "partial_overlap",
+            "labelAr": "تداخل جزئي",
+            "labelEn": "Partial overlap"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "أرفق صورة مرجعية لعبوة المنتج وصورة مرجعية للخريطة.",
+      "اختر ترتيبًا من الخيارات المسموح بها؛ القيمة الافتراضية هي جنبًا إلى جنب.",
+      "استخدم البرومبت لإنتاج صورة ثابتة، وراجع أن هوية المرجعين محفوظة وأن لا تفاصيل غير مستندة إليهما قد أُضيفت."
+    ],
+    "stepsEn": [
+      "Attach a reference image of the product package and a reference image of the map.",
+      "Choose an allowed arrangement; the default is side by side.",
+      "Use the prompt to create a still image, then check that both references retain their identities and that no unsupported details were added."
+    ],
+    "limitationsAr": "هذه مسودة برومبت لصورة ثابتة وليست وصفًا لمحتوى فيديو تمت مشاهدته. لا يحدد ملخص المالك شكل العبوة أو الخريطة أو ألوانهما أو أسلوب المشهد؛ لذلك تُستمد تفاصيلهما من الصور المرجعية فقط. يلزم إرفاق صورة مستقلة للمراجعة قبل القبول.",
+    "limitationsEn": "This is a still-image prompt draft, not a description of video content that was viewed. The owner summary does not specify the package’s or map’s appearance, colors, or scene style; their details must therefore come only from the reference images. A separate image must be attached for review before acceptance.",
+    "status": "needs_image",
+    "version": 1,
+    "lastReviewedAt": "2026-10-31",
+    "qualityAr": {
+      "score": 88,
+      "criteria": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        9,
+        9,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    },
+    "qualityEn": {
+      "score": 88,
+      "criteria": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        9,
+        9,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    }
+  },
+  {
+    "id": "owner-note-013",
+    "titleAr": "إنفوغرافيك تعليمي داكن بعناصر تركوازية",
+    "titleEn": "Dark Educational Infographic with Teal Accents",
+    "categoryAr": "إنفوغرافيك تعليمي",
+    "categoryEn": "Educational infographic",
+    "audienceAr": "لمن يريد إنشاء صورة ثابتة بتكوين إنفوغرافيكي تعليمي عمودي",
+    "audienceEn": "People creating a vertical educational infographic as a still image",
+    "summaryAr": "موشن جرافيك تعليمي عمودي يتدرج من عنوان إلى أمثلة مرقمة وواجهات وخلاصة، بأرقام ونصوص كبيرة على خلفية داكنة وعناصر تركوازية. لا يظهر فيه برومبت تصوير فوتوغرافي حرفي.",
+    "summaryEn": "Owner summary: A vertical educational motion graphic progresses from a title to numbered examples, interfaces, and a conclusion, with large numbers and text on a dark background and teal elements. It does not show a literal photography prompt.",
+    "visualDescriptionAr": "توصية Promptna الأصلية: صورة إنفوغرافيك تعليمية عمودية واحدة، بخلفية داكنة، عنوان كبير في الأعلى، ثم كتل مرقمة وبطاقات واجهة مبسطة، وتنتهي بلوحة خلاصة. استخدم عناصر نصية تجريدية غير مقروءة بدل اختلاق محتوى أو أرقام محددة؛ واجعل اللون التركوازي متغيرًا قابلًا للتخصيص.",
+    "visualDescriptionEn": "Original Promptna recommendation: One vertical educational infographic still, with a dark background, a large heading area at the top, then numbered blocks and simplified interface cards, ending in a takeaway panel. Use abstract, unreadable text marks rather than inventing specific copy or numbers; make the teal accent customizable.",
+    "sourceEvidenceAr": "المصدر الوحيد: ملف الملاحظة. الملخص منقول حرفيًا في summary_ar؛ والمالك يصرح بأن الفيديو لم يُعَد مشاهدته في هذه المهمة. لم يُفتح الرابط.",
+    "sourceEvidenceEn": "Sole source: the owner-note file. The summary is reproduced verbatim in summary_ar; the owner states the video was not rewatched for this task. The link was not opened.",
+    "fixedElementsAr": [
+      "صورة ثابتة، لا فيديو أو حركة.",
+      "تكوين إنفوغرافيك تعليمي عمودي.",
+      "خلفية داكنة مع مناطق عنوان وأمثلة مرقمة وبطاقات شبيهة بالواجهات ولوحة خلاصة.",
+      "لا نصوص أو أرقام أو موضوع محدد غير وارد في الملاحظة."
+    ],
+    "fixedElementsEn": [
+      "A still image, not video or animation.",
+      "Vertical educational infographic composition.",
+      "Dark background with heading, numbered-example areas, interface-like cards, and a takeaway panel.",
+      "No specific copy, numbers, or subject absent from the note."
+    ],
+    "image": "/images/cards/webp/owner-note-013.webp",
+    "approved": false,
+    "imageStatus": "experimental",
+    "imageNoteAr": "صورة توضيحية مولدة للمعاينة فقط؛ ليست لقطة موثقة من المصدر ولا اعتمادًا للنتيجة.",
+    "imageNoteEn": "AI-generated illustrative preview only; not a verified source frame or approval of the resulting image.",
+    "sourceIds": [
+      13
+    ],
+    "promptAr": "أنشئ صورة ثابتة واحدة بتكوين إنفوغرافيك تعليمي عمودي، لا فيديو. خلفية داكنة نظيفة وتباين واضح، مساحة عنوان كبيرة في الأعلى، تليها كتل أمثلة مرقمة وبطاقات مبسطة شبيهة بواجهات المستخدم، ثم لوحة خلاصة في الأسفل. استخدم أرقامًا شكلية غير محددة وعلامات نصية تجريدية غير مقروءة، ولا تخترع موضوعًا أو عبارات قابلة للقراءة. أضف لمسات لونية بالدرجة {{accent_color}}، مع محاذاة مرتبة ومساحات تنفس وتسلسل بصري واضح.",
+    "promptEn": "Create a single still image in a vertical educational infographic composition, not a video. Use a clean dark background with clear contrast, a large heading area at the top, followed by numbered-example blocks and simplified user-interface-like cards, then a takeaway panel at the bottom. Use non-specific numeral forms and abstract unreadable text marks; do not invent a subject or readable copy. Add accents in {{accent_color}}, with orderly alignment, breathing room, and a clear visual hierarchy.",
+    "variables": [
+      {
+        "key": "accent_color",
+        "labelAr": "لون التمييز",
+        "labelEn": "Accent color",
+        "defaultValue": "teal",
+        "defaultValueAr": "تركوازي",
+        "defaultValueEn": "teal",
+        "descriptionAr": "لون اللمسات والعناصر البارزة في الإنفوغرافيك.",
+        "descriptionEn": "Color used for infographic accents and highlights.",
+        "allowedValuesAr": "اختر قيمة من الخيارات المحددة فقط.",
+        "allowedValuesEn": "Choose only from the listed options.",
+        "options": [
+          {
+            "value": "teal",
+            "labelAr": "تركوازي",
+            "labelEn": "Teal"
+          },
+          {
+            "value": "cyan",
+            "labelAr": "سماوي",
+            "labelEn": "Cyan"
+          },
+          {
+            "value": "lime",
+            "labelAr": "ليموني",
+            "labelEn": "Lime"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "أنشئ لوحة عمودية واحدة بخلفية داكنة.",
+      "رتّب مساحة العنوان ثم الأمثلة المرقمة والبطاقات ثم لوحة الخلاصة.",
+      "استخدم علامات نصية تجريدية غير مقروءة وتجنب التفاصيل المحددة غير المسندة."
+    ],
+    "stepsEn": [
+      "Create one vertical canvas with a dark background.",
+      "Arrange the heading area, numbered examples and cards, then the takeaway panel.",
+      "Use abstract unreadable text marks and avoid unsupported specifics."
+    ],
+    "limitationsAr": "الملاحظة لا تحدد موضوع الإنفوغرافيك أو النصوص الفعلية أو عدد الأقسام أو تفاصيل الواجهات؛ لذا تبقى هذه العناصر عامة. لا يصف هذا البرومبت الفيديو أو يعيد إنشاء محتواه حرفيًا.",
+    "limitationsEn": "The note does not specify the infographic's subject, actual copy, number of sections, or interface details, so these remain generic. This prompt does not describe or literally recreate the video.",
+    "status": "needs_image",
+    "version": 1,
+    "lastReviewedAt": "2026-10-31",
+    "qualityAr": {
+      "score": 94,
+      "criteria": [
+        14,
+        14,
+        14,
+        15,
+        14,
+        9,
+        9,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    },
+    "qualityEn": {
+      "score": 94,
+      "criteria": [
+        14,
+        14,
+        14,
+        15,
+        14,
+        9,
+        9,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    }
+  },
+  {
+    "id": "owner-note-014",
+    "titleAr": "زجاجة مشروب في بيئة منزلية قرب نافذة",
+    "titleEn": "A Drink Bottle in a Home Setting by a Window",
+    "categoryAr": "تصوير منتجات؛ أسلوب UGC",
+    "categoryEn": "Product photography; UGC style",
+    "audienceAr": "صنّاع محتوى المنتجات والمسوقون الذين يحتاجون إلى صورة ثابتة بطابع منزلي",
+    "audienceEn": "Product creators and marketers seeking a static image with a home setting",
+    "summaryAr": "عرض تعليمي لمشهد UGC لمشروب من دون موديل؛ زجاجة شفافة بغطاء وملصق أخضر تمسكها يد أمام بيئة منزلية قرب نافذة. النص الكامل للبرومبت لم يكن مقروءًا.",
+    "summaryEn": "An educational demonstration of a UGC-style drink scene without a model; a clear bottle with a cap and green label is held by a hand in a home setting near a window. The full prompt was not legible.",
+    "visualDescriptionAr": "صورة ثابتة بطابع محتوى المستخدم تُظهر زجاجة مشروب شفافة ذات غطاء وملصق أخضر، تمسكها يد أمام بيئة منزلية قرب نافذة. هذا وصف بصري مستقل مستند إلى ملخص المالك، وليس إعادة بناء للبرومبت الأصلي.",
+    "visualDescriptionEn": "A static, user-generated-content-style image showing a clear drink bottle with a cap and green label, held by a hand in a home setting near a window. This is an independent visual description based on the owner's summary, not a reconstruction of the original prompt.",
+    "sourceEvidenceAr": "المصدر الوحيد: ملخص المالك في ملف الملاحظة. ذكر المالك زجاجة شفافة بغطاء وملصق أخضر تمسكها يد في بيئة منزلية قرب نافذة، وأفاد بأن النص الكامل للبرومبت لم يكن مقروءًا. لم يُفتح رابط الفيديو ولم تُشاهد مادته.",
+    "sourceEvidenceEn": "Sole source: the owner's summary in the note file. The owner described a clear bottle with a cap and green label held by a hand in a home setting near a window, and stated that the full prompt was not legible. The video link was not opened and its content was not viewed.",
+    "fixedElementsAr": [
+      "صورة ثابتة لمشهد مشروب بطابع UGC، من دون موديل.",
+      "زجاجة شفافة بغطاء وملصق أخضر تمسكها يد.",
+      "بيئة منزلية قرب نافذة."
+    ],
+    "fixedElementsEn": [
+      "A static UGC-style drink scene, without a model.",
+      "A clear bottle with a cap and green label, held by a hand.",
+      "A home setting near a window."
+    ],
+    "image": "/images/cards/webp/owner-note-014.webp",
+    "approved": false,
+    "imageStatus": "experimental",
+    "imageNoteAr": "صورة توضيحية مولدة للمعاينة فقط؛ ليست لقطة موثقة من المصدر ولا اعتمادًا للنتيجة.",
+    "imageNoteEn": "AI-generated illustrative preview only; not a verified source frame or approval of the resulting image.",
+    "sourceIds": [
+      14
+    ],
+    "promptAr": "أنشئ صورة ثابتة بطابع UGC لمشهد مشروب من دون موديل: زجاجة شفافة بغطاء وملصق أخضر تمسكها يد أمام بيئة منزلية قرب نافذة. اختر طابع ضوء النافذة: {{window_light}}، واجعله جزءًا هادئًا من المشهد. حافظ على وضوح الزجاجة والملصق، ولا تضف كتابة مقروءة أو ادعاءات عن المنتج غير محددة.",
+    "promptEn": "Create a static UGC-style drink scene without a model: a clear bottle with a cap and green label held by a hand in a home setting near a window. Choose {{window_light}} for the natural window light and keep it soft within the scene. Keep the bottle and label clear, and add no legible text or unspecified product claims.",
+    "variables": [
+      {
+        "key": "window_light",
+        "labelAr": "إضاءة النافذة",
+        "labelEn": "Window light",
+        "defaultValue": "soft daylight",
+        "defaultValueAr": "ضوء نهاري ناعم",
+        "defaultValueEn": "Soft daylight",
+        "descriptionAr": "اختر طابع الضوء الطبيعي قرب النافذة؛ استُخدمت القيمة الافتراضية في البرومبت.",
+        "descriptionEn": "Choose the natural-light quality near the window; the default is used in the prompt.",
+        "allowedValuesAr": "اختر إحدى القيم المحددة في الخيارات.",
+        "allowedValuesEn": "Choose one of the listed options.",
+        "options": [
+          {
+            "value": "soft daylight",
+            "labelAr": "ضوء نهاري ناعم",
+            "labelEn": "Soft daylight"
+          },
+          {
+            "value": "bright daylight",
+            "labelAr": "ضوء نهاري ساطع",
+            "labelEn": "Bright daylight"
+          },
+          {
+            "value": "overcast daylight",
+            "labelAr": "ضوء نهاري غائم",
+            "labelEn": "Overcast daylight"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "استبدل [إضاءة النافذة] بقيمة من الخيارات، واستخدم القيمة الافتراضية إن لم ترغب في التغيير.",
+      "أبقِ العناصر الواردة في وصف المالك، ولا تضف تفاصيل غير مسندة عن المنتج أو المكان.",
+      "استخدم النص كبرومبت لصورة ثابتة فقط."
+    ],
+    "stepsEn": [
+      "Replace [window light] with one of the listed options, or keep the default.",
+      "Retain the elements in the owner's description; do not add unsupported details about the product or setting.",
+      "Use this as a prompt for a static image only."
+    ],
+    "limitationsAr": "النص الكامل للبرومبت الأصلي غير مقروء، لذلك هذه صياغة أصلية وليست نقلًا أو استعادة له. لا تتضمن الملاحظة معلومات عن نوع المشروب أو شكل العبوة التفصيلي أو هوية العلامة، ولا ينبغي استنتاجها. يلزم إرفاق صورة مستقلة للمراجعة قبل القبول.",
+    "limitationsEn": "The full original prompt was not legible, so this is an original formulation rather than a transcription or recovery. The note does not specify the drink type, detailed bottle shape, or brand identity; do not infer them. An independent image is required for review before acceptance.",
+    "status": "needs_image",
+    "version": 1,
+    "lastReviewedAt": "2026-10-31",
+    "qualityAr": {
+      "score": 92,
+      "criteria": [
+        14,
+        14,
+        14,
+        14,
+        13,
+        9,
+        9,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    },
+    "qualityEn": {
+      "score": 92,
+      "criteria": [
+        14,
+        14,
+        14,
+        14,
+        13,
+        9,
+        9,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    }
+  },
+  {
+    "id": "idea-027",
+    "titleAr": "مكتبة نصوص جاهزة حسب الاستخدام",
+    "titleEn": "Ready-to-Use Text Library by Use Case",
+    "categoryAr": "تصميم واجهات وتجربة مستخدم",
+    "categoryEn": "Interface and UX design",
+    "audienceAr": "مصممو المنتجات الرقمية ومنشئو المحتوى الذين يحتاجون إلى تصور واجهة عربية لمكتبة نصوص قابلة للتصفح.",
+    "audienceEn": "Digital product designers and content creators who need a concept for an Arabic browseable text-library interface.",
+    "summaryAr": "تصميم صورة ثابتة لمفهوم واجهة عربية تعرض مكتبة نصوص جاهزة منظمة في بطاقات، مع إبراز نوع الاستخدام والنص وأفعال البطاقة. تفاصيل توزيع الواجهة والألوان أدناه اقتراح تصميمي مبني على السجل، وليست وصفاً مؤكداً لواجهة كاملة.",
+    "summaryEn": "Create a static image of a concept Arabic interface for a ready-to-use text library organized as cards, highlighting use case, text, and card actions. The layout details and colors below are design recommendations based on the record, not verified facts about a complete interface.",
+    "visualDescriptionAr": "يثبت السجل وجود عرض ترويجي/واجهة عربية لمكتبة نصوص، وظهور واجهة خضراء وبطاقات على حاسوب، وشبكة بطاقات على هاتف. التوصية: لقطة منتج رقمية ثابتة ونظيفة، بواجهة عربية مقروءة وبطاقات مرتبة؛ لا تحاكِ تصوير الفيديو أو تضف عناصر غير مسندة مثل شعار أو علامة تجارية.",
+    "visualDescriptionEn": "The record supports a promotional Arabic library interface, a green interface with cards on a computer, and a card grid on a phone. Recommendation: a clean, static digital-product screen with legible Arabic and orderly cards; do not imitate the video footage or add unsupported elements such as a logo or brand.",
+    "sourceEvidenceAr": "المصدر المحلي يسجل عنواناً ظاهراً «حقيقة GPT»، وواجهة عربية خضراء ذات بطاقات على حاسوب، وشبكة بطاقات/نصوص على هاتف، ونصاً ترويجياً عن مكتبة ضخمة من النصوص الجاهزة حسب الاستخدام. كما يصف الفكرة حقول نوع الاستخدام والنص الجاهز وزر نسخ/فتح. لا يثبت السجل تفاصيل التصميم الدقيقة أو نصوص البطاقات أو الوظائف beyond ما ورد هنا.",
+    "sourceEvidenceEn": "The local record reports the visible title “حقيقة GPT,” a green Arabic interface with cards on a computer, a card/text grid on a phone, and promotional wording about a large library of ready-made texts by use case. The idea also specifies use-case, ready-text, and copy/open action fields. The record does not establish precise design details, card copy, or functionality beyond these stated points.",
+    "fixedElementsAr": [
+      "صورة ثابتة لمفهوم واجهة مكتبة نصوص عربية جاهزة قابلة للتصفح.",
+      "تضمين بطاقات تتناول نوع الاستخدام والنص الجاهز وأفعال البطاقة.",
+      "عدم الادعاء بأن التصميم المقترح لقطة مطابقة أو موثقة من المنتج الأصلي."
+    ],
+    "fixedElementsEn": [
+      "A static concept image of a browseable Arabic ready-to-use text library interface.",
+      "Include cards covering use case, ready text, and card actions.",
+      "Do not claim the proposed design is an exact or verified screenshot of the original product."
+    ],
+    "image": "/images/cards/webp/idea-027.webp",
+    "approved": false,
+    "imageStatus": "experimental",
+    "imageNoteAr": "صورة توضيحية مولدة للمعاينة فقط؛ ليست لقطة موثقة من المصدر ولا اعتمادًا للنتيجة.",
+    "imageNoteEn": "AI-generated illustrative preview only; not a verified source frame or approval of the resulting image.",
+    "sourceIds": [
+      27
+    ],
+    "promptAr": "أنشئ صورة ثابتة عالية الوضوح لمفهوم واجهة منتج رقمي باللغة العربية بعنوان «مكتبة نصوص جاهزة حسب الاستخدام». اعرض {{use_case}} داخل شبكة من {{card_density}} بطاقات مرتبة؛ تحتوي كل بطاقة على تسمية موجزة لنوع الاستخدام، ومقتطف نص جاهز عربي واضح، وإجراءين نصيين ظاهرين هما «نسخ» و«فتح». استخدم لوحة خضراء داكنة وفاتحة مع عناوين عربية بيضاء كبيرة وتباين مريح. اجعل تخطيط البطاقات واللون والتفاصيل البصرية توصيات تصميمية متماسكة، لا ادعاءً بأنها مطابقة للواجهة الأصلية. واجهة مسطحة نظيفة، محاذاة دقيقة، كتابة عربية سليمة ومقروءة، دون تصوير شاشة أو هاتف حقيقي، ودون نصوص ترويجية عائمة أو شعارات أو علامات مائية أو تفاصيل وظيفية غير مثبتة.",
+    "promptEn": "Create a crisp, static concept image of an Arabic digital-product interface titled “مكتبة نصوص جاهزة حسب الاستخدام” (Ready-to-Use Text Library by Use Case). Show {{use_case}} in an orderly grid of {{card_density}} cards; each card contains a concise use-case label, a legible Arabic ready-text excerpt, and two visible text actions, “نسخ” (Copy) and “فتح” (Open). Use a dark- and light-green palette with large white Arabic headings and comfortable contrast. Treat the card layout, color, and visual details as coherent design recommendations, not as claims of an exact match to the original interface. Clean flat interface, precise alignment, correct readable Arabic, no real photographed screen or phone, no floating promotional captions, logos, watermarks, or unsupported functional details.",
+    "variables": [
+      {
+        "key": "use_case",
+        "labelAr": "نوع الاستخدام المعروض",
+        "labelEn": "Displayed use case",
+        "defaultValue": "content_creation",
+        "defaultValueAr": "إنشاء المحتوى",
+        "defaultValueEn": "Content creation",
+        "descriptionAr": "موضوع النصوص التي تعرضها البطاقات؛ قيمة افتراضية تحريرية مقترحة وليست مستمدة من تفاصيل بطاقات المصدر.",
+        "descriptionEn": "The subject of the texts shown on the cards; the suggested default is editorial and is not derived from source card details.",
+        "allowedValuesAr": "اختر إحدى القيم المحددة أدناه.",
+        "allowedValuesEn": "Choose one of the defined options below.",
+        "options": [
+          {
+            "value": "content_creation",
+            "labelAr": "إنشاء المحتوى",
+            "labelEn": "Content creation"
+          },
+          {
+            "value": "marketing",
+            "labelAr": "التسويق",
+            "labelEn": "Marketing"
+          },
+          {
+            "value": "learning",
+            "labelAr": "التعلم",
+            "labelEn": "Learning"
+          }
+        ]
+      },
+      {
+        "key": "card_density",
+        "labelAr": "عدد البطاقات الظاهرة",
+        "labelEn": "Visible card count",
+        "defaultValue": "six",
+        "defaultValueAr": "ست بطاقات",
+        "defaultValueEn": "Six cards",
+        "descriptionAr": "عدد البطاقات التي تظهر في شبكة الواجهة المقترحة.",
+        "descriptionEn": "How many cards appear in the proposed interface grid.",
+        "allowedValuesAr": "اختر إحدى القيم المحددة أدناه.",
+        "allowedValuesEn": "Choose one of the defined options below.",
+        "options": [
+          {
+            "value": "four",
+            "labelAr": "أربع بطاقات",
+            "labelEn": "Four cards"
+          },
+          {
+            "value": "six",
+            "labelAr": "ست بطاقات",
+            "labelEn": "Six cards"
+          },
+          {
+            "value": "eight",
+            "labelAr": "ثماني بطاقات",
+            "labelEn": "Eight cards"
+          }
+        ]
+      }
+    ],
+    "stepsAr": [
+      "حدّد نوع الاستخدام من الخيارات المتاحة.",
+      "اختر كثافة شبكة البطاقات.",
+      "ولّد صورة ثابتة لواجهة عربية واضحة، مع إبقاء التفاصيل المقترحة ضمن مفهوم تصميمي غير موثق."
+    ],
+    "stepsEn": [
+      "Choose a use case from the available options.",
+      "Select the card-grid density.",
+      "Generate a static image of a clear Arabic interface, keeping proposed details framed as an unverified design concept."
+    ],
+    "limitationsAr": "المصدر سجل وصفي لفيديو واجهة وليس ملف تصميم أو مواصفات منتج. لا يمكن التحقق من صحة النصوص الدقيقة أو التصميم الكامل أو وظائف الأزرار من السجل وحده. الألوان والتوزيع المقترحان مستلهمان من خصائص مرئية مسجلة لكنهما ليسا إعادة بناء موثقة. المخرج صورة ثابتة، لا واجهة تفاعلية.",
+    "limitationsEn": "The source is a descriptive record of an interface video, not a design file or product specification. Exact copy, the complete design, and button behavior cannot be verified from the record alone. The suggested colors and layout draw on recorded visual features but are not a verified reconstruction. The output is a static image, not an interactive interface.",
+    "status": "needs_image",
+    "version": 1,
+    "lastReviewedAt": "2026-10-31",
+    "qualityAr": {
+      "score": 88,
+      "criteria": [
+        13,
+        13,
+        13,
+        14,
+        13,
+        9,
+        9,
+        4
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    },
+    "qualityEn": {
+      "score": 88,
+      "criteria": [
+        13,
+        13,
+        13,
+        14,
+        13,
+        9,
+        9,
+        4
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    }
+  },
+  {
+    "id": "source-028-static-cafe-cat-bicycle",
+    "titleAr": "قطتان على دراجة أمام واجهة مقهى ليلية",
+    "titleEn": "Two Cats on a Bicycle Outside a Night Café",
+    "categoryAr": "مشاهد خيالية مركّبة؛ صورة ثابتة",
+    "categoryEn": "Composite imaginative scenes; still image",
+    "audienceAr": "صنّاع المحتوى الذين يريدون صورة ثابتة مرحة تمزج واجهة مقهى بقطط على دراجة، مع الحفاظ على هوية واجهة مقدّمة كمرجع.",
+    "audienceEn": "Content creators seeking a playful still image combining a café frontage with cats on a bicycle while preserving the identity of a supplied frontage reference.",
+    "summaryAr": "مشهد فوتوغرافي خيالي ثابت لقطتين على دراجة أمام مقهى ليلي، مع ضوء داخلي دافئ ومساحة سفلية للعبارة الاختيارية. تُعلّق البطاقة إلى حين توفير المرجع اللازم لحفظ هوية الواجهة واللافتة؛ لا يجوز اختلاقهما أو الادعاء باعتماد الصورة التجريبية.",
+    "summaryEn": "A whimsical photorealistic still of two cats on a bicycle outside a nighttime café, with warm interior light and reserved space for an optional caption. Hold until the reference needed to preserve the frontage and sign is supplied; do not invent them or imply that the experimental image is approved.",
+    "visualDescriptionAr": "مشهد فوتوغرافي خيالي ثابت لقطتين على دراجة أمام مقهى ليلي، مع ضوء داخلي دافئ ومساحة سفلية للعبارة الاختيارية. تُعلّق البطاقة إلى حين توفير المرجع اللازم لحفظ هوية الواجهة واللافتة؛ لا يجوز اختلاقهما أو الادعاء باعتماد الصورة التجريبية.",
+    "visualDescriptionEn": "A whimsical photorealistic still of two cats on a bicycle outside a nighttime café, with warm interior light and reserved space for an optional caption. Hold until the reference needed to preserve the frontage and sign is supplied; do not invent them or imply that the experimental image is approved.",
+    "sourceEvidenceAr": "يدعم سجل المصدر وصف إطار رأسي لواجهة محل تحمل لافتة BRW وعبارة COFFEE HOUSE، نافذة مضاءة من الداخل، قطتين على/قرب دراجة تمر أمام الواجهة، كتابة عربية برتقالية فوق المشهد، ووسم يفيد بوجود وسائط مولدة بالذكاء الاصطناعي. كما يذكر السجل إضاءة دافئة ومنظوراً أمامياً وتمويهاً جانبياً. لا يتضمن هذا المرشح ادعاء مشاهدة الفيديو أو معرفة تفاصيل غير مذكورة.",
+    "sourceEvidenceEn": "The source record supports a description of a vertical frame showing a shop frontage bearing the sign BRW and the words COFFEE HOUSE, an internally lit window, two cats on/near a bicycle passing in front, orange Arabic text over the scene, and a label indicating AI-generated media. The record also notes warm lighting, a frontal view, and side blur. This candidate does not claim to have watched the video or know unrecorded details.",
+    "fixedElementsAr": [
+      "صورة ثابتة واحدة، لا فيديو أو حركة متتابعة.",
+      "قطتان على دراجة أمام واجهة مقهى؛ تركيب خيالي واضح لا يوهم بواقعة موثقة.",
+      "الرجوع إلى صورة الواجهة المقدمة للحفاظ على شكلها ولافتتها وعدم اختلاق علامة تجارية.",
+      "إضاءة ليلية دافئة من الداخل وتكوين أمامي رأسي.",
+      "عدم إضافة وسم TikTok أو ادعاء أن الصورة مولدة فعلياً."
+    ],
+    "fixedElementsEn": [
+      "One still image, not a video or sequence of motion.",
+      "Two cats on a bicycle outside a café frontage; an imaginative composite that does not imply a documented event.",
+      "Use the supplied frontage image to preserve its appearance and sign; do not invent a brand.",
+      "Warm nighttime interior lighting and a frontal vertical composition.",
+      "Do not add a TikTok label or claim the image was actually generated."
+    ],
+    "image": "/images/cards/webp/source-028-static-cafe-cat-bicycle.webp",
+    "approved": false,
+    "imageStatus": "experimental",
+    "imageNoteAr": "صورة تجريبية مولدة لتوضيح الفكرة؛ ليست نتيجة ناتجة من هذا البرومبت ولا اعتمادًا بصريًا.",
+    "imageNoteEn": "AI-generated concept preview for illustration; it is not an output produced by this prompt or a visual approval.",
+    "sourceIds": [
+      28
+    ],
+    "promptAr": "أنشئ صورة فوتوغرافية واقعية واحدة، ثابتة، لمشهد خيالي مرح: قطتان واضحتان على دراجة داكنة أمام واجهة مقهى ليلًا. اعتمد واجهة المقهى واللافتة الظاهرتين في الصورة المرجعية المقدمة، وحافظ على ملامحهما وترتيبهما دون تغيير أو اختلاق اسم تجاري أو شعار أو كتابة. إذا لم يتوفر مرجع الواجهة، فلا تخترع واجهة بديلة ولا تدّعِ مطابقة واجهة بعينها. اجعل الكادر رأسيًا أماميًا شبه مباشر، مع إبراز الواجهة والمدخل والقطتين والدراجة ضمن تكوين متوازن. أظهر ضوءًا ذهبيًا دافئًا من الداخل يتباين مع شارع ليلي بألوان الأزرق الفحمي والرمادي؛ أضف انعكاسات رقيقة على الزجاج والأرضية وخامات مقنعة للمعدن المطلي الداكن وإطارات الدراجة والفراء والقماش والزجاج. استخدم إضاءة سينمائية ناعمة، وظلالًا طبيعية، وتباينًا مضبوطًا، وعمق ميدان معتدلًا، وخلفية جانبية هادئة. اترك مساحة سفلية حقيقية ونظيفة لإضافة العبارة العربية الاختيارية {{caption}} لاحقًا في التحرير، ولا تولّد نصًا أو حروفًا. حافظ على تركيز واضح وتفاصيل دقيقة وتدرج لوني متزن، بلمسة خيالية لطيفة دون الإيحاء بأن المشهد يوثّق واقعة حقيقية. صورة واحدة فقط: بلا حركة أو تسلسل إطارات أو واجهة تطبيق أو وسم منصة أو شعارات أو عناصر مشتتة.",
+    "promptEn": "Create one photorealistic still image of a playful, imaginative scene: two clearly visible cats on a dark bicycle outside a café at night. Use the supplied reference image for the café frontage and sign, preserving their appearance and arrangement without alteration; do not invent a brand name, logo, or lettering. If no frontage reference is available, do not invent a substitute or claim to match a particular frontage. Use a vertical, nearly straight-on view, balancing the frontage, entrance, cats, and bicycle clearly within the frame. Contrast warm golden light from inside with a charcoal-blue and gray nighttime street. Add subtle reflections on the glass and pavement, and convincing textures for dark painted metal, bicycle tires, fur, fabric, and glass. Use soft cinematic lighting, natural shadows, controlled contrast, moderate depth of field, and a quiet side background. Reserve a real, clean lower area for the optional Arabic caption {{caption}} to be added later in editing; generate no text or lettering. Keep the focus crisp, details fine, and color grading balanced, with a gentle whimsical touch that does not imply a documented real event. One image only: no motion, frame sequence, app interface, platform label, logos, or distracting elements.",
+    "variables": [
+      {
+        "key": "caption",
+        "labelAr": "العبارة العربية المضافة لاحقاً",
+        "labelEn": "Arabic caption to add later",
+        "defaultValue": "ليلة غير عادية في المقهى",
+        "descriptionAr": "عبارة قصيرة اختيارية توضع لاحقاً في مساحة التصميم السفلية. يفضّل إضافتها بأداة تحرير لضمان دقة الحروف.",
+        "descriptionEn": "An optional short phrase for the reserved lower design area. Add it later in an editor to ensure correct lettering.",
+        "allowedValuesAr": "نص عربي قصير؛ يمكن تركه فارغاً.",
+        "allowedValuesEn": "Short Arabic text; may be left blank.",
+        "defaultValueAr": "ليلة غير عادية في المقهى",
+        "defaultValueEn": "ليلة غير عادية في المقهى"
+      }
+    ],
+    "stepsAr": [
+      "أرفق صورة مرجعية واضحة للواجهة واللافتة المراد الحفاظ عليهما.",
+      "استبدل العبارة الاختيارية أو اتركها فارغة؛ لا تعتمد على مولّد الصور لرسم العربية بدقة.",
+      "استخدم البرومبت لإنشاء صورة ثابتة واحدة، ثم أضف العبارة في التحرير إن رغبت."
+    ],
+    "stepsEn": [
+      "Attach a clear reference image of the frontage and sign to preserve.",
+      "Replace the optional caption or leave it blank; do not rely on the image generator for accurate Arabic lettering.",
+      "Use the prompt to create one still image, then add the caption in editing if desired."
+    ],
+    "limitationsAr": "يلزم مرجع بصري للحفاظ على هوية واجهة بعينها؛ من دونه ينبغي تعليق البطاقة لا اختراع واجهة أو لافتة. السجل يصف فيديو، بينما هذه البطاقة تعيد تصور الفكرة كصورة واحدة ولا تدعي حفظ المرور أو الحركة. دقة النص العربي داخل التوليد غير مضمونة، لذلك خُصصت مساحة لإضافته لاحقاً. لا يثبت السجل حقوق استخدام الواجهة أو وجود اتصال بأداة توليد.",
+    "limitationsEn": "A visual reference is required to preserve a particular frontage identity; without one, hold the card rather than inventing a frontage or sign. The source describes a video, whereas this card reimagines the idea as one still image and does not claim to preserve traversal or motion. Arabic text accuracy in generation is not guaranteed, so space is reserved for later editing. The record does not establish usage rights for the frontage or any connection to a generation tool.",
+    "status": "needs_reference",
+    "version": 3,
+    "lastReviewedAt": "2026-10-31",
+    "qualityAr": {
+      "score": 90,
+      "criteria": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        7,
+        8,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    },
+    "qualityEn": {
+      "score": 90,
+      "criteria": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        7,
+        8,
+        5
+      ],
+      "rubricVersion": "100pt-v1",
+      "reviewedAt": "2026-10-31"
+    }
+  }
+]
